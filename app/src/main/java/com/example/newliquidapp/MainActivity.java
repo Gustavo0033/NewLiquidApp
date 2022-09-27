@@ -9,6 +9,7 @@ import android.view.View;
 public class MainActivity extends AppCompatActivity {
 
     private View Campeonato;
+    private View Loja;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,19 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Loja = findViewById(R.id.btn_Loja);
+        Loja.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Loja_TeamLiquid.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+
 
 
     }

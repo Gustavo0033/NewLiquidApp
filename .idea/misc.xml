@@ -4,7 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/NewLiquidApp/app/src/main/res/layout/activity_campeonatos.xml" value="0.36666666666666664" />
+        <entry key="..\:/NewLiquidApp/app/src/main/res/layout/activity_cs_go_liquid.xml" value="0.36666666666666664" />
+        <entry key="..\:/NewLiquidApp/app/src/main/res/layout/activity_free_fire_liquid.xml" value="0.36666666666666664" />
+        <entry key="..\:/NewLiquidApp/app/src/main/res/layout/activity_loja_team_liquid.xml" value="0.35733695652173914" />
         <entry key="..\:/NewLiquidApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/NewLiquidApp/app/src/main/res/layout/activity_rainbow_six_liquid.xml" value="0.35733695652173914" />
+        <entry key="..\:/NewLiquidApp/app/src/main/res/layout/activity_valorant_liquid.xml" value="0.35733695652173914" />
       </map>
     </option>
   </component>
