@@ -10,6 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     private View Campeonato;
     private View Loja;
+    private View Jogadores;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +35,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Jogadores = findViewById(R.id.btn_Jogadores);
+        Jogadores.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Jogadores_Liquid.class);
+                startActivity(intent);
+            }
+        });
 
 
 

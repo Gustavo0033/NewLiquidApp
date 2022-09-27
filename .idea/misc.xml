@@ -10,10 +10,21 @@
         <entry key="..\:/NewLiquidApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/NewLiquidApp/app/src/main/res/layout/activity_rainbow_six_liquid.xml" value="0.35733695652173914" />
         <entry key="..\:/NewLiquidApp/app/src/main/res/layout/activity_valorant_liquid.xml" value="0.35733695652173914" />
+        <entry key="..\:/Users/gu200/OneDrive/Documents/GitHub/NewLiquidApp/app/src/main/res/drawable/seta_para_direita.xml" value="0.3145" />
+        <entry key="..\:/Users/gu200/OneDrive/Documents/GitHub/NewLiquidApp/app/src/main/res/layout/activity_campeonatos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/gu200/OneDrive/Documents/GitHub/NewLiquidApp/app/src/main/res/layout/activity_cs_go_liquid.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/gu200/OneDrive/Documents/GitHub/NewLiquidApp/app/src/main/res/layout/activity_free_fire_liquid.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/gu200/OneDrive/Documents/GitHub/NewLiquidApp/app/src/main/res/layout/activity_jogadoras_valorant.xml" value="0.33" />
+        <entry key="..\:/Users/gu200/OneDrive/Documents/GitHub/NewLiquidApp/app/src/main/res/layout/activity_jogadores_liquid.xml" value="0.33" />
+        <entry key="..\:/Users/gu200/OneDrive/Documents/GitHub/NewLiquidApp/app/src/main/res/layout/activity_jogadores_rainbow6.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/gu200/OneDrive/Documents/GitHub/NewLiquidApp/app/src/main/res/layout/activity_loja_team_liquid.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/gu200/OneDrive/Documents/GitHub/NewLiquidApp/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/gu200/OneDrive/Documents/GitHub/NewLiquidApp/app/src/main/res/layout/activity_rainbow_six_liquid.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/gu200/OneDrive/Documents/GitHub/NewLiquidApp/app/src/main/res/layout/activity_valorant_liquid.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
