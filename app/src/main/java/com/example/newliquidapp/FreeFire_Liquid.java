@@ -5,9 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class FreeFire_Liquid extends AppCompatActivity {
 
@@ -20,12 +25,26 @@ public class FreeFire_Liquid extends AppCompatActivity {
 
         FreeFireRecycle = findViewById(R.id.Phoenix_RecycleView);
         FreeFireRecycle.setLayoutManager(new LinearLayoutManager(this));
-        FreeFireAdapter adapterFreeFire = new FreeFireAdapter();
+
+        FreeFireAdapter adapterFreeFire = new FreeFireAdapter(MainItem_FreeFire);
         FreeFireRecycle.setAdapter(adapterFreeFire);
+
+
+        List<MainItem_FreeFIre> FreeFIreList = new ArrayList<>();
+        FreeFIreList.add(new MainItem_FreeFIre(1,R.drawable.tl_phoenix_lbff8, Color.GRAY,R.string.Phoenix));
+        FreeFIreList.add(new MainItem_FreeFIre(2,R.drawable.tl_phoenix_lbff8, Color.GRAY,R.string.Phoenix));
+
+
     }
 
 
     private class FreeFireAdapter extends RecyclerView.Adapter<MainViewHolder>{
+
+        private List<MainItem_FreeFIre> MainItem_FreeFire;
+
+        public FreeFireAdapter(List<MainItem_FreeFIre> MainItem_FreeFire){
+            this.MainItem_FreeFire = MainItem_FreeFire;
+        }
 
         @NonNull
         @Override
@@ -35,12 +54,12 @@ public class FreeFire_Liquid extends AppCompatActivity {
 
         @Override
         public void onBindViewHolder(@NonNull MainViewHolder holder, int position) {
-
+            holder.bind(position);
         }
 
         @Override
         public int getItemCount() {
-            return 6;
+            return 5;
         }
     }
 
@@ -49,6 +68,13 @@ public class FreeFire_Liquid extends AppCompatActivity {
 
         public MainViewHolder(@NonNull View itemView) {
             super(itemView);
+
+        }
+
+        public void bind(int position){
+
+
         }
     }
-}
+
+    }
