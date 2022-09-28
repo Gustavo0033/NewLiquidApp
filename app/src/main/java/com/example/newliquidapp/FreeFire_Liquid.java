@@ -26,13 +26,14 @@ public class FreeFire_Liquid extends AppCompatActivity {
         FreeFireRecycle = findViewById(R.id.Phoenix_RecycleView);
         FreeFireRecycle.setLayoutManager(new LinearLayoutManager(this));
 
-        FreeFireAdapter adapterFreeFire = new FreeFireAdapter(MainItem_FreeFire);
+        List<MainItem_FreeFIre> FreeFIreList = null;
+        FreeFireAdapter adapterFreeFire = new FreeFireAdapter(FreeFIreList);
         FreeFireRecycle.setAdapter(adapterFreeFire);
 
 
-        List<MainItem_FreeFIre> FreeFIreList = new ArrayList<>();
-        FreeFIreList.add(new MainItem_FreeFIre(1,R.drawable.tl_phoenix_lbff8, Color.GRAY,R.string.Phoenix));
-        FreeFIreList.add(new MainItem_FreeFIre(2,R.drawable.tl_phoenix_lbff8, Color.GRAY,R.string.Phoenix));
+        FreeFIreList = new ArrayList<>();
+        FreeFIreList.add(new MainItem_FreeFIre(1, R.drawable.tl_phoenix_lbff8, Color.GRAY, R.string.Phoenix));
+        FreeFIreList.add(new MainItem_FreeFIre(2, R.drawable.tl_phoenix_lbff8, Color.GRAY, R.string.Phoenix));
 
 
     }
