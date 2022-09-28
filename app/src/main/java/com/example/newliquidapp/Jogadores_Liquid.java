@@ -12,6 +12,7 @@ public class Jogadores_Liquid extends AppCompatActivity {
 
     private View JogadoresR6;
     private View JogadorasValorant;
+    private View JogadoresFreeFire;
 
 
     @Override
@@ -38,6 +39,15 @@ public class Jogadores_Liquid extends AppCompatActivity {
                 Intent intent = new Intent(Jogadores_Liquid.this, Jogadoras_Valorant.class);
                 startActivity(intent);
             }
+        });
+
+
+        JogadoresFreeFire = findViewById(R.id.btn_Jogadores_FreeFire);
+        JogadoresFreeFire.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Jogadores_Liquid.this, FreeFire_Liquid.class);
+            startActivity(intent);}
         });
 
 
