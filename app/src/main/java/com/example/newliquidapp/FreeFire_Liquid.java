@@ -23,58 +23,9 @@ public class FreeFire_Liquid extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_free_fire_liquid);
 
-        FreeFireRecycle = findViewById(R.id.Phoenix_RecycleView);
-        FreeFireRecycle.setLayoutManager(new LinearLayoutManager(this));
-        FreeFireAdapter adapterFreeFire = new FreeFireAdapter(mainItems_FreeFire);
-        FreeFireRecycle.setAdapter(adapterFreeFire);
-
-
-        List<MainItem_FreeFIre> mainItems_FreeFire = new ArrayList<>();
-        mainItems_FreeFire.add(new MainItem_FreeFIre(1, R.drawable.tl_phoenix_lbff8, Color.GRAY, R.string.Phoenix));
-
-
-
-    }
-
-
-    private class FreeFireAdapter extends RecyclerView.Adapter<MainViewHolder>{
-
-        private List<MainItem_FreeFIre> MainItems_FreeFire;
-
-        public FreeFireAdapter(List<MainItem_FreeFIre> MainItems_FreeFire){
-            this.MainItems_FreeFire = MainItems_FreeFire;
-        }
-
-        @NonNull
-        @Override
-        public MainViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-            return new MainViewHolder(getLayoutInflater().inflate(R.layout.freefire_recycleview, parent, false));
-        }
-
-        @Override
-        public void onBindViewHolder(@NonNull MainViewHolder holder, int position) {
-            MainItem_FreeFIre mainItemCurrent = MainItems_FreeFire.get(position);
-            holder.bind(mainItemCurrent);
-        }
-
-        @Override
-        public int getItemCount() {
-            return MainItems_FreeFire.size();
-        }
-    }
-
-    // VIEW que está dentro da RecycleView
-    private class MainViewHolder extends RecyclerView.ViewHolder{
-
-        public MainViewHolder(@NonNull View itemView) {
-            super(itemView);
-
-        }
-
-        public void bind(MainItem_FreeFIre item){
 
 
         }
     }
 
-    }
+
