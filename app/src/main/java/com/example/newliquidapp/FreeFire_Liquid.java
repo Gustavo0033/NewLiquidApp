@@ -23,6 +23,7 @@ public class FreeFire_Liquid extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_free_fire_liquid);
 
+<<<<<<< HEAD
         FreeFireRecycle = findViewById(R.id.Phoenix_RecycleView);
         FreeFireRecycle.setLayoutManager(new LinearLayoutManager(this));
 
@@ -73,9 +74,11 @@ public class FreeFire_Liquid extends AppCompatActivity {
         }
 
         public void bind(int position){
+=======
+>>>>>>> 6433e4e4907897053a83c14df1fe56e634d2fa93
 
 
         }
     }
 
-    }
+
