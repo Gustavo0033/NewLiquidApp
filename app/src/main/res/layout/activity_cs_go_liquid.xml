@@ -21,13 +21,13 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/main_rv_csgo"
-        android:layout_width="410dp"
-        android:layout_height="491dp"
+        android:layout_width="416dp"
+        android:layout_height="331dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.398"
+        app:layout_constraintVertical_bias="0.235"
         tools:listitem="@layout/csgo_recycleview" />
 </androidx.constraintlayout.widget.ConstraintLayout>

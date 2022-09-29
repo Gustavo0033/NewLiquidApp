@@ -2,6 +2,7 @@ package com.example.newliquidapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -31,10 +32,11 @@ public class CsGo_Liquid extends AppCompatActivity {
         mainItems_csgo.add(new MainItem_csgo(1, R.drawable.bq_o0nulu4g2xogolp5afh, R.string.Jogador01_CSGO, Color.GREEN));
         mainItems_csgo.add(new MainItem_csgo(2, R.drawable.tl_phoenix_lbff8, R.string.Phoenix, Color.BLACK));
         mainItems_csgo.add(new MainItem_csgo(3, R.drawable.bq_o0nulu4g2xogolp5afh, R.string.Phoenix, Color.BLUE));
+        mainItems_csgo.add(new MainItem_csgo(4, R.drawable.bq_o0nulu4g2xogolp5afh, R.string.Phoenix, Color.GRAY));
         rvMain_csgo = findViewById(R.id.main_rv_csgo);
 
         // 1° Definir o comportamento da exibição do layout da recycleView
-        rvMain_csgo.setLayoutManager(new LinearLayoutManager(this));
+        rvMain_csgo.setLayoutManager(new GridLayoutManager(this, 2));
         MainAdapter_csgo adapter = new MainAdapter_csgo(mainItems_csgo);
         rvMain_csgo.setAdapter(adapter);
 
