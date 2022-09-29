@@ -26,14 +26,14 @@ public class FreeFire_Liquid extends AppCompatActivity {
         FreeFireRecycle = findViewById(R.id.Phoenix_RecycleView);
         FreeFireRecycle.setLayoutManager(new LinearLayoutManager(this));
 
-        List<MainItem_FreeFIre> FreeFIreList = null;
-        FreeFireAdapter adapterFreeFire = new FreeFireAdapter(FreeFIreList);
+
+        FreeFireAdapter adapterFreeFire = new FreeFireAdapter(MainItem_FreeFire);
         FreeFireRecycle.setAdapter(adapterFreeFire);
 
 
-        FreeFIreList = new ArrayList<>();
-        FreeFIreList.add(new MainItem_FreeFIre(1, R.drawable.tl_phoenix_lbff8, Color.GRAY, R.string.Phoenix));
-        FreeFIreList.add(new MainItem_FreeFIre(2, R.drawable.tl_phoenix_lbff8, Color.GRAY, R.string.Phoenix));
+        List<MainItem_FreeFIre> MainItems_FreeFire = new ArrayList<>();
+        MainItems_FreeFire.add(new MainItem_FreeFIre(1, R.drawable.tl_phoenix_lbff8, Color.GRAY, R.string.Phoenix));
+
 
 
     }
@@ -41,10 +41,10 @@ public class FreeFire_Liquid extends AppCompatActivity {
 
     private class FreeFireAdapter extends RecyclerView.Adapter<MainViewHolder>{
 
-        private List<MainItem_FreeFIre> MainItem_FreeFire;
+        private List<MainItem_FreeFIre> MainItems_FreeFire;
 
         public FreeFireAdapter(List<MainItem_FreeFIre> MainItem_FreeFire){
-            this.MainItem_FreeFire = MainItem_FreeFire;
+            this.MainItems_FreeFire = MainItems_FreeFire;
         }
 
         @NonNull
