@@ -5,17 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/item_img_icon"
-        android:layout_width="match_parent"
-        android:layout_height="552dp"
-        app:srcCompat="@drawable/bq_o0nulu4g2xogolp5afh" />
 
     <TextView
         android:id="@+id/item_txt_name"
         android:layout_width="454dp"
         android:layout_height="wrap_content"
         android:text="Nome do Jogador"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
+        android:background="#0a1723"
         android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/item_img_icon"
+        android:layout_width="match_parent"
+        android:layout_height="602dp"
+        android:background="#0a1723"
+        app:srcCompat="@drawable/bq_o0nulu4g2xogolp5afh" />
+
+
 </LinearLayout>
