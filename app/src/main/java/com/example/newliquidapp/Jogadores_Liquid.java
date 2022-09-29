@@ -13,6 +13,7 @@ public class Jogadores_Liquid extends AppCompatActivity {
     private View JogadoresR6;
     private View JogadorasValorant;
     private View JogadoresFreeFire;
+    private View JogadoresCsGO;
 
 
     @Override
@@ -48,6 +49,15 @@ public class Jogadores_Liquid extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(Jogadores_Liquid.this, FreeFire_Liquid.class);
             startActivity(intent);}
+        });
+
+        JogadoresCsGO = findViewById(R.id.btn_Jogadores_CsGo);
+        JogadoresCsGO.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Jogadores_Liquid.this, CsGo_Liquid.class);
+                startActivity(intent);
+            }
         });
 
 
