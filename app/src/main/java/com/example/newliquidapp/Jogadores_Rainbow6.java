@@ -31,7 +31,7 @@ public class Jogadores_Rainbow6 extends AppCompatActivity {
         mainItems_Rainbow6.add(new MainItem_Rainbow6(3, R.drawable.resetz_liquid, R.string.Resetz, Color.TRANSPARENT));
         mainItems_Rainbow6.add(new MainItem_Rainbow6(4, R.drawable.paluh_liquid, R.string.Paluh, Color.TRANSPARENT));
         mainItems_Rainbow6.add(new MainItem_Rainbow6(5, R.drawable.player_1785_lagonis_4, R.string.Lagonis, Color.TRANSPARENT));
-        mainItems_Rainbow6.add(new MainItem_Rainbow6(1, R.drawable.player_131_hugzord_1, R.string.Hugzord, Color.TRANSPARENT));
+        mainItems_Rainbow6.add(new MainItem_Rainbow6(5, R.drawable.player_131_hugzord_1, R.string.Hugzord, Color.TRANSPARENT));
 
         rvMain_Rainbow6 = findViewById(R.id.main_rv_Rainbow6);
         rvMain_Rainbow6.setLayoutManager(new LinearLayoutManager(this));

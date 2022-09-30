@@ -3,16 +3,9 @@
     <string name="Phoenix">Phoenix</string>
     <string name="Jogador01_CSGO">TeamLiquid</string>
     <string name="Paluh">Paluh</string>
-<<<<<<< HEAD
     <string name="Nesk">Neskwga</string>
     <string name="Resetz">Resetz</string>
     <string name="Ask">Ask</string>
-    <string name="Lagonis">Lagonis</string>
-    <string name="Hugzord">Hugzord</string>
-=======
-    <string name="Ask">Ask</string>
-    <string name="Resetz">Resetz</string>
-    <string name="Nesk">Nesk</string>
     <string name="Lagonis">Lagonis</string>
     <string name="Hugzord">Hugzord</string>
     <string name="nitr0">nitr0</string>
@@ -20,5 +13,11 @@
     <string name="ELiGE">ELiGE</string>
     <string name="oSee">oSee</string>
     <string name="YEKINDAR">YEKINDAR</string>
->>>>>>> 76a6eacc4f1b2f660399db77905d815af9f2e335
+    <string name="Naxy">Naxy</string>
+    <string name="Daiki">Daiki</string>
+    <string name="Bstrdd">Bstrdd</string>
+    <string name="Nat1">Nat1</string>
+    <string name="Drn">Drn</string>
+    <string name="Palestra">Palestra</string>
+
 </resources>

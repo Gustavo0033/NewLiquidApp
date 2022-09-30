@@ -29,20 +29,14 @@ public class CsGo_Liquid extends AppCompatActivity {
 
 
         List<MainItem_csgo> mainItems_csgo = new ArrayList<>();
-<<<<<<< HEAD
-        mainItems_csgo.add(new MainItem_csgo(1, R.drawable.ask_liquid, R.string.Ask, Color.TRANSPARENT));
-        mainItems_csgo.add(new MainItem_csgo(2, R.drawable.resetz_liquid, R.string.Resetz, Color.TRANSPARENT));
-        mainItems_csgo.add(new MainItem_csgo(3, R.drawable.nesk_liquid, R.string.Nesk, Color.TRANSPARENT));
-        mainItems_csgo.add(new MainItem_csgo(4, R.drawable.player_1785_lagonis_4, R.string.Lagonis, Color.TRANSPARENT));
-        mainItems_csgo.add(new MainItem_csgo(5, R.drawable.paluh_liquid, R.string.Paluh, Color.TRANSPARENT));
-        mainItems_csgo.add(new MainItem_csgo(6, R.drawable.player_131_hugzord_1, R.string.Hugzord, Color.TRANSPARENT));
-=======
-        mainItems_csgo.add(new MainItem_csgo(1, R.drawable.elige_csgo_teamliquid, R.string.ELiGE, Color.WHITE));
-        mainItems_csgo.add(new MainItem_csgo(2, R.drawable.naf_csgo_teamliquid, R.string.NAF, Color.WHITE));
-        mainItems_csgo.add(new MainItem_csgo(3, R.drawable.nitr0_csgo_teamliquid, R.string.nitr0, Color.WHITE));
-        mainItems_csgo.add(new MainItem_csgo(4, R.drawable.yekindas_csgo_teamliquid, R.string.YEKINDAR, Color.WHITE));
-        mainItems_csgo.add(new MainItem_csgo(5, R.drawable.bq_o0nulu4g2xogolp5afh, R.string.oSee, Color.WHITE));
->>>>>>> 76a6eacc4f1b2f660399db77905d815af9f2e335
+        mainItems_csgo.add(new MainItem_csgo(1, R.drawable.elige_csgo_teamliquid, R.string.ELiGE, Color.TRANSPARENT));
+        mainItems_csgo.add(new MainItem_csgo(2, R.drawable.naf_csgo_teamliquid, R.string.NAF, Color.TRANSPARENT));
+        mainItems_csgo.add(new MainItem_csgo(3, R.drawable.nitr0_csgo_teamliquid, R.string.nitr0,Color.TRANSPARENT));
+        mainItems_csgo.add(new MainItem_csgo(4, R.drawable.bq_o0nulu4g2xogolp5afh, R.string.oSee, Color.TRANSPARENT));
+        mainItems_csgo.add(new MainItem_csgo(5, R.drawable.yekindas_csgo_teamliquid, R.string.YEKINDAR, Color.TRANSPARENT));
+
+
+
         rvMain_csgo = findViewById(R.id.main_rv_csgo);
 
         // 1° Definir o comportamento da exibição do layout da recycleView

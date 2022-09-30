@@ -3,25 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#0a1723">
-
+    android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/item_txt_name"
+        android:id="@+id/item_txt_nameValorant"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nome do Jogador"
+        android:text="TextView"
         android:textColor="@color/white"
-        android:background="#0a1723"
-        android:textSize="25dp" />
+        android:textSize="20dp"/>
 
     <ImageView
-        android:id="@+id/item_img_icon"
+        android:id="@+id/item_img_iconValorant"
         android:layout_width="match_parent"
-        android:layout_height="602dp"
-        android:background="#0a1723"
-        app:srcCompat="@drawable/bq_o0nulu4g2xogolp5afh" />
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bstrdd_liquid" />
 
-
+   >
 </LinearLayout>
