@@ -16,16 +16,8 @@ import java.util.List;
 
 public class FreeFire_Liquid extends AppCompatActivity {
 
-    private RecyclerView FreeFireRecycle;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_free_fire_liquid);
+}
 
 
-
-        }
-    }
 
 
