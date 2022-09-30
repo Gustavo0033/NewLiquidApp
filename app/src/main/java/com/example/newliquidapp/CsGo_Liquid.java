@@ -29,12 +29,12 @@ public class CsGo_Liquid extends AppCompatActivity {
 
 
         List<MainItem_csgo> mainItems_csgo = new ArrayList<>();
-        mainItems_csgo.add(new MainItem_csgo(1, R.drawable.ask_liquid, R.string.Jogador01_CSGO, Color.WHITE));
-        mainItems_csgo.add(new MainItem_csgo(2, R.drawable.resetz_liquid, R.string.Jogador01_CSGO, Color.WHITE));
-        mainItems_csgo.add(new MainItem_csgo(3, R.drawable.nesk_liquid, R.string.Jogador01_CSGO, Color.WHITE));
-        mainItems_csgo.add(new MainItem_csgo(4, R.drawable.player_1785_lagonis_4, R.string.Jogador01_CSGO, Color.WHITE));
-        mainItems_csgo.add(new MainItem_csgo(5, R.drawable.paluh_liquid, R.string.Jogador01_CSGO, Color.WHITE));
-        mainItems_csgo.add(new MainItem_csgo(6, R.drawable.player_131_hugzord_1, R.string.Paluh, Color.WHITE));
+        mainItems_csgo.add(new MainItem_csgo(1, R.drawable.ask_liquid, R.string.Ask, Color.TRANSPARENT));
+        mainItems_csgo.add(new MainItem_csgo(2, R.drawable.resetz_liquid, R.string.Resetz, Color.TRANSPARENT));
+        mainItems_csgo.add(new MainItem_csgo(3, R.drawable.nesk_liquid, R.string.Nesk, Color.TRANSPARENT));
+        mainItems_csgo.add(new MainItem_csgo(4, R.drawable.player_1785_lagonis_4, R.string.Lagonis, Color.TRANSPARENT));
+        mainItems_csgo.add(new MainItem_csgo(5, R.drawable.paluh_liquid, R.string.Paluh, Color.TRANSPARENT));
+        mainItems_csgo.add(new MainItem_csgo(6, R.drawable.player_131_hugzord_1, R.string.Hugzord, Color.TRANSPARENT));
         rvMain_csgo = findViewById(R.id.main_rv_csgo);
 
         // 1° Definir o comportamento da exibição do layout da recycleView
