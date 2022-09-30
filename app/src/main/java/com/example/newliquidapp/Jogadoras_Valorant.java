@@ -28,15 +28,23 @@ public class Jogadoras_Valorant extends AppCompatActivity {
 
         List<MainItem_Valorant> mainItems_Vava = new ArrayList<>();
         mainItems_Vava.add(new MainItem_Valorant(1, R.drawable.naxy_liquid, R.string.Naxy, Color.TRANSPARENT));
-        mainItems_Vava.add(new MainItem_Valorant(1, R.drawable.bstrdd_liquid, R.string.Bstrdd, Color.TRANSPARENT));
-        mainItems_Vava.add(new MainItem_Valorant(1, R.drawable.daiki_liquid, R.string.Daiki, Color.TRANSPARENT));
-        mainItems_Vava.add(new MainItem_Valorant(1, R.drawable.nat1_liquid, R.string.Nat1, Color.TRANSPARENT));
-        mainItems_Vava.add(new MainItem_Valorant(1, R.drawable.drn_liquid, R.string.Drn, Color.TRANSPARENT));
-        mainItems_Vava.add(new MainItem_Valorant(1, R.drawable.palestra_liquid, R.string.Palestra, Color.TRANSPARENT));
+        mainItems_Vava.add(new MainItem_Valorant(2, R.drawable.bstrdd_liquid, R.string.Bstrdd, Color.TRANSPARENT));
 
         rvMain_Valorant = findViewById(R.id.main_rv_Valorant);
         rvMain_Valorant.setLayoutManager(new LinearLayoutManager(this));
         MainAdapter_Valorant adapter = new MainAdapter_Valorant(mainItems_Vava);
+
+        adapter.setListener(id -> {
+            switch (id){
+              case 1:
+                startActivity(new Intent(Jogadoras_Valorant.this, perfilNAXY_Valorant.class));
+                break;
+              case 2:
+                    startActivity(new Intent(Jogadoras_Valorant. this, perfilBSTRDD_Valorant.class));
+            }
+
+
+        });
         rvMain_Valorant.setAdapter(adapter);
 
 
@@ -44,12 +52,18 @@ public class Jogadoras_Valorant extends AppCompatActivity {
 
     }
 
-    private class MainAdapter_Valorant extends RecyclerView.Adapter<MainViewHolder_Valorant>{
+    private class MainAdapter_Valorant extends RecyclerView.Adapter<MainAdapter_Valorant.MainViewHolder_Valorant>{
+
 
         private List<MainItem_Valorant> mainItems_Vava;
+        private OnItemClickListener_Valorant listener;
 
         public MainAdapter_Valorant(List<MainItem_Valorant>mainItems_Vava){
             this.mainItems_Vava = mainItems_Vava;
+        }
+
+        public void setListener(OnItemClickListener_Valorant listener) {
+            this.listener = listener;
         }
 
         @NonNull
@@ -69,22 +83,29 @@ public class Jogadoras_Valorant extends AppCompatActivity {
         public int getItemCount() {
             return mainItems_Vava.size();
         }
-    }
+        private class MainViewHolder_Valorant extends RecyclerView.ViewHolder{
 
-    private class MainViewHolder_Valorant extends RecyclerView.ViewHolder{
+            public MainViewHolder_Valorant(@NonNull View itemView) {
+                super(itemView);
+            }
+            public void bind(MainItem_Valorant item){
+                TextView txtName = itemView.findViewById(R.id.item_txt_nameValorant);
+                ImageView imgIcon = itemView.findViewById(R.id.item_img_iconValorant);
+                LinearLayout containerValorant = (LinearLayout) itemView;
 
-        public MainViewHolder_Valorant(@NonNull View itemView) {
-            super(itemView);
+
+                containerValorant.setOnClickListener(View ->{
+                    listener.onClick(item.getId());
+                });
+
+
+
+                txtName.setText(item.getTextStringId());
+                imgIcon.setImageResource(item.getDrawableId());
+                containerValorant.setBackgroundColor(item.getColor());
+            }
+
         }
-        public void bind(MainItem_Valorant item){
-            TextView txtName = itemView.findViewById(R.id.item_txt_nameValorant);
-            ImageView imgIcon = itemView.findViewById(R.id.item_img_iconValorant);
-            LinearLayout container = (LinearLayout) itemView;
-
-            txtName.setText(item.getTextStringId());
-            imgIcon.setImageResource(item.getDrawableId());
-            container.setBackgroundColor(item.getColor());
     }
 
-    }
 }
