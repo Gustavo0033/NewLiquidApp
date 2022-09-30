@@ -29,6 +29,9 @@ public class Jogadoras_Valorant extends AppCompatActivity {
         List<MainItem_Valorant> mainItems_Vava = new ArrayList<>();
         mainItems_Vava.add(new MainItem_Valorant(1, R.drawable.naxy_liquid, R.string.Naxy, Color.TRANSPARENT));
         mainItems_Vava.add(new MainItem_Valorant(2, R.drawable.bstrdd_liquid, R.string.Bstrdd, Color.TRANSPARENT));
+        mainItems_Vava.add(new MainItem_Valorant(3, R.drawable.nat1_liquid, R.string.Nat1, Color.TRANSPARENT));
+        mainItems_Vava.add(new MainItem_Valorant(4, R.drawable.daiki_liquid, R.string.Daiki, Color.TRANSPARENT));
+        mainItems_Vava.add(new MainItem_Valorant(5, R.drawable.drn_liquid, R.string.Drn, Color.TRANSPARENT));
 
         rvMain_Valorant = findViewById(R.id.main_rv_Valorant);
         rvMain_Valorant.setLayoutManager(new LinearLayoutManager(this));
@@ -41,6 +44,16 @@ public class Jogadoras_Valorant extends AppCompatActivity {
                 break;
               case 2:
                     startActivity(new Intent(Jogadoras_Valorant. this, perfilBSTRDD_Valorant.class));
+                    break;
+                case 3:
+                    startActivity(new Intent(Jogadoras_Valorant.this, perfilNAT1_Valorant.class));
+                    break;
+                case 4:
+                    startActivity(new Intent(Jogadoras_Valorant.this, perfilDAIKI_Valorant.class));
+                    break;
+                case 5:
+                    startActivity(new Intent(Jogadoras_Valorant.this, perfilDRN_Valorant.class));
+                    break;
             }
 
 

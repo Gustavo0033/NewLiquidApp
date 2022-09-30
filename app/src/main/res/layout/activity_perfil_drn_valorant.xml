@@ -4,20 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".perfilNAXY_Valorant">
+    tools:context=".perfilDRN_Valorant">
+
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="413dp"
         android:layout_height="73dp"
         android:background="#0a1723"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/tlsemfundo" />
 
     <ImageView
-        android:id="@+id/imageView13"
+        android:id="@+id/imageView21"
         android:layout_width="222dp"
         android:layout_height="263dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -26,49 +29,34 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.155"
-        app:srcCompat="@drawable/naxy_liquid" />
-
+        app:srcCompat="@drawable/drn_liquid" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Naxy"
-        android:textColor="@color/black"
+        android:text="Drn"
         android:textSize="20dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.745"
+        app:layout_constraintHorizontal_bias="0.81"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.115" />
+        app:layout_constraintVertical_bias="0.113" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Anna Beatriz Araújo"
+        android:text="Paola Caroline"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.164" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Idade: 23 Anos"
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.859"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.214" />
+        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        app:layout_constraintVertical_bias="0.161" />
 
     <ImageView
         android:id="@+id/imageView25"
@@ -95,8 +83,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <Button
-        android:id="@+id/botao_NaxyBack"
+        android:id="@+id/botao_DrnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Voltar"
@@ -107,6 +96,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
