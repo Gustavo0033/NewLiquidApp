@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Campeonatos">
+    tools:context=".EntrarConta">
 
     <ImageView
         android:id="@+id/imageView12"
@@ -20,28 +20,16 @@
         app:srcCompat="@drawable/tlsemfundo" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/campeonatosLiquid"
-        android:layout_width="295dp"
-        android:layout_height="656dp"
+        android:id="@+id/entrarContaLiquid"
+        android:layout_width="411dp"
+        android:layout_height="121dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:listitem="@layout/recycleview_campeonatos" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/teste_telinha"
-        android:layout_width="114dp"
-        android:layout_height="649dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.993"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.914"
-        tools:listitem="@layout/recycleview_teste_telinha" />
+        app:layout_constraintVertical_bias="0.122"
+        tools:listitem="@layout/entrar_conta_liquid" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

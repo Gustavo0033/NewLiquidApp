@@ -14,6 +14,20 @@
         android:theme="@style/Theme.NewLiquidApp"
         tools:targetApi="31">
         <activity
+            android:name=".EntrarConta"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".players_FreeFire"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".perfilNAT1_Valorant"
             android:exported="false">
             <meta-data

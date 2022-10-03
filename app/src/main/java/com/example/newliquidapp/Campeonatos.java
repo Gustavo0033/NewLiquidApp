@@ -1,62 +1,99 @@
 package com.example.newliquidapp;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 
 public class Campeonatos extends AppCompatActivity {
 
-    private View RainbowSix;
-    private View Valorant;
-    private View FreeFire;
-    private View CsGo;
-
+    private RecyclerView Teste;
+    private RecyclerView CampeonatosTL;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_campeonatos);
 
-        RainbowSix = findViewById(R.id.btn_RainbowSix);
-        RainbowSix.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Campeonatos.this, RainbowSix_Liquid.class);
-                startActivity(intent);
-            }
-        });
+        Teste = findViewById(R.id.teste_telinha);
+        Teste.setLayoutManager(new LinearLayoutManager(this));
+        testeAdapter TestAdapter = new testeAdapter();
+        Teste.setAdapter(TestAdapter);
 
-        Valorant = findViewById(R.id.btn_Valorant);
-        Valorant.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Campeonatos.this, Valorant_Liquid.class);
-                startActivity(intent);
-            }
-        });
 
-        CsGo = findViewById(R.id.btn_CsGo);
-        CsGo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Campeonatos.this, CsGo_Liquid.class);
-                startActivity(intent);
-            }
-        });
+        CampeonatosTL = findViewById(R.id.campeonatosLiquid);
+        CampeonatosTL.setLayoutManager(new LinearLayoutManager(this));
+        adapterCampeonatos adapter = new adapterCampeonatos();
+        CampeonatosTL.setAdapter(adapter);
 
-        FreeFire = findViewById(R.id.btn_FreeFire);
-        FreeFire.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Campeonatos.this, FreeFire_Liquid.class);
-                startActivity(intent);
-            }
-        });
+    }
+
+    private class adapterCampeonatos extends RecyclerView.Adapter<CampsViewHolder>{
+
+        @NonNull
+        @Override
+        public CampsViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+            return new CampsViewHolder(getLayoutInflater().inflate(R.layout.recycleview_campeonatos,parent,false));
+        }
+
+        @Override
+        public void onBindViewHolder(@NonNull CampsViewHolder holder, int position) {
+
+        }
+
+        @Override
+        public int getItemCount() {
+            return 6 ;
+        }
+    }
 
 
 
 
 
+
+
+
+
+
+
+
+    // RECYCLEVIEW DA SEGUNDA TELA
+
+    private class CampsViewHolder extends RecyclerView.ViewHolder{
+
+        public CampsViewHolder(@NonNull View itemView) {
+            super(itemView);
+        }
+    }
+
+    private class testeAdapter extends RecyclerView.Adapter<testeViewHolder>{
+
+        @NonNull
+        @Override
+        public testeViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+            return new testeViewHolder(getLayoutInflater().inflate(R.layout.recycleview_teste_telinha,parent,false));
+        }
+
+        @Override
+        public void onBindViewHolder(@NonNull testeViewHolder holder, int position) {
+
+        }
+
+        @Override
+        public int getItemCount() {
+            return 6;
+        }
+    }
+
+    public class testeViewHolder extends RecyclerView.ViewHolder{
+
+        public testeViewHolder(@NonNull View itemView) {
+            super(itemView);
+        }
     }
 }

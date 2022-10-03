@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     private View Campeonato;
     private View Loja;
     private View Jogadores;
+    private View EntrarContaLiquid;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +43,12 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, Jogadores_Liquid.class);
                 startActivity(intent);
             }
+        });
+
+        EntrarContaLiquid = findViewById(R.id.btn_entrarConta);
+        EntrarContaLiquid.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, EntrarConta.class);
+            startActivity(intent);
         });
 
 
