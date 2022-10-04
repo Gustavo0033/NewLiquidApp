@@ -21,8 +21,8 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/main_rv_Valorant"
-        android:layout_width="408dp"
-        android:layout_height="664dp"
+        android:layout_width="404dp"
+        android:layout_height="651dp"
         android:layout_marginStart="10dp"
         android:background="@color/Azul_Liquid"
         app:layout_constraintBottom_toBottomOf="parent"
