@@ -19,4 +19,17 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/logo_loja" />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/camisetaAzulescuro"
+        android:layout_width="411dp"
+        android:layout_height="452dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462"
+        tools:listitem="@layout/recycleview_loja" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
