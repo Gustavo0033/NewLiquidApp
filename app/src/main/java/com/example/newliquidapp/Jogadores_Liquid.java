@@ -47,7 +47,7 @@ public class Jogadores_Liquid extends AppCompatActivity {
         JogadoresFreeFire.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Jogadores_Liquid.this, FreeFire_Liquid.class);
+                Intent intent = new Intent(Jogadores_Liquid.this,players_FreeFire.class);
             startActivity(intent);}
         });
 
