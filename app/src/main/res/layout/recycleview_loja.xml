@@ -8,6 +8,6 @@
     <ImageView
         android:id="@+id/imageView27"
         android:layout_width="match_parent"
-        android:layout_height="316dp"
+        android:layout_height="460dp"
         app:srcCompat="@drawable/lvth_njersey_brazil_tl0515_0000_layer8copy_458x687" />
 </LinearLayout>

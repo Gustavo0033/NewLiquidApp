@@ -25,6 +25,7 @@ public class Campeonatos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_campeonatos);
 
+
         CampeonatosTL = findViewById(R.id.campeonatosLiquid);
 
 
