@@ -6,131 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".Campeonatos">
 
-    <Button
-        android:id="@+id/btn_RainbowSix"
-        android:layout_width="184dp"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
-        android:text="Acessar"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/campeonatosLiquid"
+        android:layout_width="408dp"
+        android:layout_height="733dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.477" />
+        app:layout_constraintVertical_bias="1.0"
+        tools:listitem="@layout/recycleview_campeonatos" />
 
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="419dp"
-        android:layout_height="75dp"
-        android:background="#0a1723"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/tlsemfundo" />
-
-    <Button
-        android:id="@+id/btn_Valorant"
-        android:layout_width="184dp"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
-        android:text="Acessar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.97"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.924" />
-
-    <Button
-        android:id="@+id/btn_CsGo"
-        android:layout_width="184dp"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
-        android:text="Acessar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.478" />
-
-    <Button
-        android:id="@+id/btn_FreeFire"
-        android:layout_width="184dp"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
-        android:text="Acessar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.922" />
-
-    <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="184dp"
-        android:layout_height="171dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.97"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.261"
-        app:srcCompat="@drawable/r6_logo_preto" />
-
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="184dp"
-        android:layout_height="171dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.261"
-        app:srcCompat="@drawable/csgo_liquid_preto" />
-
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="184dp"
-        android:layout_height="171dp"
-        android:layout_marginTop="448dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/freefire_liquid_preto" />
-
-    <ImageView
-        android:id="@+id/imageView20"
-        android:layout_width="184dp"
-        android:layout_height="171dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.973"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8"
-        app:srcCompat="@drawable/valorant_logo" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Campeonatos"
-        android:textSize="20dp"
-        android:textColor="@color/black"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.141" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
