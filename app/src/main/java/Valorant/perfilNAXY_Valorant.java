@@ -1,10 +1,13 @@
-package com.example.newliquidapp;
+package Valorant;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.newliquidapp.Jogadoras_Valorant;
+import com.example.newliquidapp.R;
 
 public class perfilNAXY_Valorant extends AppCompatActivity {
 

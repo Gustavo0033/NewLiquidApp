@@ -17,6 +17,8 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+import Valorant.perfilNAXY_Valorant;
+
 public class Jogadoras_Valorant extends AppCompatActivity {
 
     private RecyclerView rvMain_Valorant;

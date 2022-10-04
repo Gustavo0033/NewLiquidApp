@@ -14,6 +14,13 @@
         android:theme="@style/Theme.NewLiquidApp"
         tools:targetApi="31">
         <activity
+            android:name=".FortnitePlayer"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".EntrarConta"
             android:exported="false">
             <meta-data
@@ -56,7 +63,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".perfilNAXY_Valorant"
+            android:name="Valorant.perfilNAXY_Valorant"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

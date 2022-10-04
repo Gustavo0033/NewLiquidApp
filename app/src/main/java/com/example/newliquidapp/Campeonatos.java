@@ -35,18 +35,37 @@ public class Campeonatos extends AppCompatActivity {
 
         CampeonatosTL.setLayoutManager(new LinearLayoutManager(this));
         adapterCampeonatos adapter = new adapterCampeonatos(InfoCamps);
+        adapter.setListener(id -> {
+            switch (id){
+                case 1:
+                    startActivity(new Intent(Campeonatos.this, CsGo_Liquid.class));
+                    break;
+                case 2:
+                    startActivity(new Intent(Campeonatos.this, Jogadores_Rainbow6.class));
+                    break;
+                case 3:
+                    startActivity(new Intent(Campeonatos.this, players_FreeFire.class));
+                    break;
+            }
+
+        });
         CampeonatosTL.setAdapter(adapter);
 
 
 
     }
 
-    private class adapterCampeonatos extends RecyclerView.Adapter<CampsViewHolder>{
+    private class adapterCampeonatos extends RecyclerView.Adapter<adapterCampeonatos.CampsViewHolder>{
 
         private List<InfoCampeonato> infoCamps;
+        private clickCampeonatos listener;
 
         public adapterCampeonatos(List<InfoCampeonato> infoCamps){
             this.infoCamps = infoCamps;
+        }
+
+        public void setListener(clickCampeonatos listener) {
+            this.listener = listener;
         }
 
         @NonNull
@@ -65,35 +84,32 @@ public class Campeonatos extends AppCompatActivity {
         public int getItemCount() {
             return infoCamps.size() ;
         }
-    }
+        private class CampsViewHolder extends RecyclerView.ViewHolder{
+
+            public CampsViewHolder(@NonNull View itemView) {
+                super(itemView);
+            }
+
+            public void bind(InfoCampeonato item){
+                ImageView imageView = itemView.findViewById(R.id.imageCamps);
+                LinearLayout container = (LinearLayout) itemView;
+
+                container.setOnClickListener(view -> {
+                    listener.onClick(item.getId());
+                });
 
 
-    private class CampsViewHolder extends RecyclerView.ViewHolder{
+                container.setBackgroundColor(item.getColor());
+                imageView.setImageResource(item.getImageGame());
 
-        public CampsViewHolder(@NonNull View itemView) {
-            super(itemView);
+
+
+            }
+
         }
 
 
-    public class testeViewHolder extends RecyclerView.ViewHolder{
-
-        public testeViewHolder(@NonNull View itemView) {
-            super(itemView);
-        }
-
-    }
-        public void bind(InfoCampeonato item){
-            ImageView imageView = itemView.findViewById(R.id.imageCamps);
-            LinearLayout container = (LinearLayout) itemView;
-
-
-            container.setBackgroundColor(item.getColor());
-            imageView.setImageResource(item.getImageGame());
-
-
-
     }
 
-    }
 
 }
