@@ -6,9 +6,15 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Campeonatos extends AppCompatActivity {
 
@@ -19,20 +25,29 @@ public class Campeonatos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_campeonatos);
 
-        Teste = findViewById(R.id.teste_telinha);
-        Teste.setLayoutManager(new LinearLayoutManager(this));
-        testeAdapter TestAdapter = new testeAdapter();
-        Teste.setAdapter(TestAdapter);
-
-
         CampeonatosTL = findViewById(R.id.campeonatosLiquid);
+
+
+       List<InfoCampeonato> InfoCamps = new ArrayList<>();
+       InfoCamps.add(new InfoCampeonato(1,R.drawable.png_fortnite, Color.BLUE));
+       InfoCamps.add(new InfoCampeonato(2,R.drawable.b4d710c6bc6c9009e8b88d9e2326ddec, Color.BLACK));
+       InfoCamps.add(new InfoCampeonato(3, R.drawable.free_fire_logo_12, Color.BLACK));
+
         CampeonatosTL.setLayoutManager(new LinearLayoutManager(this));
-        adapterCampeonatos adapter = new adapterCampeonatos();
+        adapterCampeonatos adapter = new adapterCampeonatos(InfoCamps);
         CampeonatosTL.setAdapter(adapter);
+
+
 
     }
 
     private class adapterCampeonatos extends RecyclerView.Adapter<CampsViewHolder>{
+
+        private List<InfoCampeonato> infoCamps;
+
+        public adapterCampeonatos(List<InfoCampeonato> infoCamps){
+            this.infoCamps = infoCamps;
+        }
 
         @NonNull
         @Override
@@ -42,58 +57,43 @@ public class Campeonatos extends AppCompatActivity {
 
         @Override
         public void onBindViewHolder(@NonNull CampsViewHolder holder, int position) {
-
+            InfoCampeonato mainItemCurrent = infoCamps.get(position);
+            holder.bind(mainItemCurrent);
         }
 
         @Override
         public int getItemCount() {
-            return 6 ;
+            return infoCamps.size() ;
         }
     }
 
-
-
-
-
-
-
-
-
-
-
-
-    // RECYCLEVIEW DA SEGUNDA TELA
 
     private class CampsViewHolder extends RecyclerView.ViewHolder{
 
         public CampsViewHolder(@NonNull View itemView) {
             super(itemView);
         }
-    }
 
-    private class testeAdapter extends RecyclerView.Adapter<testeViewHolder>{
-
-        @NonNull
-        @Override
-        public testeViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-            return new testeViewHolder(getLayoutInflater().inflate(R.layout.recycleview_teste_telinha,parent,false));
-        }
-
-        @Override
-        public void onBindViewHolder(@NonNull testeViewHolder holder, int position) {
-
-        }
-
-        @Override
-        public int getItemCount() {
-            return 6;
-        }
-    }
 
     public class testeViewHolder extends RecyclerView.ViewHolder{
 
         public testeViewHolder(@NonNull View itemView) {
             super(itemView);
         }
+
     }
+        public void bind(InfoCampeonato item){
+            ImageView imageView = itemView.findViewById(R.id.imageCamps);
+            LinearLayout container = (LinearLayout) itemView;
+
+
+            container.setBackgroundColor(item.getColor());
+            imageView.setImageResource(item.getImageGame());
+
+
+
+    }
+
+    }
+
 }

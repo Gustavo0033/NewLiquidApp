@@ -13,7 +13,7 @@
         android:layout_width="149dp"
         android:layout_height="76dp"
         android:backgroundTint="@color/white"
-        android:text="Acessar Campeonatos"
+        android:text="Campeonatos"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
