@@ -40,21 +40,20 @@ public class Loja_TeamLiquid extends AppCompatActivity {
         LojaTL = findViewById(R.id.camisetaAzulescuro);
         LojaTL.setLayoutManager(new GridLayoutManager(this, 2));
         lojaAdapter adapter = new lojaAdapter(LojaLiquid);
-
         adapter.setListener(id ->{
         switch (id){
-            case 1: startActivity(new Intent(Loja_TeamLiquid.this, CsGo_Liquid.class));
-                    break;
-            case 2:   startActivity(new Intent(Loja_TeamLiquid.this, perfilBSTRDD_Valorant.class));
-                    break;
-            case 3:   startActivity(new Intent(Loja_TeamLiquid.this, perfilDAIKI_Valorant.class));
-                    break;
-            case 4:  startActivity(new Intent(Loja_TeamLiquid.this, perfilNAT1_Valorant.class));
-                    break;
-            case 5:   startActivity(new Intent(Loja_TeamLiquid.this, perfilDRN_Valorant.class));
-                    break;
-            case 6: startActivity(new Intent(Loja_TeamLiquid.this, players_FreeFire.class));
-                    break;
+            case 1:startActivity(new Intent(Loja_TeamLiquid.this, CsGo_Liquid.class));
+            break;
+            case 2:startActivity(new Intent(Loja_TeamLiquid.this, perfilBSTRDD_Valorant.class));
+            break;
+            case 3:startActivity(new Intent(Loja_TeamLiquid.this, perfilDAIKI_Valorant.class));
+            break;
+            case 4:startActivity(new Intent(Loja_TeamLiquid.this, perfilNAT1_Valorant.class));
+            break;
+            case 5:startActivity(new Intent(Loja_TeamLiquid.this, perfilDRN_Valorant.class));
+            break;
+            case 6:startActivity(new Intent(Loja_TeamLiquid.this, players_FreeFire.class));
+            break;
         }
 
         });
@@ -100,10 +99,13 @@ public class Loja_TeamLiquid extends AppCompatActivity {
             public void bind(LojaTeamLiquid item){
                 ImageView imageView = itemView.findViewById(R.id.camisetaAzulescuro);
                 LinearLayout container = (LinearLayout) itemView;
-                listener.onClick(item.getId());
+
+                container.setOnClickListener(view -> {
+                    listener.onClick(item.getId());
+                });
 
 
-
+                container.setBackgroundColor(item.getColor());
                 imageView.setImageResource(item.getId());
             }
         }
