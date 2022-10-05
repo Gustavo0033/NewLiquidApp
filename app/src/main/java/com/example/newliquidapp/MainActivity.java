@@ -11,7 +11,9 @@ public class MainActivity extends AppCompatActivity {
     private View Campeonato;
     private View Loja;
     private View Jogadores;
+    private View EntrarConta;
     private View EntrarContaLiquid;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Campeonato = findViewById(R.id.btn_campeonato);
         Campeonato.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View id) {
                 Intent intent = new Intent(MainActivity.this, Campeonatos.class);
                 startActivity(intent);
             }
@@ -45,14 +47,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        EntrarContaLiquid = findViewById(R.id.btn_entrarConta);
-        EntrarContaLiquid.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this, EntrarConta.class);
-            startActivity(intent);
-        });
 
-
-
+            EntrarConta = findViewById(R.id.btn_Entrar_Conta);
+            EntrarConta.setOnClickListener(view -> {
+                Intent intent = new Intent(MainActivity.this, EntrarConta_Liquid.class);
+                startActivity(intent);
+            });
 
 
     }
