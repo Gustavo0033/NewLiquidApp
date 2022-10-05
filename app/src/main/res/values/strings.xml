@@ -21,5 +21,10 @@
     <string name="Palestra">Palestra</string>
     <string name="Email">E-mail</string>
     <string name="Senha">Password</string>
+    <string name="Pulga">Pulga</string>
+    <string name="Suetam">Suetam</string>
+    <string name="Persa">Persa</string>
+    <string name="Seeyun">Seeyun</string>
+    <string name="Harmii">Harmii</string>
 
 </resources>

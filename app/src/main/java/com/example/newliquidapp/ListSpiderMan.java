@@ -10,6 +10,7 @@ public class ListSpiderMan {
         this.id = id;
         this.imageJersey = imageJersey;
         this.Color = Color;
+
     }
 
     public int getId() {
@@ -35,4 +36,5 @@ public class ListSpiderMan {
     public void setColor(int color) {
         Color = color;
     }
+
 }
