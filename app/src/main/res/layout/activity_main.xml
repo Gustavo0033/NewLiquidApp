@@ -62,19 +62,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.676" />
 
-    <Button
-        android:id="@+id/btn_entrarConta"
-        android:layout_width="149dp"
-        android:layout_height="76dp"
-        android:backgroundTint="@color/white"
-        android:text="Entrar"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.893"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.676" />
 
     <Button
         android:id="@+id/button3"
@@ -106,6 +93,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.379" />
+
+    <Button
+        android:id="@+id/btn_Entrar_Conta"
+        android:layout_width="149dp"
+        android:layout_height="76dp"
+        android:backgroundTint="@color/white"
+        android:text="Entrar"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
