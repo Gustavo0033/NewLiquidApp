@@ -22,11 +22,13 @@ import Valorant.perfilNAXY_Valorant;
 public class Jogadoras_Valorant extends AppCompatActivity {
 
     private RecyclerView rvMain_Valorant;
+    private RecyclerView rvMainValorant;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jogadoras_valorant);
+
 
         List<MainItem_Valorant> mainItems_Vava = new ArrayList<>();
         mainItems_Vava.add(new MainItem_Valorant(1, R.drawable.naxy_liquid, R.string.Naxy, Color.TRANSPARENT));
@@ -61,8 +63,6 @@ public class Jogadoras_Valorant extends AppCompatActivity {
 
         });
         rvMain_Valorant.setAdapter(adapter);
-
-
 
 
     }
