@@ -6,8 +6,8 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageStore"
+        android:id="@+id/img_Spider"
         android:layout_width="match_parent"
-        android:layout_height="633dp"
-        app:srcCompat="@drawable/lvth_njersey_brazil_tl0515_0000_layer8copy_458x687" />
+        android:layout_height="333dp"
+        app:srcCompat="@drawable/jersey_spider_man_liquid" />
 </LinearLayout>

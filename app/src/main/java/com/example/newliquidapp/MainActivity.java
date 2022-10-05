@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Campeonato = findViewById(R.id.btn_campeonato);
         Campeonato.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View id) {
                 Intent intent = new Intent(MainActivity.this, Campeonatos.class);
                 startActivity(intent);
             }

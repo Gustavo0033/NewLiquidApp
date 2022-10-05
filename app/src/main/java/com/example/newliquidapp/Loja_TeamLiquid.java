@@ -28,32 +28,39 @@ public class Loja_TeamLiquid extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loja_team_liquid);
 
-        List<LojaTeamLiquid> LojaLiquid = new ArrayList<>();
-        LojaLiquid.add(new LojaTeamLiquid(1,R.drawable.csgo_liquid_preto, Color.GREEN));
-        LojaLiquid.add(new LojaTeamLiquid(2,R.drawable.csgo_liquid_preto, Color.GREEN));
-        LojaLiquid.add(new LojaTeamLiquid(3,R.drawable.csgo_liquid_preto, Color.GREEN));
-        LojaLiquid.add(new LojaTeamLiquid(4,R.drawable.csgo_liquid_preto, Color.GREEN));
-        LojaLiquid.add(new LojaTeamLiquid(5,R.drawable.csgo_liquid_preto, Color.GREEN));
-        LojaLiquid.add(new LojaTeamLiquid(6,R.drawable.csgo_liquid_preto, Color.GREEN));
-
-
         LojaTL = findViewById(R.id.camisetaAzulescuro);
+
+        List<LojaTeamLiquid> LojaLiquid = new ArrayList<>();
+        LojaLiquid.add(new LojaTeamLiquid(1,R.drawable.new_liquid_x_marvel__jersey_capit_o_am_rica, Color.WHITE));
+        LojaLiquid.add(new LojaTeamLiquid(2,R.drawable.liquid_x_marvel__jersey_homem_aranha, Color.WHITE));
+        LojaLiquid.add(new LojaTeamLiquid(3,R.drawable.liquid_x_marvel_vingadores__ultimato_jersey_traje_reino_qu_ntico, Color.WHITE));
+        LojaLiquid.add(new LojaTeamLiquid(4,R.drawable.liquid_x_marvel__jersey_vi_va_negra, Color.WHITE));
+        LojaLiquid.add(new LojaTeamLiquid(5,R.drawable.liquid_logo_joggers, Color.WHITE));
+        LojaLiquid.add(new LojaTeamLiquid(6,R.drawable.liquid_x_fortnite_pulga_shorts, Color.WHITE));
+
+
+
         LojaTL.setLayoutManager(new GridLayoutManager(this, 2));
         lojaAdapter adapter = new lojaAdapter(LojaLiquid);
-
         adapter.setListener(id ->{
-        switch (id){
-            case 1: startActivity(new Intent(Loja_TeamLiquid.this, CsGo_Liquid.class));
+            switch (id){
+                case 1:
+                    startActivity(new Intent(Loja_TeamLiquid.this, CAPITAO_AMERICCA_MARVEL.class));
                     break;
-            case 2:   startActivity(new Intent(Loja_TeamLiquid.this, perfilBSTRDD_Valorant.class));
+                case 2:
+                    startActivity(new Intent(Loja_TeamLiquid.this, MARVEL_HOMEM_ARANHA.class));
                     break;
-            case 3:   startActivity(new Intent(Loja_TeamLiquid.this, perfilDAIKI_Valorant.class));
+                case 3:
+                    startActivity(new Intent(Loja_TeamLiquid.this, CsGo_Liquid.class));
                     break;
-            case 4:  startActivity(new Intent(Loja_TeamLiquid.this, perfilNAT1_Valorant.class));
+                case 4:
+                    startActivity(new Intent(Loja_TeamLiquid.this, CsGo_Liquid.class));
                     break;
-            case 5:   startActivity(new Intent(Loja_TeamLiquid.this, perfilDRN_Valorant.class));
+                case 5:
+                    startActivity(new Intent(Loja_TeamLiquid.this, CsGo_Liquid.class));
                     break;
-            case 6: startActivity(new Intent(Loja_TeamLiquid.this, players_FreeFire.class));
+                case 6:
+                    startActivity(new Intent(Loja_TeamLiquid.this, CsGo_Liquid.class));
                     break;
         }
 
@@ -98,13 +105,17 @@ public class Loja_TeamLiquid extends AppCompatActivity {
             }
 
             public void bind(LojaTeamLiquid item){
-                ImageView imageView = itemView.findViewById(R.id.camisetaAzulescuro);
+                ImageView imageView = itemView.findViewById(R.id.imageStore);
                 LinearLayout container = (LinearLayout) itemView;
-                listener.onClick(item.getId());
+
+                container.setOnClickListener(view ->{
+                    listener.onClick(item.getId());
+                });
 
 
 
-                imageView.setImageResource(item.getId());
+                container.setBackgroundColor(item.getColor());
+                imageView.setImageResource(item.getImageClothing());
             }
         }
     }

@@ -65,8 +65,6 @@ public class Jogadoras_Valorant extends AppCompatActivity {
         rvMain_Valorant.setAdapter(adapter);
 
 
-
-
     }
 
     private class MainAdapter_Valorant extends RecyclerView.Adapter<MainAdapter_Valorant.MainViewHolder_Valorant>{

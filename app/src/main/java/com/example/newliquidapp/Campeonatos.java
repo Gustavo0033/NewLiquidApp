@@ -18,7 +18,7 @@ import java.util.List;
 
 public class Campeonatos extends AppCompatActivity {
 
-    private RecyclerView Teste;
+
     private RecyclerView CampeonatosTL;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,22 +30,26 @@ public class Campeonatos extends AppCompatActivity {
 
 
        List<InfoCampeonato> InfoCamps = new ArrayList<>();
-       InfoCamps.add(new InfoCampeonato(1,R.drawable.png_fortnite, Color.BLUE));
+       InfoCamps.add(new InfoCampeonato(1,R.drawable.fortnite_fundo, Color.BLUE));
        InfoCamps.add(new InfoCampeonato(2,R.drawable.b4d710c6bc6c9009e8b88d9e2326ddec, Color.BLACK));
-       InfoCamps.add(new InfoCampeonato(3, R.drawable.free_fire_logo_12, Color.BLACK));
+       InfoCamps.add(new InfoCampeonato(3, R.drawable.freefire_teste, Color.WHITE));
+        InfoCamps.add(new InfoCampeonato(4, R.drawable.csgo_liquid_branca, Color.BLACK));
 
         CampeonatosTL.setLayoutManager(new LinearLayoutManager(this));
         adapterCampeonatos adapter = new adapterCampeonatos(InfoCamps);
         adapter.setListener(id -> {
             switch (id){
                 case 1:
-                    startActivity(new Intent(Campeonatos.this, CsGo_Liquid.class));
+                    startActivity(new Intent(Campeonatos.this, Fortnite_Camps.class));
                     break;
                 case 2:
                     startActivity(new Intent(Campeonatos.this, Jogadores_Rainbow6.class));
                     break;
                 case 3:
-                    startActivity(new Intent(Campeonatos.this, players_FreeFire.class));
+                    startActivity(new Intent(Campeonatos.this, FreeFire_Liquid.class));
+                    break;
+                case 4:
+                    startActivity(new Intent(Campeonatos.this, CsGo_Liquid.class));
                     break;
             }
 
@@ -102,7 +106,6 @@ public class Campeonatos extends AppCompatActivity {
 
                 container.setBackgroundColor(item.getColor());
                 imageView.setImageResource(item.getImageGame());
-
 
 
             }

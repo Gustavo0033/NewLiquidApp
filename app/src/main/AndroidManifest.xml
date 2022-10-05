@@ -14,14 +14,34 @@
         android:theme="@style/Theme.NewLiquidApp"
         tools:targetApi="31">
         <activity
-            android:name=".EntrarConta"
+            android:name=".Fortnite_Camps"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".players_FreeFire">
+            android:name=".MARVEL_HOMEM_ARANHA"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CAPITAO_AMERICCA_MARVEL"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".EntrarConta"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name=".players_FreeFire">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

@@ -4,32 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Loja_TeamLiquid">
+    tools:context=".MARVEL_HOMEM_ARANHA">
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="411dp"
-        android:layout_height="75dp"
-        android:background="#0a1723"
+        android:id="@+id/imageView17"
+        android:layout_width="410dp"
+        android:layout_height="72dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/logo_loja" />
+        app:srcCompat="@drawable/homem_aranha_liquid"
+        android:background="@color/Azul_Liquid"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/camisetaAzulescuro"
-        android:layout_width="408dp"
-        android:layout_height="595dp"
+        android:id="@+id/SpiderManLiquid"
+        android:layout_width="406dp"
+        android:layout_height="317dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.639"
-        tools:listitem="@layout/recycleview_loja" />
-
-
+        app:layout_constraintVertical_bias="0.19"
+        tools:listitem="@layout/homem_aranha_recycleview" />
 </androidx.constraintlayout.widget.ConstraintLayout>
