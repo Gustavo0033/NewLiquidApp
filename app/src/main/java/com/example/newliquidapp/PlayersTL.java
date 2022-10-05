@@ -9,6 +9,7 @@ public class PlayersTL {
     public PlayersTL(int id, int imagePlayers, int Color) {
         this.id = id;
         this.imagePlayers = imagePlayers;
+        this.Color = Color;
     }
 
     public int getId() {

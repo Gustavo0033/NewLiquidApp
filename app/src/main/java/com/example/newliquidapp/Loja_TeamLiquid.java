@@ -43,21 +43,7 @@ public class Loja_TeamLiquid extends AppCompatActivity {
         LojaTL.setLayoutManager(new GridLayoutManager(this, 2));
         lojaAdapter adapter = new lojaAdapter(LojaLiquid);
         adapter.setListener(id ->{
-<<<<<<< HEAD
-        switch (id){
-            case 1:startActivity(new Intent(Loja_TeamLiquid.this, CsGo_Liquid.class));
-            break;
-            case 2:startActivity(new Intent(Loja_TeamLiquid.this, perfilBSTRDD_Valorant.class));
-            break;
-            case 3:startActivity(new Intent(Loja_TeamLiquid.this, perfilDAIKI_Valorant.class));
-            break;
-            case 4:startActivity(new Intent(Loja_TeamLiquid.this, perfilNAT1_Valorant.class));
-            break;
-            case 5:startActivity(new Intent(Loja_TeamLiquid.this, perfilDRN_Valorant.class));
-            break;
-            case 6:startActivity(new Intent(Loja_TeamLiquid.this, players_FreeFire.class));
-            break;
-=======
+
             switch (id){
                 case 1:
                     startActivity(new Intent(Loja_TeamLiquid.this, CAPITAO_AMERICCA_MARVEL.class));
@@ -77,7 +63,8 @@ public class Loja_TeamLiquid extends AppCompatActivity {
                 case 6:
                     startActivity(new Intent(Loja_TeamLiquid.this, CsGo_Liquid.class));
                     break;
->>>>>>> 64c40a17fd1395d92751042362bc4fd6d31d1c21
+
+
         }
 
         });
@@ -123,16 +110,13 @@ public class Loja_TeamLiquid extends AppCompatActivity {
             public void bind(LojaTeamLiquid item){
                 ImageView imageView = itemView.findViewById(R.id.imageStore);
                 LinearLayout container = (LinearLayout) itemView;
-
-<<<<<<< HEAD
                 container.setOnClickListener(view -> {
                     listener.onClick(item.getId());
                 });
 
 
                 container.setBackgroundColor(item.getColor());
-                imageView.setImageResource(item.getId());
-=======
+                imageView.setImageResource(item.getImageClothing());
                 container.setOnClickListener(view ->{
                     listener.onClick(item.getId());
                 });
@@ -141,7 +125,7 @@ public class Loja_TeamLiquid extends AppCompatActivity {
 
                 container.setBackgroundColor(item.getColor());
                 imageView.setImageResource(item.getImageClothing());
->>>>>>> 64c40a17fd1395d92751042362bc4fd6d31d1c21
+
             }
         }
     }

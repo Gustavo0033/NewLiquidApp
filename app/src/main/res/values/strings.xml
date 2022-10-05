@@ -19,5 +19,7 @@
     <string name="Nat1">Nat1</string>
     <string name="Drn">Drn</string>
     <string name="Palestra">Palestra</string>
+    <string name="Email">E-mail</string>
+    <string name="Senha">Password</string>
 
 </resources>

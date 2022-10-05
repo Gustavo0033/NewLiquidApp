@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
             EntrarConta = findViewById(R.id.btn_Entrar_Conta);
             EntrarConta.setOnClickListener(view -> {
-                Intent intent = new Intent(MainActivity.this, EntrarConta_Liquid.class);
+                Intent intent = new Intent(MainActivity.this, EntrarConta.class);
                 startActivity(intent);
             });
 
