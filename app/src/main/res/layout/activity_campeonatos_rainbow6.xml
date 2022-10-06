@@ -4,46 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Valorant_Liquid">
+    tools:context=".CampeonatosRainbow6">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
+        android:id="@+id/imageView8"
+        android:layout_width="411dp"
         android:layout_height="75dp"
+        android:background="#0a1723"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/valorant_logo"
-        android:background="#0a1723"/>
+        app:layout_constraintVertical_bias="0.001"
+        app:srcCompat="@drawable/r6_logo" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/CampeonatoValorant"
-        android:layout_width="414dp"
-        android:layout_height="204dp"
+        android:id="@+id/CampeonatoR6"
+        android:layout_width="407dp"
+        android:layout_height="224dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.208"
-        tools:listitem="@layout/camps_valorant" />
+        app:layout_constraintVertical_bias="0.252"
+        tools:listitem="@layout/campeonato_rainbow6" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/textView16"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/Azul_Liquid"
         android:text="Campeonatos no momento:"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.106" />
+        app:layout_constraintVertical_bias="0.108" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/BrasileiraoR6"
+        android:layout_width="411dp"
+        android:layout_height="222dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691"
+        tools:listitem="@layout/campeonator6_parte02" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

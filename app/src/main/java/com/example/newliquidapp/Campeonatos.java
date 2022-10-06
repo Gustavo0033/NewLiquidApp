@@ -33,7 +33,8 @@ public class Campeonatos extends AppCompatActivity {
        InfoCamps.add(new InfoCampeonato(1,R.drawable.fortnite_fundo, Color.TRANSPARENT));
        InfoCamps.add(new InfoCampeonato(2,R.drawable.b4d710c6bc6c9009e8b88d9e2326ddec, Color.BLACK));
        InfoCamps.add(new InfoCampeonato(3, R.drawable.freefire_teste, Color.WHITE));
-        InfoCamps.add(new InfoCampeonato(4, R.drawable.csgo_liquid_branca, Color.BLACK));
+       InfoCamps.add(new InfoCampeonato(4, R.drawable.csgo_liquid_branca, Color.BLACK));
+       InfoCamps.add(new InfoCampeonato(5, R.drawable.valorant_logo, Color.WHITE));
 
         CampeonatosTL.setLayoutManager(new LinearLayoutManager(this));
         adapterCampeonatos adapter = new adapterCampeonatos(InfoCamps);
@@ -43,13 +44,16 @@ public class Campeonatos extends AppCompatActivity {
                     startActivity(new Intent(Campeonatos.this, Fortnite_Camps.class));
                     break;
                 case 2:
-                    startActivity(new Intent(Campeonatos.this, Jogadores_Rainbow6.class));
+                    startActivity(new Intent(Campeonatos.this, CampeonatosRainbow6.class));
                     break;
                 case 3:
                     startActivity(new Intent(Campeonatos.this, FreeFire_Liquid.class));
                     break;
                 case 4:
                     startActivity(new Intent(Campeonatos.this, CsGo_Liquid.class));
+                    break;
+                case 5:
+                    startActivity(new Intent(Campeonatos.this, Valorant_Liquid.class));
                     break;
             }
 

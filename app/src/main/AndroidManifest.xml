@@ -14,6 +14,34 @@
         android:theme="@style/Theme.NewLiquidApp"
         tools:targetApi="31">
         <activity
+            android:name=".BrasilieraoR6"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".InfoCampsR6"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CampeonatosRainbow6"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".NameCampsValorant"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Fortnite_Camps"
             android:exported="false">
             <meta-data
@@ -98,9 +126,6 @@
             android:exported="false" />
         <activity
             android:name=".Valorant_Liquid"
-            android:exported="false" />
-        <activity
-            android:name=".RainbowSix_Liquid"
             android:exported="false" />
         <activity
             android:name=".Loja_TeamLiquid"
