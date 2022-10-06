@@ -41,6 +41,15 @@ public class Jogadores_Liquid extends AppCompatActivity {
         PlayersLiquid = findViewById(R.id.recyclePlayersTL);
         PlayersLiquid.setLayoutManager(new LinearLayoutManager(this));
         PlayerAdapter adapter = new PlayerAdapter(PlayersList);
+        adapter.setListener(id -> {
+            switch (id){
+                case 1: startActivity(new Intent(Jogadores_Liquid.this, Fortnite_Camps.class));
+                break;
+            }
+        });
+
+
+
         PlayersLiquid.setAdapter(adapter);
 
 
@@ -49,11 +58,17 @@ public class Jogadores_Liquid extends AppCompatActivity {
 
 }
 
-    private class PlayerAdapter extends RecyclerView.Adapter<PlayersViewHolder>{
+    private class PlayerAdapter extends RecyclerView.Adapter<PlayerAdapter.PlayersViewHolder>{
 
         private List<PlayersTL> PlayersList;
+        private onClickJogadores_Liquid listener;
+
         public PlayerAdapter(List<PlayersTL>PlayersList){
             this.PlayersList = PlayersList;
+        }
+
+        public void setListener(onClickJogadores_Liquid listener){
+            this.listener = listener;
         }
 
         @NonNull
@@ -72,7 +87,7 @@ public class Jogadores_Liquid extends AppCompatActivity {
         public int getItemCount() {
             return PlayersList.size();
         }
-    }
+
 
     private class PlayersViewHolder extends RecyclerView.ViewHolder{
 
@@ -84,9 +99,14 @@ public class Jogadores_Liquid extends AppCompatActivity {
             ImageView imgView = itemView.findViewById(R.id.PlayersTLRecycle);
             LinearLayout container = (LinearLayout) itemView;
 
+            container.setOnClickListener(view -> {
+                listener.onClick(item.getId());
+            });
+
 
             imgView.setImageResource(item.getImagePlayers());
             container.setBackgroundColor(item.getColor());
         }
     }
+}
 }

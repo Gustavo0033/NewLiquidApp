@@ -21,13 +21,27 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/PulgaImage"
-        android:layout_width="418dp"
-        android:layout_height="555dp"
+        android:layout_width="383dp"
+        android:layout_height="457dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.988"
+        app:layout_constraintVertical_bias="0.458"
         tools:listitem="@layout/player_fortnite" />
+
+    <Button
+        android:id="@+id/btn_back_camps_fornite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="Voltar"
+        android:textColor="@color/Azul_Liquid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
 </androidx.constraintlayout.widget.ConstraintLayout>

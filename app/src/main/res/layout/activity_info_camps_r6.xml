@@ -17,4 +17,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/rainbow_6_invitational_logo_full" />
+
+    <Button
+        android:id="@+id/btn_back_invi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/Azul_Liquid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.956" />
 </androidx.constraintlayout.widget.ConstraintLayout>

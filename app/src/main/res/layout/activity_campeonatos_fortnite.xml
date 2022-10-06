@@ -4,30 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BrasilieraoR6">
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="415dp"
-        android:layout_height="174dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.008"
-        app:srcCompat="@drawable/brasileir_or6" />
+    tools:context=".Campeonatos_Fortnite">
 
     <Button
-        android:id="@+id/btn_back_brasileirao"
+        android:id="@+id/btn_back_camps_fornite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/Azul_Liquid"
         android:text="Voltar"
         android:textColor="@color/white"
-        android:backgroundTint="@color/Azul_Liquid"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.956" />
+        app:layout_constraintVertical_bias="0.976" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

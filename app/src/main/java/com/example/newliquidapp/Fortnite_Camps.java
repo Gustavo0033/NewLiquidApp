@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -19,11 +20,19 @@ import java.util.List;
 public class Fortnite_Camps extends AppCompatActivity {
 
     private RecyclerView FortnitePlayers;
+    private View btn_back_FortniteCamps;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fortnite_camps);
+
+
+        btn_back_FortniteCamps = findViewById(R.id.btn_back_camps_fornite);
+        btn_back_FortniteCamps.setOnClickListener(view ->{
+            Intent intent = new Intent(Fortnite_Camps.this, Jogadores_Liquid.class);
+            startActivity(intent);
+        });
 
         FortnitePlayers = findViewById(R.id.PulgaImage);
 

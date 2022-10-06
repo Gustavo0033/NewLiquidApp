@@ -21,11 +21,23 @@ public class CampeonatosRainbow6 extends AppCompatActivity {
 
     private RecyclerView Rainbow6_Campeonatos;
     private RecyclerView Rainbow6_CampeonatosPart02;
+    private View btn_back_CampsR6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_campeonatos_rainbow6);
+
+        btn_back_CampsR6 = findViewById(R.id.btn_back_campsR6);
+        btn_back_CampsR6.setOnClickListener(view ->{
+            Intent intent = new Intent(CampeonatosRainbow6.this, Campeonatos.class);
+            startActivity(intent);
+        });
+
+
+
+
+
 
         Rainbow6_Campeonatos = findViewById(R.id.CampeonatoR6);
 
