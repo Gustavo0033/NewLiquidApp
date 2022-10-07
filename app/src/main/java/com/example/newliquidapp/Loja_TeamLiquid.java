@@ -21,12 +21,19 @@ import java.util.List;
 public class Loja_TeamLiquid extends AppCompatActivity {
 
     private RecyclerView LojaTL;
+    private View btn_back_Loja;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loja_team_liquid);
+
+        btn_back_Loja = findViewById(R.id.loja_back_to_main);
+        btn_back_Loja.setOnClickListener(view -> {
+            Intent intent = new Intent(Loja_TeamLiquid.this, MainActivity.class);
+            startActivity(intent);
+        });
 
         LojaTL = findViewById(R.id.camisetaAzulescuro);
 

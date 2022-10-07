@@ -33,7 +33,7 @@
         tools:listitem="@layout/recycleview_loja" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/loja_back_to_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Voltar"
