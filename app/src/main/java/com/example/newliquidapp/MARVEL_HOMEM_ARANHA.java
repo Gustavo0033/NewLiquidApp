@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -18,11 +19,19 @@ import java.util.List;
 public class MARVEL_HOMEM_ARANHA extends AppCompatActivity {
 
     private RecyclerView SpiderManTL;
+    private View btn_spiderMan;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_marvel_homem_aranha);
+
+        btn_spiderMan = findViewById(R.id.btn_spierMan_back);
+        btn_spiderMan.setOnClickListener(view -> {
+            Intent intent = new Intent(MARVEL_HOMEM_ARANHA.this, Loja_TeamLiquid.class);
+            startActivity(intent);
+        });
+
 
         SpiderManTL = findViewById(R.id.SpiderManLiquid);
 

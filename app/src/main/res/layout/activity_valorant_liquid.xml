@@ -46,4 +46,30 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.106" />
 
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Azul_Liquid"
+        android:text="Campeonatos Finalizados"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.477" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/CampeonatoValorant02"
+        android:layout_width="411dp"
+        android:layout_height="302dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994"
+        tools:listitem="@layout/recycleview_valorant02" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

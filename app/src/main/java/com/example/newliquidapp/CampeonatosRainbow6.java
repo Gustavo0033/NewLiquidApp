@@ -43,6 +43,9 @@ public class CampeonatosRainbow6 extends AppCompatActivity {
 
         List<CampRainbow6> ListRainbowR = new ArrayList<>();
         ListRainbowR.add(new CampRainbow6(1, R.drawable.rainbow_6_invitational_logo_full, Color.TRANSPARENT));
+
+
+
         Rainbow6_Campeonatos.setLayoutManager(new LinearLayoutManager(this));
         CampR6Adapter adapter = new CampR6Adapter(ListRainbowR);
 
@@ -68,6 +71,8 @@ public class CampeonatosRainbow6 extends AppCompatActivity {
 
         List<ListRainbow6Part02> ListRainbow6_02 = new ArrayList<>();
         ListRainbow6_02.add(new ListRainbow6Part02(1, R.drawable.brasileir_or6, Color.TRANSPARENT));
+        ListRainbow6_02.add(new ListRainbow6Part02(2, R.drawable._00px_rainbow_six_pro_league, Color.TRANSPARENT));
+
 
         Rainbow6_CampeonatosPart02.setLayoutManager(new LinearLayoutManager(this));
         CampPT02Adapter adapter02 = new CampPT02Adapter( ListRainbow6_02);
@@ -75,7 +80,10 @@ public class CampeonatosRainbow6 extends AppCompatActivity {
         adapter02.setListener(id02 -> {
             switch (id02){
                 case 1: startActivity(new Intent(CampeonatosRainbow6.this, BrasilieraoR6.class));
-                break;
+                    break;
+                case 2:
+                    startActivity(new Intent(CampeonatosRainbow6.this,InvitationalR6.class ));
+                    break;
 
             }
         });

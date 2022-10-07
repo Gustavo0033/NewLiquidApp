@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Jogadores_Liquid">
+    tools:context=".Jogadores_Liquid"
+    android:background="@color/Azul_Liquid">
 
     <ImageView
         android:id="@+id/imageView7"
@@ -21,13 +22,13 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclePlayersTL"
         android:layout_width="409dp"
-        android:layout_height="561dp"
+        android:layout_height="508dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.609"
         tools:listitem="@layout/recycleview_jogadoresliquid" />
 
     <TextView
@@ -46,6 +47,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.106" />
+
+    <Button
+        android:id="@+id/btnBack_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="Voltar"
+        android:textColor="@color/Azul_Liquid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.992" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

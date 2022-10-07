@@ -6,8 +6,8 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageStore"
+        android:id="@+id/imageValorantCamp02"
         android:layout_width="match_parent"
-        android:layout_height="574dp"
-        app:srcCompat="@drawable/lvth_njersey_brazil_tl0515_0000_layer8copy_458x687" />
+        android:layout_height="244dp"
+        app:srcCompat="@drawable/imagevava" />
 </LinearLayout>

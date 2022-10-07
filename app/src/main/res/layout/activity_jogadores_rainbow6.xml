@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Jogadores_Rainbow6">
+    tools:context=".Jogadores_Rainbow6"
+    android:background="@color/Azul_Liquid">
 
 
     <ImageView
@@ -22,16 +23,30 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/main_rv_Rainbow6"
-        android:layout_width="397dp"
-        android:layout_height="657dp"
+        android:layout_width="393dp"
+        android:layout_height="524dp"
         android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.59"
         tools:listitem="@layout/main_item_rainbow6" />
+
+    <Button
+        android:id="@+id/btn_back_JogadoresR6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="Voltar"
+        android:textColor="@color/Azul_Liquid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

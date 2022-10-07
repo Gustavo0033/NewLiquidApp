@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -19,11 +20,21 @@ import java.util.List;
 public class Jogadores_Rainbow6 extends AppCompatActivity {
 
     private RecyclerView rvMain_Rainbow6;
+    private View btn_back_playerR6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jogadores_rainbow6);
+
+        btn_back_playerR6 = findViewById(R.id.btn_back_JogadoresR6);
+        btn_back_playerR6.setOnClickListener(view -> {
+            Intent intent = new Intent(Jogadores_Rainbow6.this, Jogadores_Liquid.class);
+            startActivity(intent);
+        });
+
+
+
 
         List<MainItem_Rainbow6> mainItems_Rainbow6 = new ArrayList<>();
         mainItems_Rainbow6.add(new MainItem_Rainbow6(1, R.drawable.ask_liquid, R.string.Ask, Color.TRANSPARENT));

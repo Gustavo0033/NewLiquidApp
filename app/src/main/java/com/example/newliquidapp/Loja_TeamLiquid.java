@@ -39,7 +39,6 @@ public class Loja_TeamLiquid extends AppCompatActivity {
         LojaLiquid.add(new LojaTeamLiquid(6,R.drawable.liquid_x_fortnite_pulga_shorts, Color.WHITE));
 
 
-
         LojaTL.setLayoutManager(new GridLayoutManager(this, 2));
         lojaAdapter adapter = new lojaAdapter(LojaLiquid);
         adapter.setListener(id ->{
@@ -61,8 +60,7 @@ public class Loja_TeamLiquid extends AppCompatActivity {
                     startActivity(new Intent(Loja_TeamLiquid.this, CsGo_Liquid.class));
                     break;
                 case 6:
-                    startActivity(new Intent(Loja_TeamLiquid.this, CsGo_Liquid.class));
-                    break;
+
 
 
         }

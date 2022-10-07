@@ -20,6 +20,7 @@ import java.util.List;
 public class Jogadores_Liquid extends AppCompatActivity {
 
    private RecyclerView PlayersLiquid;
+   private View btn_back_main;
 
 
     @Override
@@ -27,12 +28,20 @@ public class Jogadores_Liquid extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jogadores_liquid);
 
+        btn_back_main = findViewById(R.id.btnBack_main);
+        btn_back_main.setOnClickListener(view -> {
+            Intent intent = new Intent(Jogadores_Liquid.this, MainActivity.class);
+            startActivity(intent);
+        });
+
+
 
         List<PlayersTL> PlayersList = new ArrayList<>();
         PlayersList.add(new PlayersTL(1, R.drawable.fortnite_png_branco, Color.CYAN));
         PlayersList.add(new PlayersTL(2, R.drawable.freefire_liquid_branca, Color.BLACK));
         PlayersList.add(new PlayersTL(3, R.drawable.r6_logo,Color.GRAY));
         PlayersList.add(new PlayersTL(4, R.drawable.csgo_liquid_preto,Color.WHITE));
+        PlayersList.add(new PlayersTL(5, R.drawable.valorant_logo,Color.WHITE));
 
 
 
@@ -45,6 +54,14 @@ public class Jogadores_Liquid extends AppCompatActivity {
             switch (id){
                 case 1: startActivity(new Intent(Jogadores_Liquid.this, Fortnite_Camps.class));
                 break;
+                case 2: startActivity(new Intent(Jogadores_Liquid.this, FreeFire_Liquid.class));
+                    break;
+                case 3: startActivity(new Intent(Jogadores_Liquid.this, Jogadores_Rainbow6.class));
+                    break;
+                case 4: startActivity(new Intent(Jogadores_Liquid.this, CsGo_Liquid.class));
+                    break;
+                case 5: startActivity(new Intent(Jogadores_Liquid.this, Jogadoras_Valorant.class));
+                    break;
             }
         });
 
