@@ -13,6 +13,7 @@ public class CAPITAO_AMERICCA_MARVEL extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_capitao_americca_marvel);
 
         capita_america_loja = findViewById(R.id.btn_capitao_america);

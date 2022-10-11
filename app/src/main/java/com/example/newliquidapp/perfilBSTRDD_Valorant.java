@@ -13,6 +13,7 @@ public class perfilBSTRDD_Valorant extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_perfil_bstrdd_valorant);
 
         btn_BstrddBack = findViewById(R.id.botao_bstrddBack);

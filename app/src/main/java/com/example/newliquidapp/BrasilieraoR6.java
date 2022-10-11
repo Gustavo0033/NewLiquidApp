@@ -13,6 +13,7 @@ public class BrasilieraoR6 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_brasilierao_r6);
 
         btn_back_brasileirao = findViewById(R.id.btn_back_brasileirao);

@@ -13,6 +13,7 @@ public class perfilDAIKI_Valorant extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_perfil_daiki_valorant);
 
         btn_DaikiBack = findViewById(R.id.botao_DaikiBack);

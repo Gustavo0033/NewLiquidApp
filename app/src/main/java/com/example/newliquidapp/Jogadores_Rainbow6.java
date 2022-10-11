@@ -25,6 +25,7 @@ public class Jogadores_Rainbow6 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_jogadores_rainbow6);
 
         btn_back_playerR6 = findViewById(R.id.btn_back_JogadoresR6);

@@ -21,14 +21,14 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclePlayersTL"
-        android:layout_width="409dp"
-        android:layout_height="508dp"
+        android:layout_width="408dp"
+        android:layout_height="531dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.609"
+        app:layout_constraintVertical_bias="0.675"
         tools:listitem="@layout/recycleview_jogadoresliquid" />
 
     <TextView
@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/Azul_Liquid"
-        android:text="Jogadores"
+        android:text="Players"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="25dp"
@@ -53,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
-        android:text="Voltar"
+        android:text="Back"
         android:textColor="@color/Azul_Liquid"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

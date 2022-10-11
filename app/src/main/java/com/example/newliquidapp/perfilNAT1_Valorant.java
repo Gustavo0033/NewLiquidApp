@@ -13,6 +13,7 @@ public class perfilNAT1_Valorant extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_perfil_nat1_valorant);
 
         btn_Nat1Voltar = findViewById(R.id.fabNat1);

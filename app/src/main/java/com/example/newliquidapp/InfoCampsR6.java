@@ -13,6 +13,7 @@ public class InfoCampsR6 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_info_camps_r6);
 
         btn_back_invitational = findViewById(R.id.btn_back_invi);

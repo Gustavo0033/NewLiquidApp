@@ -27,6 +27,7 @@ public class Loja_TeamLiquid extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_loja_team_liquid);
 
         btn_back_Loja = findViewById(R.id.loja_back_to_main);

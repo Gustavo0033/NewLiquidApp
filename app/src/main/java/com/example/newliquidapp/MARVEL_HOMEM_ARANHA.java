@@ -24,6 +24,7 @@ public class MARVEL_HOMEM_ARANHA extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_marvel_homem_aranha);
 
         btn_spiderMan = findViewById(R.id.btn_spierMan_back);

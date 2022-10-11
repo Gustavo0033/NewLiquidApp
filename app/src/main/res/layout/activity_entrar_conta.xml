@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EntrarConta"
-    android:background="@color/Azul_Liquid">
+    tools:context=".EntrarConta">
 
     <ImageView
         android:id="@+id/imageView12"
@@ -24,32 +23,32 @@
         android:id="@+id/textView12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Entre na sua conta"
+        android:text="Login"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/Azul_Liquid"
         android:textSize="23sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.175" />
+        app:layout_constraintVertical_bias="0.214" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:textColor="@color/white"
         android:hint="@string/Email"
         android:inputType="textEmailAddress"
-        android:textColorHint="@color/white"
+        android:textColor="@color/Azul_Liquid"
+        android:textColorHint="@color/Azul_Liquid"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.377" />
+        app:layout_constraintVertical_bias="0.408" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -58,8 +57,8 @@
         android:ems="10"
         android:hint="@string/Senha"
         android:inputType="textPassword"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
+        android:textColor="@color/Azul_Liquid"
+        android:textColorHint="@color/Azul_Liquid"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

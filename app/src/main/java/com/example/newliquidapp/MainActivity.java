@@ -13,11 +13,13 @@ public class MainActivity extends AppCompatActivity {
     private View Jogadores;
     private View EntrarConta;
     private View EntrarContaLiquid;
+    private View NovaContaLiquid;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
 
         Campeonato = findViewById(R.id.btn_campeonato);
@@ -51,6 +53,13 @@ public class MainActivity extends AppCompatActivity {
             EntrarConta = findViewById(R.id.btn_Entrar_Conta);
             EntrarConta.setOnClickListener(view -> {
                 Intent intent = new Intent(MainActivity.this, EntrarConta.class);
+                startActivity(intent);
+            });
+
+
+            NovaContaLiquid = findViewById(R.id.btn_nova_conta);
+            NovaContaLiquid.setOnClickListener(view -> {
+                Intent intent = new Intent(MainActivity.this, Nova_Conta_Liquid.class);
                 startActivity(intent);
             });
 

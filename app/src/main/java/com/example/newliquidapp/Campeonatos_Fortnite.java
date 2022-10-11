@@ -13,6 +13,7 @@ public class Campeonatos_Fortnite extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_campeonatos_fortnite);
 
         btn_back_campeonatos = findViewById(R.id.btn_back_camps_fornite);

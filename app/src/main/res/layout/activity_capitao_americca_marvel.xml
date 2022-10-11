@@ -23,7 +23,7 @@
         android:id="@+id/btn_capitao_america"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Voltar"
+        android:text="Back"
         android:textColor="@color/white"
         android:backgroundTint="@color/Azul_Liquid"
         app:layout_constraintBottom_toBottomOf="parent"

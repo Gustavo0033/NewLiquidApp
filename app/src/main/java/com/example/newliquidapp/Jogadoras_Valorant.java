@@ -23,11 +23,23 @@ public class Jogadoras_Valorant extends AppCompatActivity {
 
     private RecyclerView rvMain_Valorant;
     private RecyclerView rvMainValorant;
+    private View btn_Players_valorant;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_jogadoras_valorant);
+
+
+        btn_Players_valorant = findViewById(R.id.btn_player_valorant);
+        btn_Players_valorant.setOnClickListener(view -> {
+            Intent intent = new Intent(Jogadoras_Valorant.this, Jogadores_Liquid.class);
+            startActivity(intent);
+        });
+
+
+
 
 
         List<MainItem_Valorant> mainItems_Vava = new ArrayList<>();
