@@ -20,4 +20,27 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
 
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="415dp"
+        android:layout_height="81dp"
+        android:background="@color/Azul_Liquid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/fortnite_png_branco" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/CampFortnite"
+        tools:listitem="@layout/fornite_campeonatos"
+        android:layout_width="409dp"
+        android:layout_height="584dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
