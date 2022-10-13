@@ -30,5 +30,14 @@
     <string name="ParteDeBaixo">PARTE DE BAIXO</string>
     <string name="ParteDeCima">PARTE DE CIMA</string>
     <string name="PijamaLiquid">THE BLUE CAPSULE</string>
+    <string name="UrsinhoBlue">BLUE PLUSH 2.0</string>
+    <string name="Esportivo">ESPORTIVO</string>
+    <string name="Acessórios">ACESSÓRIOS</string>
+    <string name="HomemAranha">LIQUID X MARVEL | JERSEY HOMEM-ARANHA</string>
+    <string name="ViuvaNegra">LIQUID X MARVEL | JERSEY VIÚVA NEGRA</string>
+    <string name="CapitaoAmerica">LIQUID X MARVEL | JERSEY CAPITÃO AMÉRICA</string>
+    <string name="HoodieSpiderMan">LIQUID X MARVEL | HOMEM ARANHA ARTWORK HOODIE</string>
+    <string name="shirtSpiderMan">LIQUID X MARVEL | HOMEM ARANHA ARTWORK SHORT SLEEVE TEE</string>
+    <string name="ReinoQuantico">LIQUID X MARVEL VINGADORES | ULTIMATO JERSEY TRAJE REINO QUÂNTICO</string>
 
 </resources>

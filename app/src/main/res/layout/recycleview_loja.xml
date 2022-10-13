@@ -5,9 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/txt_name_lancamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
     <ImageView
         android:id="@+id/imageStore"
         android:layout_width="match_parent"
         android:layout_height="532dp"
         app:srcCompat="@drawable/lvth_njersey_brazil_tl0515_0000_layer8copy_458x687" />
+
 </LinearLayout>

@@ -28,22 +28,28 @@ public class MODELOS_LOJA extends AppCompatActivity {
         setContentView(R.layout.activity_modelos_loja);
 
         store_models = findViewById(R.id.modelo_store);
-        store_models.setLayoutManager(new GridLayoutManager(this, 2));
+        store_models.setLayoutManager(new LinearLayoutManager(this));
 
         List<ListModels> ListaDeModelos = new ArrayList<>();
         ListaDeModelos.add(new ListModels(1, R.drawable.shortpulga, Color.TRANSPARENT, R.string.ParteDeBaixo));
         ListaDeModelos.add(new ListModels(2, R.drawable.marvelxliquid_spider_jersey_01_1280x1920_451x677_2bf0875b_e221_45aa_8c02_e5b1ff6a5b8a_347x519, Color.TRANSPARENT, R.string.ParteDeCima));
         ListaDeModelos.add(new ListModels(3, R.drawable.bluepajamasettl0262_layflats_041621_tl6029_451x677, Color.TRANSPARENT, R.string.PijamaLiquid));
+        ListaDeModelos.add(new ListModels(4, R.drawable.teamliquid_blueplush2_0_tl0602_wht_os_cropped_0000_layer4copy_912x1368, Color.TRANSPARENT, R.string.Acessórios));
+        ListaDeModelos.add(new ListModels(5, R.drawable._32520_tl20915_451x677, Color.TRANSPARENT, R.string.Esportivo));
         ModeloAdapter adapterModels = new ModeloAdapter(ListaDeModelos);
 
 
         adapterModels.setListener(id -> {
             switch (id){
-                case 1: startActivity(new Intent(MODELOS_LOJA.this,CAPITAO_AMERICCA_MARVEL.class));
+                case 1: startActivity(new Intent(MODELOS_LOJA.this,PARTE_DE_BAIXO.class));
                 break;
-                case 2: startActivity(new Intent(MODELOS_LOJA.this,CAPITAO_AMERICCA_MARVEL.class));
+                case 2: startActivity(new Intent(MODELOS_LOJA.this,PARTE_DE_CIMA.class));
                     break;
-                case 3: startActivity(new Intent(MODELOS_LOJA.this,CAPITAO_AMERICCA_MARVEL.class));
+                case 3: startActivity(new Intent(MODELOS_LOJA.this,THE_BLUE_CAPSULE.class));
+                    break;
+                case 4: startActivity(new Intent(MODELOS_LOJA.this,ACESSORIOS_TL.class));
+                    break;
+                case 5: startActivity(new Intent(MODELOS_LOJA.this,PRODUTOS_ESPORTIVOS.class));
                     break;
             }
         });

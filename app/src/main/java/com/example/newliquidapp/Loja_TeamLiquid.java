@@ -14,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.Adapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -52,16 +53,16 @@ public class Loja_TeamLiquid extends AppCompatActivity {
         LojaTL = findViewById(R.id.camisetaAzulescuro);
 
         List<LojaTeamLiquid> LojaLiquid = new ArrayList<>();
-        LojaLiquid.add(new LojaTeamLiquid(1,R.drawable.capitao_america_jersey, Color.WHITE));
-        LojaLiquid.add(new LojaTeamLiquid(2,R.drawable.jersey_spider_man_liquid, Color.WHITE));
-        LojaLiquid.add(new LojaTeamLiquid(3,R.drawable._21320_tl_product13190_912x1368_e2043f78_f15c_440b_8f62_84c43f26d56b_347x520, Color.WHITE));
-        LojaLiquid.add(new LojaTeamLiquid(4,R.drawable._32520_tl20919_2000x3000_1280x1920_451x677_8de64d3a_dc51_4984_aa8e_e4321afe95a3_451x677, Color.WHITE));
-        LojaLiquid.add(new LojaTeamLiquid(5,R.drawable.tl0147_blk_1_756x1058, Color.WHITE));
-        LojaLiquid.add(new LojaTeamLiquid(6,R.drawable.moletom_lancamento, Color.WHITE));
+        LojaLiquid.add(new LojaTeamLiquid(1,R.drawable.capitao_america_jersey, Color.WHITE, R.string.CapitaoAmerica));
+        LojaLiquid.add(new LojaTeamLiquid(2,R.drawable.jersey_spider_man_liquid, Color.WHITE, R.string.HomemAranha));
+        LojaLiquid.add(new LojaTeamLiquid(3,R.drawable._21320_tl_product13190_912x1368_e2043f78_f15c_440b_8f62_84c43f26d56b_347x520, Color.WHITE, R.string.ReinoQuantico));
+        LojaLiquid.add(new LojaTeamLiquid(4,R.drawable._32520_tl20919_2000x3000_1280x1920_451x677_8de64d3a_dc51_4984_aa8e_e4321afe95a3_451x677, Color.WHITE, R.string.ViuvaNegra));
+        LojaLiquid.add(new LojaTeamLiquid(5,R.drawable.tl0147_blk_1_756x1058, Color.WHITE, R.string.shirtSpiderMan));
+        LojaLiquid.add(new LojaTeamLiquid(6,R.drawable.moletom_lancamento, Color.WHITE, R.string.HoodieSpiderMan));
 
 
 
-        LojaTL.setLayoutManager(new GridLayoutManager(this, 2));
+        LojaTL.setLayoutManager(new LinearLayoutManager(this));
         lojaAdapter adapter = new lojaAdapter(LojaLiquid);
         adapter.setListener(id ->{
 
@@ -132,6 +133,7 @@ public class Loja_TeamLiquid extends AppCompatActivity {
             public void bind(LojaTeamLiquid item){
                 ImageView imageView = itemView.findViewById(R.id.imageStore);
                 LinearLayout container = (LinearLayout) itemView;
+                TextView txtName = itemView.findViewById(R.id.txt_name_lancamento);
                 container.setOnClickListener(view -> {
                     listener.onClick(item.getId());
                 });
@@ -146,6 +148,7 @@ public class Loja_TeamLiquid extends AppCompatActivity {
 
 
                 container.setBackgroundColor(item.getColor());
+                txtName.setText(item.getTxt_name_lancamento());
                 imageView.setImageResource(item.getImageClothing());
 
             }

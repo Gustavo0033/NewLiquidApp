@@ -17,6 +17,6 @@
     <ImageView
         android:id="@+id/imageModelosTL"
         android:layout_width="match_parent"
-        android:layout_height="523dp"
+        android:layout_height="513dp"
         app:srcCompat="@drawable/liquid_x_fortnite_pulga_shorts" />
 </LinearLayout>
