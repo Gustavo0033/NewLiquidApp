@@ -21,14 +21,13 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/modelo_store"
-        android:layout_width="408dp"
-        android:layout_height="492dp"
+        android:layout_width="413dp"
+        android:layout_height="533dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.618"
+        app:layout_constraintVertical_bias="0.59"
         tools:listitem="@layout/modelos_teamliquid_loja" />
 
     <Button

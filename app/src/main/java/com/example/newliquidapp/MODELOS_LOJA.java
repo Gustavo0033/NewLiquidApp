@@ -25,6 +25,7 @@ public class MODELOS_LOJA extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_modelos_loja);
 
         store_models = findViewById(R.id.modelo_store);
