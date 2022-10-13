@@ -34,13 +34,13 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/CampFortnite"
-        tools:listitem="@layout/fornite_campeonatos"
-        android:layout_width="409dp"
-        android:layout_height="584dp"
+        android:layout_width="411dp"
+        android:layout_height="587dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.564" />
+        app:layout_constraintVertical_bias="0.564"
+        tools:listitem="@layout/fornite_campeonatos" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,4 +10,5 @@
         android:layout_width="match_parent"
         android:layout_height="333dp"
         app:srcCompat="@drawable/jersey_spider_man_liquid" />
+
 </LinearLayout>
