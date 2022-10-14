@@ -33,10 +33,15 @@ public class MODELOS_LOJA extends AppCompatActivity {
 
         List<ListModels> ListaDeModelos = new ArrayList<>();
         ListaDeModelos.add(new ListModels(1, R.drawable.shortpulga, Color.TRANSPARENT, R.string.ParteDeBaixo));
-        ListaDeModelos.add(new ListModels(2, R.drawable.marvelxliquid_spider_jersey_01_1280x1920_451x677_2bf0875b_e221_45aa_8c02_e5b1ff6a5b8a_347x519, Color.TRANSPARENT, R.string.ParteDeCima));
+        ListaDeModelos.add(new ListModels(2, R.drawable.liquidtapingsstee_tl0104_0000_layer3copy_1140x1710, Color.TRANSPARENT, R.string.ParteDeCima));
         ListaDeModelos.add(new ListModels(3, R.drawable.bluepajamasettl0262_layflats_041621_tl6029_451x677, Color.TRANSPARENT, R.string.PijamaLiquid));
         ListaDeModelos.add(new ListModels(4, R.drawable.teamliquid_blueplush2_0_tl0602_wht_os_cropped_0000_layer4copy_912x1368, Color.TRANSPARENT, R.string.Acessórios));
         ListaDeModelos.add(new ListModels(5, R.drawable._32520_tl20915_451x677, Color.TRANSPARENT, R.string.Esportivo));
+        ListaDeModelos.add(new ListModels(6, R.drawable.marvelxliquid_spider_jersey_01_1280x1920_451x677_2bf0875b_e221_45aa_8c02_e5b1ff6a5b8a_347x519, Color.WHITE, R.string.LiquidxMarvel));
+        ListaDeModelos.add(new ListModels(7, R.drawable.liquid_x_fornite, Color.WHITE, R.string.LiquidxFortnite));
+
+
+
         ModeloAdapter adapterModels = new ModeloAdapter(ListaDeModelos);
 
 
@@ -51,6 +56,10 @@ public class MODELOS_LOJA extends AppCompatActivity {
                 case 4: startActivity(new Intent(MODELOS_LOJA.this,ACESSORIOS_TL.class));
                     break;
                 case 5: startActivity(new Intent(MODELOS_LOJA.this,PRODUTOS_ESPORTIVOS.class));
+                    break;
+                case 6: startActivity(new Intent(MODELOS_LOJA.this,PRODUTOS_ESPORTIVOS.class));
+                    break;
+                case 7: startActivity(new Intent(MODELOS_LOJA.this,PRODUTOS_ESPORTIVOS.class));
                     break;
             }
         });

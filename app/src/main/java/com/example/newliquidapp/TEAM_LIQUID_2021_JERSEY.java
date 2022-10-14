@@ -23,6 +23,7 @@ public class TEAM_LIQUID_2021_JERSEY extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_team_liquid2021_jersey);
 
         Jersey2021 = findViewById(R.id.jersey2021);
@@ -30,6 +31,14 @@ public class TEAM_LIQUID_2021_JERSEY extends AppCompatActivity {
 
         List<ListJersey2021> JerseyList2021 = new ArrayList<>();
         JerseyList2021.add(new ListJersey2021( 1, R.drawable.teamliquid_official2021_sponsive, R.string.JerseyAzulPatrocinio, Color.TRANSPARENT));
+        JerseyList2021.add(new ListJersey2021( 2, R.drawable.jerseyazul_patrocinio, R.string.JerseyAzulPatrocinio, Color.TRANSPARENT));
+        JerseyList2021.add(new ListJersey2021( 3, R.drawable.jerseyazul_patrocinioo, R.string.JerseyAzulPatrocinio, Color.TRANSPARENT));
+        JerseyList2021.add(new ListJersey2021( 4, R.drawable.golajerseyazul_patrocinio, R.string.JerseyAzulPatrocinio, Color.TRANSPARENT));
+
+
+
+
+
         AdapterJersey2021 adapter = new AdapterJersey2021(JerseyList2021);
         Jersey2021.setAdapter(adapter);
 
@@ -77,7 +86,6 @@ public class TEAM_LIQUID_2021_JERSEY extends AppCompatActivity {
 
         public void bind(ListJersey2021 item){
             ImageView imgJersey = itemView.findViewById(R.id.jerseyLiquid2021);
-            TextView txtJersey = itemView.findViewById(R.id.NameJersey);
             LinearLayout container = (LinearLayout) itemView;
 
             container.setOnClickListener(view -> {
@@ -86,7 +94,6 @@ public class TEAM_LIQUID_2021_JERSEY extends AppCompatActivity {
 
 
             imgJersey.setImageResource(item.getImageJersey());
-            txtJersey.setText(item.getTxtNameJersey());
             container.setBackgroundColor(item.getColor());
         }
     }

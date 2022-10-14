@@ -4,18 +4,11 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
-        android:id="@+id/NameJersey"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textAlignment="center"/>
+
 
     <ImageView
         android:id="@+id/jerseyLiquid2021"
         android:layout_width="match_parent"
-        android:layout_height="382dp"
+        android:layout_height="475dp"
         app:srcCompat="@drawable/_32520_tl20915_451x677" />
 </LinearLayout>
