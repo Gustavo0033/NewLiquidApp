@@ -31,20 +31,19 @@ public class PRODUTOS_ESPORTIVOS extends AppCompatActivity {
         esportivoTL.setLayoutManager(new LinearLayoutManager(this));
 
         List<List_EsportivoTL> Lista_Jersey_esportiva = new ArrayList<>();
-        Lista_Jersey_esportiva.add(new List_EsportivoTL(1, R.drawable.marvelxliquid_spider_jersey_01_1280x1920_451x677_2bf0875b_e221_45aa_8c02_e5b1ff6a5b8a_347x519, Color.WHITE, R.string.shirtSpiderMan));
-        Lista_Jersey_esportiva.add(new List_EsportivoTL(2, R.drawable._32520_tl20915_451x677, Color.WHITE, R.string.Jersey2021));
-        Lista_Jersey_esportiva.add(new List_EsportivoTL(3, R.drawable._21320_tl_product13190_912x1368_e2043f78_f15c_440b_8f62_84c43f26d56b_347x520, Color.WHITE, R.string.ReinoQuantico));
-        Lista_Jersey_esportiva.add(new List_EsportivoTL(4, R.drawable.capitao_america_jersey, Color.WHITE, R.string.Jersey2021));
-        Lista_Jersey_esportiva.add(new List_EsportivoTL(5, R.drawable.lvth_njersey_brazil_sponsored__tl0515_0000_layer29_564x846, Color.WHITE, R.string.JerseyAzul));
-        Lista_Jersey_esportiva.add(new List_EsportivoTL(6, R.drawable.capitao_america_jersey, Color.WHITE, R.string.CapitaoAmerica));
-        Lista_Jersey_esportiva.add(new List_EsportivoTL(7, R.drawable.lvth_nchampionshipjersey_tl0393_0004_layer2copy_b7c12443_7aac_4029_b1b9_4053476566bb_564x846, Color.WHITE, R.string.JerseyBranca));
+        Lista_Jersey_esportiva.add(new List_EsportivoTL(1, R.drawable._32520_tl20915_451x677, Color.WHITE, R.string.Jersey2021));
+        Lista_Jersey_esportiva.add(new List_EsportivoTL(2, R.drawable.lvth_njersey_brazil_sponsored__tl0515_0000_layer29_564x846, Color.WHITE, R.string.JerseyAzul));
+        Lista_Jersey_esportiva.add(new List_EsportivoTL(3, R.drawable.lvth_nchampionshipjersey_tl0393_0004_layer2copy_b7c12443_7aac_4029_b1b9_4053476566bb_564x846, Color.WHITE, R.string.JerseyBranca));
+        Lista_Jersey_esportiva.add(new List_EsportivoTL(4, R.drawable.teamliquid_official2021_hoodie_sponsors_04_564x846, Color.WHITE, R.string.MoletomLiquid));
+        Lista_Jersey_esportiva.add(new List_EsportivoTL(5, R.drawable.teamliquid_championshipjersey_sponsered, Color.WHITE, R.string.JerseyAzulPatrocinio));
+        Lista_Jersey_esportiva.add(new List_EsportivoTL(6, R.drawable.teamliquid_official2021_sponsive, Color.WHITE, R.string.JerseyAzulPatrocinio));
 
         adapterEsportivo adapter = new adapterEsportivo(Lista_Jersey_esportiva);
 
         esportivoTL.setAdapter(adapter);
         adapter.setListener(id -> {
             switch (id){
-                case 1: startActivity(new Intent(PRODUTOS_ESPORTIVOS.this,MARVEL_HOMEM_ARANHA.class ));
+                case 1: startActivity(new Intent(PRODUTOS_ESPORTIVOS.this,TEAM_LIQUID_2021_JERSEY.class ));
                 break;
                 case 2: startActivity(new Intent(PRODUTOS_ESPORTIVOS.this,MARVEL_HOMEM_ARANHA.class ));
                     break;

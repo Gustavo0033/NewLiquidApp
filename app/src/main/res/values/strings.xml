@@ -41,5 +41,8 @@
     <string name="ReinoQuantico">LIQUID X MARVEL VINGADORES | ULTIMATO JERSEY TRAJE REINO QUÂNTICO</string>
     <string name="Jersey2021">TEAM LIQUID OFFICIAL 2021 JERSEY</string>
     <string name="JerseyAzul">TEAM LIQUID BRAZIL EXCLUSIVE JERSEY</string>
-    <string name="JerseyBranca">TEAM LIQUID CHAMPIONSHIP JERSEY</string>
+    <string name="MoletomLiquid"> TEAM LIQUID OFFICIAL 2021 JERSEY HOODIE SPONSORS</string>
+    <string name="JerseyBrancaPatrocinio">TEAM LIQUID CHAMPIONSHIP JERSEY SPONSORED</string>
+    <string name="JerseyAzulPatrocinio">TEAM LIQUID BRAZIL EXCLUSIVE JERSEY SPONSIVE</string>
+    <string name="JerseyBranca">TEAM LIQUID CHAMPIONSHIP JERSEY </string>
 </resources>
