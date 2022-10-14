@@ -6,18 +6,18 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/txt_name_lancamento"
+        android:id="@+id/txtNameCima"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:text="TextView"
+        android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textAlignment="center"/>
+        android:textSize="19sp" />
 
     <ImageView
-        android:id="@+id/imageStore"
+        android:id="@+id/CimaImageLinear"
         android:layout_width="match_parent"
-        android:layout_height="532dp"
-        app:srcCompat="@drawable/lvth_njersey_brazil_tl0515_0000_layer8copy_458x687" />
+        android:layout_height="540dp"
+        app:srcCompat="@drawable/liquidtapingsstee_tl0104_0000_layer3copy_1140x1710" />
 
 </LinearLayout>

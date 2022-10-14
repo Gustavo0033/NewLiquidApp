@@ -4,43 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Campeonatos_Fortnite">
+    tools:context=".MODELOS_LOJA">
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="416dp"
+        android:layout_height="83dp"
+        android:background="@color/Azul_Liquid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo_loja" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/modelo_store"
+        android:layout_width="415dp"
+        android:layout_height="560dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.59"
+        tools:listitem="@layout/modelos_teamliquid_loja" />
 
     <Button
-        android:id="@+id/btn_back_camps_fornite"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Voltar"
         android:backgroundTint="@color/Azul_Liquid"
-        android:text="Back"
-        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
-
-    <ImageView
-        android:id="@+id/imageView27"
-        android:layout_width="415dp"
-        android:layout_height="81dp"
-        android:background="@color/Azul_Liquid"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/fortnite_png_branco" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/CampFortnite"
-        android:layout_width="411dp"
-        android:layout_height="587dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.564"
-        tools:listitem="@layout/fornite_campeonatos" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

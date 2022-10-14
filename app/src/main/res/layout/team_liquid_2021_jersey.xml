@@ -5,9 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
     <ImageView
-        android:id="@+id/imageCamps"
+        android:id="@+id/jerseyLiquid2021"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:srcCompat="@drawable/tlsemfundo" />
+        android:layout_height="429dp"
+        app:srcCompat="@drawable/_32520_tl20915_451x677" />
 </LinearLayout>

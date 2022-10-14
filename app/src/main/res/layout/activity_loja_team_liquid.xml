@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Loja_TeamLiquid"
-    android:background="@color/Azul_Liquid">
+    tools:context=".Loja_TeamLiquid">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -22,14 +21,14 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/camisetaAzulescuro"
-        android:layout_width="400dp"
-        android:layout_height="572dp"
+        android:layout_width="403dp"
+        android:layout_height="575dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.552"
+        app:layout_constraintVertical_bias="0.666"
         tools:listitem="@layout/recycleview_loja" />
 
     <Button
@@ -37,14 +36,44 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Back"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/Azul_Liquid"
+        android:backgroundTint="@color/Azul_Liquid"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.998" />
+
+    <Button
+        android:id="@+id/btn_modelsTL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modelos"
+        android:backgroundTint="@color/Azul_Liquid"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LANÇAMENTOS LIQUID X MARVEL"
+        android:textColor="@color/white"
+        android:background="@color/Azul_Liquid"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

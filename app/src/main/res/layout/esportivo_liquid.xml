@@ -6,18 +6,17 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/txt_name_lancamento"
+        android:id="@+id/LinearTxtTL"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
+        android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="20sp"
-        android:textAlignment="center"/>
+        android:textSize="20dp"/>
 
     <ImageView
-        android:id="@+id/imageStore"
+        android:id="@+id/LinearImageTL"
         android:layout_width="match_parent"
-        android:layout_height="532dp"
-        app:srcCompat="@drawable/lvth_njersey_brazil_tl0515_0000_layer8copy_458x687" />
-
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/_32520_tl20915_451x677" />
 </LinearLayout>
