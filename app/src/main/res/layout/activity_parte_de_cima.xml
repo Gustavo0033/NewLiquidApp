@@ -6,4 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".PARTE_DE_CIMA">
 
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="412dp"
+        android:layout_height="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/tlsemfundo"
+        android:background="@color/Azul_Liquid"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ParteDeCimaActivity"
+        android:layout_width="406dp"
+        android:layout_height="634dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.835"
+        tools:listitem="@layout/parte_de_cima_linear" />
 </androidx.constraintlayout.widget.ConstraintLayout>
