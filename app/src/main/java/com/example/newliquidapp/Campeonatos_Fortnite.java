@@ -65,7 +65,7 @@ public class Campeonatos_Fortnite extends AppCompatActivity {
 
         @Override
         public void onBindViewHolder(@NonNull ViewHolderFort holder, int position) {
-            holder.bind(mainItemCurrentFort)
+
 
         }
 
