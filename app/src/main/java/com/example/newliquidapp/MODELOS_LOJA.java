@@ -57,7 +57,7 @@ public class MODELOS_LOJA extends AppCompatActivity {
                     break;
                 case 5: startActivity(new Intent(MODELOS_LOJA.this,PRODUTOS_ESPORTIVOS.class));
                     break;
-                case 6: startActivity(new Intent(MODELOS_LOJA.this,PRODUTOS_ESPORTIVOS.class));
+                case 6: startActivity(new Intent(MODELOS_LOJA.this,Loja_TeamLiquid.class));
                     break;
                 case 7: startActivity(new Intent(MODELOS_LOJA.this,PRODUTOS_ESPORTIVOS.class));
                     break;

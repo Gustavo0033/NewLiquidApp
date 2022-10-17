@@ -5,10 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <ImageView
-        android:id="@+id/jerseyLiquid2021"
+        android:id="@+id/imageView33"
         android:layout_width="match_parent"
-        android:layout_height="385dp"
-        app:srcCompat="@drawable/_32520_tl20915_451x677" />
+        android:layout_height="530dp"
+        app:srcCompat="@drawable/bluepajamasettl0262_layflats_041621_tl6029_451x677" />
 </LinearLayout>
