@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NewLiquidApp</string>
+    <string name="Email">Correo electrónico</string>
+    <string name="Senha">Clave</string>
+    <string name="PulgaShorts">PANTALONES CORTOS DE PULGA - FORTNITE</string>
+    <string name="JoggerLiquid">PANTALONES DE CHÁNDAL LIQUID</string>
+    <string name="ParteDeBaixo">PARTE DE ABAJO</string>
+    <string name="ParteDeCima">PARTE DE ARRIBA</string>
+    <string name="Esportivo">DEPORTES</string>
+    <string name="Acessórios">ACCESORIOS</string>
+    <string name="HomemAranha">LIQUID X MARVEL | CAMISETA DE MANGA CORTA HOMBRE ARANÃ</string>
+    <string name="ViuvaNegra">LIQUID X MARVEL | CAMISETA DE MANGA CORTA VIUDA NEGRA</string>
+    <string name="CapitaoAmerica">LIQUID X MARVEL | CAMISETA DE MANGA CORTA CAPITÁN AMÉRICA</string>
+    <string name="HoodieSpiderMan">LIQUID X MARVEL | CAMISA DE ENTRENAMIENTO HOMEM-ARANHA</string>
+    <string name="shirtSpiderMan">LIQUID X MARVEL | CAMISA HOMEM-ARANHA</string>
+    <string name="ReinoQuantico">LIQUID X MARVEL VINGADORES | CAMISA REINO QUÂNTICO</string>
+    <string name="Jersey2021">TEAM LIQUID CAMISETA DE MANGA CORTA OFICIAL 2021</string>
+    <string name="JerseyAzul">TEAM LIQUID CAMISETA DE MANGA CORTA EXCLUSIVA BRASIL</string>
+    <string name="MoletomLiquid">TEAM LIQUID CAMISETA DE ENTRENAMIENTO EXCLUSIVO BRASIL - PATROCINADORES</string>
+    <string name="JerseyBrancaPatrocinio">TEAM LIQUID CAMISETA DE CAMPEONATO - PATROCINADORES</string>
+    <string name="JerseyAzulPatrocinio">TEAM LIQUID CAMISETA BRASIL EXCLUSIVA - PATRONADORES</string>
+    <string name="JerseyBranca">TEAM LIQUID CAMISETA DE CAMPEONATO</string>
+    <string name="LiquidxMarvel">TEAM LIQUID X MARVEL</string>
+    <string name="LiquidxFortnite">"TEAM LIQUID X FORTNITE "</string>
+    <string name="CamisetaLiquidLinhaBranca">CAMISETA LIQUID</string>
+    <string name="CamisetaLiquidBranca">CAMISETA BLANCA EXCLUSIVA - BRASIL</string>
+    <string name="CamisetaLiquidPreta">CAMISETA NEGRA EXCLUSIVA - BRASIL</string>
+    <string name="CamisetaLiquidAzulEscuro">CAMISETA AZUL EXCLUSIVA - BRASIL</string>
+    <string name="FortniteCalça">PANTALONES FORTNITE</string>
+    <string name="Jersey2021Sponsored">CAMISETA 2021 - PATROCINADORES</string>
+    <string name="Tournaments">TORNEOS</string>
+    <string name="Players">JUGADORES</string>
+    <string name="Store">TIENDA</string>
+    <string name="Welcome">Bienvenido(a)</string>
+    <string name="NewAccount">Nueva Cuenta</string>
+    <string name="Back">Regrssar</string>
+    <string name="Login">Iniciar sesión</string>
+    <string name="Models">Modelos</string>
+    <string name="LAUNCHLIQUIDXMARVEL">LANZAMIENTO LIQUID X MARVEL</string>
+    <string name="JERSEY2021sponsored">TEAM LIQUID CAMISETA OFICIAL 2021 - PATROCINADORES</string>
+    <string name="UrsinhoBlue" translatable="false">FELPA BLIE 2.0</string>
+</resources>
