@@ -100,8 +100,12 @@ public class Campeonatos_Fortnite extends AppCompatActivity {
 
         @Override
         public void onBindViewHolder(@NonNull ViewHolderFort holder, int position) {
+<<<<<<< HEAD
+
+=======
             ListCampsFortnite mainItemCurrentFort = ListFortnite.get(position);
             holder.bind(mainItemCurrentFort);
+>>>>>>> 30960d4a453cc603641749bf40e58f1fc7dcc386
 
         }
 
