@@ -36,8 +36,8 @@ public class PARTE_DE_CIMA extends AppCompatActivity {
         ParteDeCimaLista.add(new ListParteCima(2, R.drawable.teamliquidgeostee_brazilgeos_black_tl0259_0005_layer2copy2_564x846, R.string.CamisetaLiquidPreta, Color.TRANSPARENT));
         ParteDeCimaLista.add(new ListParteCima(3, R.drawable.teamliquidgeostee_brazilgeos_white_tl0259_0003_layer23copy_1140x1710, R.string.CamisetaLiquidBranca, Color.TRANSPARENT));
         ParteDeCimaLista.add(new ListParteCima(4, R.drawable.teamliquidgeostee_brazilgeos_navy_tl0259_0003_layer13copy_1140x1710, R.string.CamisetaLiquidAzulEscuro, Color.TRANSPARENT));
-        ParteDeCimaLista.add(new ListParteCima(5, R.drawable.teamliquid_official2021_sponsive, R.string.CamisetaLiquidAzulEscuro, Color.TRANSPARENT));
-        ParteDeCimaLista.add(new ListParteCima(6, R.drawable.teamliquid_championshipjersey_sponsered, R.string.CamisetaLiquidBranca, Color.TRANSPARENT));
+        ParteDeCimaLista.add(new ListParteCima(5, R.drawable.teamliquid_official2021_sponsive, R.string.JERSEY2021sponsored, Color.TRANSPARENT));
+        ParteDeCimaLista.add(new ListParteCima(6, R.drawable.teamliquid_championshipjersey_sponsered, R.string.JerseyBrancaPatrocinio, Color.TRANSPARENT));
         ParteDeCimaLista.add(new ListParteCima(7, R.drawable.marvelxliquid_spider_jersey_01_1280x1920_451x677_2bf0875b_e221_45aa_8c02_e5b1ff6a5b8a_347x519, R.string.HomemAranha, Color.TRANSPARENT));
         ParteDeCimaLista.add(new ListParteCima(8, R.drawable._32520_tl20919_2000x3000_1280x1920_451x677_8de64d3a_dc51_4984_aa8e_e4321afe95a3_451x677, R.string.ViuvaNegra, Color.TRANSPARENT));
         ParteDeCimaLista.add(new ListParteCima(9, R.drawable._21320_tl_product13190_912x1368_e2043f78_f15c_440b_8f62_84c43f26d56b_347x520, R.string.ReinoQuantico, Color.TRANSPARENT));

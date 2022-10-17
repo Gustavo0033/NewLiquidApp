@@ -1,38 +1,38 @@
 <resources>
     <string name="app_name">NewLiquidApp</string>
-    <string name="Phoenix">Phoenix</string>
-    <string name="Jogador01_CSGO">TeamLiquid</string>
-    <string name="Paluh">Paluh</string>
-    <string name="Nesk">Neskwga</string>
-    <string name="Resetz">Resetz</string>
-    <string name="Ask">Ask</string>
-    <string name="Lagonis">Lagonis</string>
-    <string name="Hugzord">Hugzord</string>
-    <string name="nitr0">nitr0</string>
-    <string name="NAF">NAF</string>
-    <string name="ELiGE">ELiGE</string>
-    <string name="oSee">oSee</string>
-    <string name="YEKINDAR">YEKINDAR</string>
-    <string name="Naxy">Naxy</string>
-    <string name="Daiki">Daiki</string>
-    <string name="Bstrdd">Bstrdd</string>
-    <string name="Nat1">Nat1</string>
-    <string name="Drn">Drn</string>
-    <string name="Palestra">Palestra</string>
+    <string name="Phoenix" translatable="false">Phoenix</string>
+    <string name="Jogador01_CSGO" translatable="false">TeamLiquid</string>
+    <string name="Paluh" translatable="false">Paluh</string>
+    <string name="Nesk" translatable="false">Neskwga</string>
+    <string name="Resetz" translatable="false">Resetz</string>
+    <string name="Ask" translatable="false">Ask</string>
+    <string name="Lagonis" translatable="false">Lagonis</string>
+    <string name="Hugzord" translatable="false">Hugzord</string>
+    <string name="nitr0" translatable="false">nitr0</string>
+    <string name="NAF" translatable="false">NAF</string>
+    <string name="ELiGE" translatable="false">ELiGE</string>
+    <string name="oSee" translatable="false">oSee</string>
+    <string name="YEKINDAR" translatable="false">YEKINDAR</string>
+    <string name="Naxy" translatable="false">Naxy</string>
+    <string name="Daiki" translatable="false">Daiki</string>
+    <string name="Bstrdd" translatable="false">Bstrdd</string>
+    <string name="Nat1" translatable="false">Nat1</string>
+    <string name="Drn" translatable="false">Drn</string>
+    <string name="Palestra" translatable="false">Palestra</string>
     <string name="Email">E-mail</string>
     <string name="Senha">Password</string>
-    <string name="Pulga">Pulga</string>
-    <string name="Suetam">Suetam</string>
-    <string name="Persa">Persa</string>
-    <string name="Seeyun">Seeyun</string>
+    <string name="Pulga" translatable="false">Pulga</string>
+    <string name="Suetam" translatable="false">Suetam</string>
+    <string name="Persa" translatable="false">Persa</string>
+    <string name="Seeyun" translatable="false">Seeyun</string>
     <string name="PulgaShorts">LIQUID X FORTNITE PULGA SHORTS</string>
     <string name="JoggerLiquid">LIQUID LOGO JOGGERS</string>
-    <string name="ParteDeBaixo">PARTE DE BAIXO</string>
-    <string name="ParteDeCima">PARTE DE CIMA</string>
-    <string name="PijamaLiquid">THE BLUE CAPSULE</string>
+    <string name="ParteDeBaixo">ALL BOTTOMS</string>
+    <string name="ParteDeCima">ALL TOPS</string>
+    <string name="PijamaLiquid" translatable="false">THE BLUE CAPSULE</string>
     <string name="UrsinhoBlue">BLUE PLUSH 2.0</string>
-    <string name="Esportivo">ESPORTIVO</string>
-    <string name="Acessórios">ACESSÓRIOS</string>
+    <string name="Esportivo">ALL ATHLETICS</string>
+    <string name="Acessórios">ALL ACCESSORIES</string>
     <string name="HomemAranha">LIQUID X MARVEL | JERSEY HOMEM-ARANHA</string>
     <string name="ViuvaNegra">LIQUID X MARVEL | JERSEY VIÚVA NEGRA</string>
     <string name="CapitaoAmerica">LIQUID X MARVEL | JERSEY CAPITÃO AMÉRICA</string>
@@ -53,4 +53,15 @@
     <string name="CamisetaLiquidAzulEscuro">BRAZIL EXCLUSIVE - GEOS SHORT SLEEVE TEE - AZUL </string>
     <string name="FortniteCalça">LIQUID X FORTNITE REBOOT TRACK PANTS</string>
     <string name="Jersey2021Sponsored">TEAM LIQUID OFFICIAL 2021 JERSEY SPONSORED</string>
+    <string name="Tournaments">TOURNAMENTS</string>
+    <string name="Players">PLAYERS</string>
+    <string name="Store">STORE</string>
+    <string name="Welcome">WELCOME</string>
+    <string name="NewAccount">New Account</string>
+    <string name="Back">Back</string>
+    <string name="Login">Login</string>
+    <string name="Models">Models</string>
+    <string name="LAUNCHLIQUIDXMARVEL">LAUNCH LIQUID X MARVEL</string>
+    <string name="JERSEY2021sponsored">JERSEY2021sponsored</string>
 </resources>
+
