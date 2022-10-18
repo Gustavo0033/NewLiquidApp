@@ -6,8 +6,8 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/Linear_BlueCapsule"
+        android:id="@+id/mousepad_liquid_menor"
         android:layout_width="match_parent"
-        android:layout_height="330dp"
-        app:srcCompat="@drawable/bluepajamasettl0262_layflats_041621_tl6029_451x677" />
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mousepad_liquid" />
 </LinearLayout>
