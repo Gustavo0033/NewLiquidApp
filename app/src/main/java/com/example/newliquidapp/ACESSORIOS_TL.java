@@ -37,6 +37,7 @@ public class ACESSORIOS_TL extends AppCompatActivity {
         Lista_de_Acessorios.add(new List_acessorios(3, R.drawable.mousepad_pulga,R.string.Mousepad_Pulga));
         Lista_de_Acessorios.add(new List_acessorios(4, R.drawable.mousepad_fortnite,R.string.Mousepad_Fortnite));
         Lista_de_Acessorios.add(new List_acessorios(5, R.drawable.mousepad_liquidmaior,R.string.Mousepad_LiquidMaior));
+        Lista_de_Acessorios.add(new List_acessorios(5, R.drawable.cordao_liquid, R.string.LIQUID_LANGUAGES_LANYARD));
 
 
         adapterAcessorio adapter = new adapterAcessorio(Lista_de_Acessorios);
