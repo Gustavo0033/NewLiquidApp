@@ -5,9 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/linearText"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
     <ImageView
         android:id="@+id/Linear_BlueCapsule"
         android:layout_width="match_parent"
-        android:layout_height="330dp"
+        android:layout_height="350dp"
         app:srcCompat="@drawable/bluepajamasettl0262_layflats_041621_tl6029_451x677" />
+
 </LinearLayout>

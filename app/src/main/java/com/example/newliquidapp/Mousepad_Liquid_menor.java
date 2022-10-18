@@ -2,6 +2,7 @@ package com.example.newliquidapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -25,7 +26,7 @@ public class Mousepad_Liquid_menor extends AppCompatActivity {
 
 
         mousepad_menor = findViewById(R.id.mousepad_menor);
-        mousepad_menor.setLayoutManager(new LinearLayoutManager(this));
+        mousepad_menor.setLayoutManager(new GridLayoutManager(this, 2));
 
         List<Mousepad_menor_list> Lista_mousepadMenor = new ArrayList<>();
         Lista_mousepadMenor.add(new Mousepad_menor_list(1, R.drawable.mousepad_liquid));

@@ -38,6 +38,10 @@ public class ACESSORIOS_TL extends AppCompatActivity {
         Lista_de_Acessorios.add(new List_acessorios(4, R.drawable.mousepad_fortnite,R.string.Mousepad_Fortnite));
         Lista_de_Acessorios.add(new List_acessorios(5, R.drawable.mousepad_liquidmaior,R.string.Mousepad_LiquidMaior));
         Lista_de_Acessorios.add(new List_acessorios(5, R.drawable.cordao_liquid, R.string.LIQUID_LANGUAGES_LANYARD));
+        Lista_de_Acessorios.add(new List_acessorios(6, R.drawable.pumadaazul_liquid, R.string.TEAM_LIQUID_SLIPPERS));
+        Lista_de_Acessorios.add(new List_acessorios(7, R.drawable.pantufaliquid_branca, R.string.BLUE_SLIPPERS));
+        Lista_de_Acessorios.add(new List_acessorios(8, R.drawable.dathat_liquid, R.string.LIQUID_ESSENTIALS_DAD_HAT_V2_PRETO));
+
 
 
         adapterAcessorio adapter = new adapterAcessorio(Lista_de_Acessorios);
