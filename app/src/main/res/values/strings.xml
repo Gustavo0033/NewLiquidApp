@@ -74,5 +74,8 @@
     <string name="TEAM_LIQUID_SLIPPERS">TEAM LIQUID SLIPPERS</string>
     <string name="BLUE_SLIPPERS">BLUE SLIPPERS</string>
     <string name="LIQUID_ESSENTIALS_DAD_HAT_V2_PRETO">LIQUID ESSENTIALS DAD HAT V2 - PRETO</string>
+    <string name="Create_your_account">Create your account</string>
+    <string name="Name">Name</string>
+    <string name="Last_Name" >Last Name</string>
 </resources>
 

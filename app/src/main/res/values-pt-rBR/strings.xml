@@ -73,4 +73,7 @@
     <string name="TEAM_LIQUID_SLIPPERS">PANTUFA LIQUID AZUL</string>
     <string name="BLUE_SLIPPERS">PANTUFAS BLUE</string>
     <string name="LIQUID_ESSENTIALS_DAD_HAT_V2_PRETO">BONÉ DAT HAT V2 - TEAM LIQUID</string>
+    <string name="Create_your_account">Crie sua conta</string>
+    <string name="Name">Nome</string>
+    <string name="Last_Name">Sobrenome</string>
 </resources>

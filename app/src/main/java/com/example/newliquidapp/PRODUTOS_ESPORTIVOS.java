@@ -21,12 +21,21 @@ import java.util.List;
 public class PRODUTOS_ESPORTIVOS extends AppCompatActivity {
 
     private RecyclerView esportivoTL;
+    private View btn_back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_produtos_esportivos);
+
+
+
+        btn_back = findViewById(R.id.btn_modelos);
+        btn_back.setOnClickListener(view -> {
+            Intent intent = new Intent(PRODUTOS_ESPORTIVOS.this, MODELOS_LOJA.class);
+            startActivity(intent);
+        });
 
         esportivoTL = findViewById(R.id.CamisasEsportivas);
         esportivoTL.setLayoutManager(new LinearLayoutManager(this));

@@ -51,4 +51,7 @@
     <string name="BLUE_SLIPPERS">ZAPATILLA BLUE</string>
     <string name="TEAM_LIQUID_SLIPPERS">ZAPATILLA LIQUID AZUL</string>
     <string name="LIQUID_ESSENTIALS_DAD_HAT_V2_PRETO">GORRA DAT HAT V2 - TEAM LIQUID</string>
+    <string name="Create_your_account">Crea tu cuenta</string>
+    <string name="Name">Nombre</string>
+    <string name="Last_Name">Apellido</string>
 </resources>

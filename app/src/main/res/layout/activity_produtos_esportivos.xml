@@ -25,7 +25,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/CamisasEsportivas"
         android:layout_width="411dp"
-        android:layout_height="571dp"
+        android:layout_height="677dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -33,10 +33,10 @@
 
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_modelos"
         android:layout_width="96dp"
         android:layout_height="41dp"
-        android:text="Voltar"
+        android:text="@string/Back"
         android:backgroundTint="@color/Azul_Liquid"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

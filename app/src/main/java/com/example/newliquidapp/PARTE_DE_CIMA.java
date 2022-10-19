@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +14,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +24,10 @@ import java.util.List;
 public class PARTE_DE_CIMA extends AppCompatActivity {
 
     private RecyclerView ParteDeCima;
+    FloatingActionButton AddFab;
+    FloatingActionButton AddFab2;
+    FloatingActionButton AddFab3;
+    boolean isAllFabsVisible;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +36,45 @@ public class PARTE_DE_CIMA extends AppCompatActivity {
         setContentView(R.layout.activity_parte_de_cima);
         ParteDeCima = findViewById(R.id.ParteDeCimaActivity);
         ParteDeCima.setLayoutManager(new GridLayoutManager(this,2));
+
+        AddFab = findViewById(R.id.btn_fab);
+        AddFab2 = findViewById(R.id.btn_fab2);
+        AddFab3 = findViewById(R.id.btn_fab3);
+
+        AddFab2.setVisibility(View.GONE);
+        AddFab3.setVisibility(View.GONE);
+
+        isAllFabsVisible = false;
+
+        AddFab.setOnClickListener(view -> {
+            if (!isAllFabsVisible){
+                AddFab2.show();
+                AddFab3.show();
+                AddFab2.setVisibility(View.VISIBLE);
+                AddFab3.setVisibility(View.VISIBLE);
+
+                isAllFabsVisible = true;
+            } else{
+                AddFab2.hide();
+                AddFab3.hide();
+                AddFab2.setVisibility(View.GONE);
+                AddFab3.setVisibility(View.GONE);
+
+                isAllFabsVisible = false;
+            }
+        });
+
+
+        AddFab2.setOnClickListener(view -> {
+            Intent intent = new Intent(PARTE_DE_CIMA.this, MARVEL_HOMEM_ARANHA.class);
+            startActivity(intent);
+        });
+
+        AddFab3.setOnClickListener(view -> {
+            Toast.makeText(PARTE_DE_CIMA.this, "Alarm Added", Toast.LENGTH_SHORT).show();
+        });
+
+
 
 
 
