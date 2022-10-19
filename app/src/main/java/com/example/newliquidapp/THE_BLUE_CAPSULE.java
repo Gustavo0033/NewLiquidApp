@@ -22,6 +22,7 @@ public class THE_BLUE_CAPSULE extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_the_blue_capsule);
 
         Blue_Capsule = findViewById(R.id.the_blue_capsule);

@@ -34,6 +34,8 @@ public class PARTE_DE_CIMA extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_parte_de_cima);
+
+
         ParteDeCima = findViewById(R.id.ParteDeCimaActivity);
         ParteDeCima.setLayoutManager(new GridLayoutManager(this,2));
 
@@ -95,6 +97,17 @@ public class PARTE_DE_CIMA extends AppCompatActivity {
         ParteDeCimaLista.add(new ListParteCima(14, R.drawable.lvth_njersey_brazil_sponsored__tl0515_0000_layer29_564x846, R.string.JerseyAzulPatrocinio, Color.TRANSPARENT));
 
         CimaAdapter adapter = new CimaAdapter(ParteDeCimaLista);
+
+        adapter.setListener(id -> {
+            switch (id){
+                case 7:
+                    startActivity(new Intent(PARTE_DE_CIMA.this, MARVEL_HOMEM_ARANHA.class));
+                    break;
+                case 11:
+                    startActivity(new Intent(PARTE_DE_CIMA.this, CAPITAO_AMERICCA_MARVEL.class));
+            }
+        });
+
         ParteDeCima.setAdapter(adapter);
     }
 

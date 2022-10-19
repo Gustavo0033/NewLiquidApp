@@ -19,26 +19,30 @@
         app:srcCompat="@drawable/escudo_capitao_america_correto"
         android:background="@color/Azul_Liquid"/>
 
-    <Button
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/capitao_america_"
+        android:layout_width="417dp"
+        android:layout_height="381dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222"
+        tools:listitem="@layout/linear_capitao_america" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btn_capitao_america"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Back"
-        android:textColor="@color/white"
-        android:backgroundTint="@color/Azul_Liquid"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/seta_para_esquerda"
+        app:fabSize="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.957" />
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="413dp"
-        android:layout_height="362dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.222" />
+        app:layout_constraintVertical_bias="0.981" />
 </androidx.constraintlayout.widget.ConstraintLayout>

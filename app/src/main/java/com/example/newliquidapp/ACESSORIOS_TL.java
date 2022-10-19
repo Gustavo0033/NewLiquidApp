@@ -40,7 +40,13 @@ public class ACESSORIOS_TL extends AppCompatActivity {
         Lista_de_Acessorios.add(new List_acessorios(5, R.drawable.cordao_liquid, R.string.LIQUID_LANGUAGES_LANYARD));
         Lista_de_Acessorios.add(new List_acessorios(6, R.drawable.pumadaazul_liquid, R.string.TEAM_LIQUID_SLIPPERS));
         Lista_de_Acessorios.add(new List_acessorios(7, R.drawable.pantufaliquid_branca, R.string.BLUE_SLIPPERS));
-        Lista_de_Acessorios.add(new List_acessorios(8, R.drawable.dathat_liquid, R.string.LIQUID_ESSENTIALS_DAD_HAT_V2_PRETO));
+        Lista_de_Acessorios.add(new List_acessorios(8, R.drawable.liquid_x_fortnite_pulga_socks, R.string.liquid_x_fortnite_pulga_socks));
+        Lista_de_Acessorios.add(new List_acessorios(9, R.drawable.liquid_essentials_dad_hat_v2___azul, R.string.liquid_essentials_dad_hat_v2___azul));
+        Lista_de_Acessorios.add(new List_acessorios(10, R.drawable.basics_snapback_hat___azul, R.string.basics_snapback_hat___azul));
+        Lista_de_Acessorios.add(new List_acessorios(11, R.drawable.liquid_x_fortnite_buffed_beanie, R.string.liquid_x_fortnite_buffed_beanie));
+        Lista_de_Acessorios.add(new List_acessorios(12, R.drawable.liquid_x_fortnite_reboot_5_panel_hat, R.string.liquid_x_fortnite_reboot_5_panel_hat));
+        Lista_de_Acessorios.add(new List_acessorios(12, R.drawable.basics_snapback_hat___preto, R.string.basics_snapback_hat___preto));
+
 
 
 
