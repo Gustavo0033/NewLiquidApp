@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -76,16 +77,25 @@ public class BRAZIL_EXCLUSIVE_SHIRT extends AppCompatActivity {
 
 
         adapterExclusiveBR adapter = new adapterExclusiveBR(ListaExclusiveBrazil);
+
+
         Brazil_exclusive.setAdapter(adapter);
 
     }
     private class adapterExclusiveBR extends RecyclerView.Adapter<adapterExclusiveBR.ViewHolderExclusive>{
 
         private List<list_brExclusive> ListaExclusiveBrazil;
+        private onClickExclusive listener;
 
         private adapterExclusiveBR(List<list_brExclusive>ListaExclusiveBrazil){
             this.ListaExclusiveBrazil = ListaExclusiveBrazil;
         }
+
+
+        public void setListener(onClickExclusive listener){
+            this.listener = listener;
+        }
+
         @NonNull
         @Override
         public ViewHolderExclusive onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {

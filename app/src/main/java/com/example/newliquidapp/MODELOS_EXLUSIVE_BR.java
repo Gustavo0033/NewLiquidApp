@@ -5,10 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -33,16 +35,36 @@ public class MODELOS_EXLUSIVE_BR extends AppCompatActivity {
 
 
         adapterExclusive adapter = new adapterExclusive(ListaBrExclusive);
+
+
+
+        adapter.setListener(id -> {
+            switch (id){
+                case 1:
+                    startActivity(new Intent(MODELOS_EXLUSIVE_BR.this, MARVEL_HOMEM_ARANHA.class));
+                    break;
+                case 2:
+                    startActivity(new Intent(MODELOS_EXLUSIVE_BR.this, MARVEL_HOMEM_ARANHA.class));
+                    break;
+            }
+        });
         models_exclusive.setAdapter(adapter);
 
     }
     private class adapterExclusive extends RecyclerView.Adapter<adapterExclusive.ViewHolderExclusive>{
 
         private List<list_brExclusive> ListaBrExclusive;
+        private onClickExclusive listener;
 
         private adapterExclusive(List<list_brExclusive> ListaBrExclusive){
             this.ListaBrExclusive = ListaBrExclusive;
         }
+
+        public void setListener(onClickExclusive listener){
+            this.listener = listener;
+        }
+
+
         @NonNull
         @Override
         public ViewHolderExclusive onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -69,8 +91,12 @@ public class MODELOS_EXLUSIVE_BR extends AppCompatActivity {
                 ImageView imgExclusive = itemView.findViewById(R.id.linear_imageExclusive);
                 imgExclusive.setImageResource(item.getImageview());
 
-                TextView txtExclusive = itemView.findViewById(R.id.txtLinear);
-                txtExclusive.setText(item.getTextView());
+                LinearLayout container = (LinearLayout) itemView;
+
+                container.setOnClickListener(view -> {
+                    listener.onClick(item.getId());
+                });
+
             }
         }
 }
