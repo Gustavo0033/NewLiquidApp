@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/CamisetaLiquidBranca"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/linear_imageExclusive"
+        android:layout_width="match_parent"
+        android:layout_height="414dp"
+        app:srcCompat="@drawable/teamliquidgeostee_brazilgeos_black_tl0259_0005_layer2copy2_564x846" />
+
+</LinearLayout>
