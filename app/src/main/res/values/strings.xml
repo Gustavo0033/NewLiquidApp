@@ -1,10 +1,6 @@
 <resources>
-    <string name="app_name">NewLiquidApp</string>
-    <string name="Phoenix" translatable="false">Phoenix</string>
-    <string name="Jogador01_CSGO" translatable="false">TeamLiquid</string>
-    <string name="Paluh" translatable="false">Paluh</string>
-    <string name="Nesk" translatable="false">Neskwga</string>
-    <string name="Resetz" translatable="false">Resetz</string>
+
+    <!-- Store -->
     <string name="Ask" translatable="false">Ask</string>
     <string name="Lagonis" translatable="false">Lagonis</string>
     <string name="Hugzord" translatable="false">Hugzord</string>
@@ -18,7 +14,6 @@
     <string name="Bstrdd" translatable="false">Bstrdd</string>
     <string name="Nat1" translatable="false">Nat1</string>
     <string name="Drn" translatable="false">Drn</string>
-    <string name="Palestra" translatable="false">Palestra</string>
     <string name="Email">E-mail</string>
     <string name="Senha">Password</string>
     <string name="Pulga" translatable="false">Pulga</string>
@@ -39,7 +34,7 @@
     <string name="HoodieSpiderMan">LIQUID X MARVEL | HOMEM ARANHA ARTWORK HOODIE</string>
     <string name="shirtSpiderMan">LIQUID X MARVEL | HOMEM ARANHA ARTWORK SHORT SLEEVE TEE</string>
     <string name="ReinoQuantico">LIQUID X MARVEL VINGADORES | ULTIMATO JERSEY TRAJE REINO QUÂNTICO</string>
-    <string name="Jersey2021">TEAM LIQUID OFFICIAL 2021 JERSEY</string>
+    <string name="jersey2021">TEAM LIQUID OFFICIAL 2021 JERSEY</string>
     <string name="JerseyAzul">TEAM LIQUID BRAZIL EXCLUSIVE JERSEY</string>
     <string name="MoletomLiquid"> TEAM LIQUID OFFICIAL 2021 JERSEY HOODIE SPONSORS</string>
     <string name="JerseyBrancaPatrocinio">TEAM LIQUID CHAMPIONSHIP JERSEY SPONSORED</string>

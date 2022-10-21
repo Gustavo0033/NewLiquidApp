@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">NewLiquidApp</string>
     <string name="Jersey2021Sponsored">CAMISETA 2021 - PATROCINADORES</string>
     <string name="FortniteCalça">CALÇA FORTNITE</string>
     <string name="CamisetaLiquidAzulEscuro">CAMISETA AZUL EXCLUSIVA - BRASIL</string>
     <string name="CamisetaLiquidPreta">CAMISETA PRETA EXCLUSIVA - BRASIL</string>
     <string name="CamisetaLiquidBranca">CAMISETA BRANCA EXCLUSIVA - BRASIL</string>
     <string name="CamisetaLiquidLinhaBranca">CAMISETA LIQUID - SLEVEE TEE</string>
-    <string name="Phoenix">Phoenix</string>
-    <string name="Paluh">Paluh</string>
-    <string name="Nesk">Neskwga</string>
-    <string name="Resetz">Resetz</string>
     <string name="Ask">Ask</string>
     <string name="Lagonis">Lagonis</string>
     <string name="Hugzord">Hugzord</string>
@@ -24,7 +19,6 @@
     <string name="Bstrdd">Bstrd</string>
     <string name="Nat1">Nat1</string>
     <string name="Drn">Drn</string>
-    <string name="Palestra">Palestra</string>
     <string name="Email">E-mail</string>
     <string name="Senha">Senha</string>
     <string name="Pulga">PULGA</string>
@@ -41,7 +35,6 @@
     <string name="HoodieSpiderMan">LIQUID X MARVEL | MOLETOM HOMEM-ARANHA</string>
     <string name="shirtSpiderMan">LIQUID X MARVEL | CAMISA HOMEM-ARANHA</string>
     <string name="ReinoQuantico">LIQUID X MARVEL VINGADORES | CAMISETA REINO QUÂNTICO</string>
-    <string name="Jersey2021">TEAM LIQUID CAMISETA OFICIAL 2021</string>
     <string name="JerseyAzul">TEAM LIQUID CAMISETA EXCLUSIVA BRASIL</string>
     <string name="MoletomLiquid">TEAM LIQUID MOLETOM EXCLUSIVO BRASIL - PATROCINADORES</string>
     <string name="JerseyBrancaPatrocinio">TEAM LIQUID CAMISETA DE CAMPEONATO - PATROCINADORES</string>
@@ -82,4 +75,5 @@
     <string name="liquid_x_fortnite_buffed_beanie">LIQUID X FORTNITE TOLCA</string>
     <string name="liquid_x_fortnite_reboot_5_panel_hat">BONÉ LIQUID X FORTNITE</string>
     <string name="basics_snapback_hat___preto">BONÉ ABA RETA - PRETA</string>
+
 </resources>

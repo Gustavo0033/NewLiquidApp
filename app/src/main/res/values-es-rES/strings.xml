@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">NewLiquidApp</string>
     <string name="Email">Correo electrónico</string>
     <string name="Senha">Clave</string>
     <string name="PulgaShorts">PANTALONES CORTOS DE PULGA - FORTNITE</string>
@@ -15,7 +14,6 @@
     <string name="HoodieSpiderMan">LIQUID X MARVEL | CAMISA DE ENTRENAMIENTO HOMEM-ARANHA</string>
     <string name="shirtSpiderMan">LIQUID X MARVEL | CAMISA HOMEM-ARANHA</string>
     <string name="ReinoQuantico">LIQUID X MARVEL VINGADORES | CAMISA REINO QUÂNTICO</string>
-    <string name="Jersey2021">TEAM LIQUID CAMISETA DE MANGA CORTA OFICIAL 2021</string>
     <string name="JerseyAzul">TEAM LIQUID CAMISETA DE MANGA CORTA EXCLUSIVA BRASIL</string>
     <string name="MoletomLiquid">TEAM LIQUID CAMISETA DE ENTRENAMIENTO EXCLUSIVO BRASIL - PATROCINADORES</string>
     <string name="JerseyBrancaPatrocinio">TEAM LIQUID CAMISETA DE CAMPEONATO - PATROCINADORES</string>
