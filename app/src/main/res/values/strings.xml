@@ -1,37 +1,6 @@
 <resources>
-    <!-- home -->
-    <string name="app_name">NewLiquidApp</string>
-<<<<<<< HEAD
-    <string name="Phoenix">Phoenix</string>
-    <string name="Jogador01_CSGO">TeamLiquid</string>
-    <string name="Paluh">Paluh</string>
-    <string name="Nesk">Neskwga</string>
-    <string name="Resetz">Resetz</string>
-    <!-- home -->
 
     <!-- Store -->
-    <string name="Ask">Ask</string>
-    <string name="Lagonis">Lagonis</string>
-    <string name="Hugzord">Hugzord</string>
-    <string name="nitr0">nitr0</string>
-    <string name="NAF">NAF</string>
-    <string name="ELiGE">ELiGE</string>
-    <string name="oSee">oSee</string>
-    <string name="YEKINDAR">YEKINDAR</string>
-    <string name="Naxy">Naxy</string>
-    <string name="Daiki">Daiki</string>
-    <string name="Bstrdd">Bstrdd</string>
-    <string name="Nat1">Nat1</string>
-    <string name="Drn">Drn</string>
-    <!-- Store -->
-
-    <string name="Palestra">Palestra</string>
-=======
-    <string name="Phoenix" translatable="false">Phoenix</string>
-    <string name="Jogador01_CSGO" translatable="false">TeamLiquid</string>
-    <string name="Paluh" translatable="false">Paluh</string>
-    <string name="Nesk" translatable="false">Neskwga</string>
-    <string name="Resetz" translatable="false">Resetz</string>
     <string name="Ask" translatable="false">Ask</string>
     <string name="Lagonis" translatable="false">Lagonis</string>
     <string name="Hugzord" translatable="false">Hugzord</string>
@@ -45,8 +14,6 @@
     <string name="Bstrdd" translatable="false">Bstrdd</string>
     <string name="Nat1" translatable="false">Nat1</string>
     <string name="Drn" translatable="false">Drn</string>
-    <string name="Palestra" translatable="false">Palestra</string>
->>>>>>> b82e9b27293b2b955aef32a25fcb976d932fab96
     <string name="Email">E-mail</string>
     <string name="Senha">Password</string>
     <string name="Pulga" translatable="false">Pulga</string>
@@ -81,9 +48,6 @@
     <string name="CamisetaLiquidAzulEscuro">BRAZIL EXCLUSIVE - GEOS SHORT SLEEVE TEE - AZUL </string>
     <string name="FortniteCalça">LIQUID X FORTNITE REBOOT TRACK PANTS</string>
     <string name="Jersey2021Sponsored">TEAM LIQUID OFFICIAL 2021 JERSEY SPONSORED</string>
-<<<<<<< HEAD
-    <string name="Tournaments">Tournaments</string>
-=======
     <string name="Tournaments">TOURNAMENTS</string>
     <string name="Players">PLAYERS</string>
     <string name="Store">STORE</string>
@@ -114,7 +78,6 @@
     <string name="liquid_x_fortnite_buffed_beanie">LIQUID X FORTNITE BUFFED BEANIE</string>
     <string name="liquid_x_fortnite_reboot_5_panel_hat">LIQUID X FORTNITE REBOOT 5 PANEL HAT</string>
     <string name="basics_snapback_hat___preto">BASICS SNAPBACK HAT BLACK</string>
->>>>>>> b82e9b27293b2b955aef32a25fcb976d932fab96
 </resources>
 
 
