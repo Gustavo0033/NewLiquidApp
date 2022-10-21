@@ -58,4 +58,8 @@
     <string name="liquid_x_fortnite_buffed_beanie">LIQUID X FORTNITE GORRA</string>
     <string name="liquid_x_fortnite_reboot_5_panel_hat">BONÉ LIQUID X FORTNITE</string>
     <string name="basics_snapback_hat___preto">BONÉ ABA RETA - PRETA</string>
+    <string name="app_name">Nueva Aplicacion Liquid</string>
+    <string name="Age" translatable="false">años</string>
+    <string name="Social_Midias">Redes Sociales</string>
+    <string name="Nickname">Apelido</string>
 </resources>

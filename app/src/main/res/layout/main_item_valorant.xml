@@ -8,10 +8,11 @@
     <TextView
         android:id="@+id/item_txt_nameValorant"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="46dp"
         android:text="TextView"
+        android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="20dp"/>
+        android:textSize="20dp" />
 
     <ImageView
         android:id="@+id/item_img_iconValorant"

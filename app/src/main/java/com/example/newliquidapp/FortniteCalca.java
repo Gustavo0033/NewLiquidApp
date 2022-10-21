@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,12 +17,31 @@ import java.util.List;
 public class FortniteCalca extends AppCompatActivity {
 
     private RecyclerView calcaFort;
+    private View btn_backBaixo;
+    private View logo_fort_calca;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_fortnite_calca);
+
+        logo_fort_calca = findViewById(R.id.FortCalcaLogo);
+        logo_fort_calca.setOnClickListener(view -> {
+            Intent intent = new Intent(FortniteCalca.this, MainActivity.class);
+            startActivity(intent);
+        });
+
+
+
+
+
+        btn_backBaixo = findViewById(R.id.back_parteBaixo);
+        btn_backBaixo.setOnClickListener(view -> {
+            Intent intent = new Intent(FortniteCalca.this, PARTE_DE_BAIXO.class);
+            startActivity(intent);
+        });
+
 
         calcaFort = findViewById(R.id.calcaFort);
         calcaFort.setLayoutManager(new LinearLayoutManager(this));

@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,12 +17,30 @@ import java.util.List;
 
 public class JoggerLiquid extends AppCompatActivity {
     private RecyclerView JoggersLiquid;
+    private View btn_backBaixo2;
+    private View logo_jogger_liquid;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_jogger_liquid);
+
+        logo_jogger_liquid = findViewById(R.id.logoJoggerLiquid);
+        logo_jogger_liquid.setOnClickListener(view -> {
+            Intent intent = new Intent(JoggerLiquid.this, MainActivity.class);
+            startActivity(intent);
+        });
+
+
+
+
+        btn_backBaixo2 = findViewById(R.id.back_parteBaixo2);
+        btn_backBaixo2.setOnClickListener(view -> {
+            Intent intent = new Intent(JoggerLiquid.this, PARTE_DE_BAIXO.class);
+            startActivity(intent );
+        });
 
         JoggersLiquid = findViewById(R.id.recycleJogger);
         JoggersLiquid.setLayoutManager(new LinearLayoutManager(this));
