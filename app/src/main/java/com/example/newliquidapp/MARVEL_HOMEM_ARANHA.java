@@ -20,6 +20,7 @@ public class MARVEL_HOMEM_ARANHA extends AppCompatActivity {
 
     private RecyclerView SpiderManTL;
     private View btn_spiderMan;
+    private View btn_logo_spider;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,17 @@ public class MARVEL_HOMEM_ARANHA extends AppCompatActivity {
             Intent intent = new Intent(MARVEL_HOMEM_ARANHA.this, Loja_TeamLiquid.class);
             startActivity(intent);
         });
+
+
+
+        btn_logo_spider = findViewById(R.id.img_test_back);
+        btn_logo_spider.setOnClickListener(view -> {
+            Intent intent = new Intent (MARVEL_HOMEM_ARANHA.this, MainActivity.class);
+            startActivity(intent);
+        });
+
+
+
 
 
         SpiderManTL = findViewById(R.id.SpiderManLiquid);

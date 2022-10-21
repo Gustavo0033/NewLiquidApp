@@ -9,7 +9,7 @@
         android:id="@+id/txt_nameModels"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Modelos"
+        android:text="@string/Models"
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textAlignment="center"/>

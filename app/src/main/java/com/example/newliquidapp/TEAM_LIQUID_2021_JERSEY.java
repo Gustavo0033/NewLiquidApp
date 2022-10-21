@@ -30,10 +30,10 @@ public class TEAM_LIQUID_2021_JERSEY extends AppCompatActivity {
         Jersey2021.setLayoutManager(new LinearLayoutManager(this));
 
         List<ListJersey2021> JerseyList2021 = new ArrayList<>();
-        JerseyList2021.add(new ListJersey2021( 1, R.drawable.teamliquid_official2021_sponsive, R.string.JerseyAzulPatrocinio, Color.TRANSPARENT));
-        JerseyList2021.add(new ListJersey2021( 2, R.drawable.jerseyazul_patrocinio, R.string.JerseyAzulPatrocinio, Color.TRANSPARENT));
-        JerseyList2021.add(new ListJersey2021( 3, R.drawable.jerseyazul_patrocinioo, R.string.JerseyAzulPatrocinio, Color.TRANSPARENT));
-        JerseyList2021.add(new ListJersey2021( 4, R.drawable.golajerseyazul_patrocinio, R.string.JerseyAzulPatrocinio, Color.TRANSPARENT));
+        JerseyList2021.add(new ListJersey2021( 1, R.drawable.jersey_sem_patrocinio02, R.string.Jersey2021, Color.TRANSPARENT));
+        JerseyList2021.add(new ListJersey2021( 2, R.drawable.jersey2021_sem_patrocinio01, R.string.Jersey2021, Color.TRANSPARENT));
+        JerseyList2021.add(new ListJersey2021( 3, R.drawable._32520_tl20915_451x677, R.string.Jersey2021, Color.TRANSPARENT));
+        JerseyList2021.add(new ListJersey2021( 4, R.drawable.golajerseyazul_patrocinio, R.string.Jersey2021, Color.TRANSPARENT));
 
 
 
@@ -88,9 +88,6 @@ public class TEAM_LIQUID_2021_JERSEY extends AppCompatActivity {
             ImageView imgJersey = itemView.findViewById(R.id.jerseyLiquid2021);
             LinearLayout container = (LinearLayout) itemView;
 
-            container.setOnClickListener(view -> {
-                listener.onClick(item.getId());
-            });
 
 
             imgJersey.setImageResource(item.getImageJersey());

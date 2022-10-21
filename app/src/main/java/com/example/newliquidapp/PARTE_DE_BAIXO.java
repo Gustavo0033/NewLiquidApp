@@ -20,6 +20,7 @@ import java.util.List;
 public class PARTE_DE_BAIXO extends AppCompatActivity {
 
     private RecyclerView parteDeBaixo;
+    private View btn_back_parteBaixo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +30,17 @@ public class PARTE_DE_BAIXO extends AppCompatActivity {
 
         parteDeBaixo = findViewById(R.id.ParteDeBaixo);
         parteDeBaixo.setLayoutManager(new LinearLayoutManager(this));
+
+
+
+        btn_back_parteBaixo = findViewById(R.id.btn_parte_baixo_back);
+        btn_back_parteBaixo.setOnClickListener(view -> {
+            Intent intent = new Intent(PARTE_DE_BAIXO.this, MODELOS_LOJA.class);
+            startActivity(intent);
+        });
+
+
+
 
         List<ParteDeBaixo_Lista> ListaParteBaixo = new ArrayList<>();
         ListaParteBaixo.add(new ParteDeBaixo_Lista(1, R.drawable.joggerliquid, R.string.JoggerLiquid));

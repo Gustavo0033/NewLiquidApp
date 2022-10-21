@@ -6,4 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".ACESSORIOS_TL">
 
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="413dp"
+        android:layout_height="79dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/tlsemfundo"
+        android:background="@color/Azul_Liquid"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/acessorios_liquid"
+        android:layout_width="413dp"
+        android:layout_height="680dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.641"
+        tools:listitem="@layout/linear_acessorios" />
 </androidx.constraintlayout.widget.ConstraintLayout>

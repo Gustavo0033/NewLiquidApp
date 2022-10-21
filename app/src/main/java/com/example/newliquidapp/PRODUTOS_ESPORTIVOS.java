@@ -21,6 +21,7 @@ import java.util.List;
 public class PRODUTOS_ESPORTIVOS extends AppCompatActivity {
 
     private RecyclerView esportivoTL;
+    private View btn_back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,11 +29,23 @@ public class PRODUTOS_ESPORTIVOS extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.activity_produtos_esportivos);
 
+
+
+        btn_back = findViewById(R.id.btn_modelos);
+        btn_back.setOnClickListener(view -> {
+            Intent intent = new Intent(PRODUTOS_ESPORTIVOS.this, MODELOS_LOJA.class);
+            startActivity(intent);
+        });
+
         esportivoTL = findViewById(R.id.CamisasEsportivas);
         esportivoTL.setLayoutManager(new LinearLayoutManager(this));
 
         List<List_EsportivoTL> Lista_Jersey_esportiva = new ArrayList<>();
+<<<<<<< HEAD
         Lista_Jersey_esportiva.add(new List_EsportivoTL(1, R.drawable.jerseyazul_patrocinio, Color.WHITE, R.string.jersey2021));
+=======
+        Lista_Jersey_esportiva.add(new List_EsportivoTL(1, R.drawable._32520_tl20915_451x677, Color.WHITE, R.string.Jersey2021));
+>>>>>>> b82e9b27293b2b955aef32a25fcb976d932fab96
         Lista_Jersey_esportiva.add(new List_EsportivoTL(2, R.drawable.lvth_njersey_brazil_sponsored__tl0515_0000_layer29_564x846, Color.WHITE, R.string.JerseyAzul));
         Lista_Jersey_esportiva.add(new List_EsportivoTL(3, R.drawable.lvth_nchampionshipjersey_tl0393_0004_layer2copy_b7c12443_7aac_4029_b1b9_4053476566bb_564x846, Color.WHITE, R.string.JerseyBranca));
         Lista_Jersey_esportiva.add(new List_EsportivoTL(4, R.drawable.teamliquid_official2021_hoodie_sponsors_04_564x846, Color.WHITE, R.string.MoletomLiquid));

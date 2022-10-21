@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/linear_imageExclusive"
+        android:layout_width="match_parent"
+        android:layout_height="434dp"
+        app:srcCompat="@drawable/teamliquidgeostee_brazilgeos_black_tl0259_0005_layer2copy2_564x846" />
+
+</LinearLayout>

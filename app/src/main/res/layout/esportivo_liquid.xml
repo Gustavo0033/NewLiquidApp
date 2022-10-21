@@ -17,6 +17,6 @@
     <ImageView
         android:id="@+id/LinearImageTL"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="553dp"
         app:srcCompat="@drawable/_32520_tl20915_451x677" />
 </LinearLayout>

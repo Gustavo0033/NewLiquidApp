@@ -23,7 +23,7 @@
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Create your account"
+        android:text="@string/Create_your_account"
         android:textColor="@color/Azul_Liquid"
         android:textSize="22dp"
         android:textStyle="italic"
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/Azul_Liquid"
         android:ems="10"
-        android:hint="E-mail"
+        android:hint="@string/Email"
         android:inputType="textEmailAddress"
         android:textColor="@color/Azul_Liquid"
         android:textColorHint="@color/Azul_Liquid"
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/Azul_Liquid"
         android:ems="10"
-        android:hint="Password"
+        android:hint="@string/Senha"
         android:inputType="textPassword"
         android:textColor="@color/Azul_Liquid"
         android:textColorHint="@color/Azul_Liquid"
@@ -73,7 +73,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/Azul_Liquid"
         android:ems="10"
-        android:hint="Name"
+        android:hint="@string/Name"
         android:inputType="textPersonName"
         android:textColor="@color/Azul_Liquid"
         android:textColorHint="@color/Azul_Liquid"
@@ -90,7 +90,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/Azul_Liquid"
         android:ems="10"
-        android:hint="Last name"
+        android:hint="@string/Last_Name"
         android:inputType="textPersonName"
         android:textColor="@color/Azul_Liquid"
         android:textColorHint="@color/Azul_Liquid"
@@ -99,5 +99,22 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_createAccount_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/seta_para_esquerda"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.981" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

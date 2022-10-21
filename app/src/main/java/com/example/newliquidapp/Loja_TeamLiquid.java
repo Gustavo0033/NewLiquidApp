@@ -15,6 +15,9 @@ import android.widget.Adapter;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,8 +26,7 @@ public class Loja_TeamLiquid extends AppCompatActivity {
 
     private RecyclerView LojaTL;
     private View btn_back_Loja;
-    private View btnModels;
-
+    FloatingActionButton btnModels;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,11 +41,11 @@ public class Loja_TeamLiquid extends AppCompatActivity {
         });
 
         btnModels = findViewById(R.id.btn_modelsTL);
-        btnModels.setOnClickListener(view ->{
+
+        btnModels.setOnClickListener(view -> {
             Intent intent = new Intent(Loja_TeamLiquid.this, MODELOS_LOJA.class);
             startActivity(intent);
         });
-
 
 
 

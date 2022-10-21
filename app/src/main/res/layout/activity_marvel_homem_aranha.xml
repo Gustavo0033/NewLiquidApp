@@ -7,7 +7,7 @@
     tools:context=".MARVEL_HOMEM_ARANHA">
 
     <ImageView
-        android:id="@+id/imageView17"
+        android:id="@+id/img_test_back"
         android:layout_width="410dp"
         android:layout_height="72dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,32 +19,18 @@
         app:srcCompat="@drawable/homem_aranha_liquid"
         android:background="@color/Azul_Liquid"/>
 
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/SpiderManLiquid"
         android:layout_width="406dp"
         android:layout_height="317dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.19"
+        app:layout_constraintVertical_bias="0.172"
         tools:listitem="@layout/homem_aranha_recycleview" />
-
-
-    <Button
-        android:id="@+id/btn_spierMan_back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Back"
-        android:textColor="@color/white"
-        android:backgroundTint="@color/Azul_Liquid"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
 
     <TextView
         android:id="@+id/textView20"
@@ -57,34 +43,25 @@
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.638" />
+        app:layout_constraintVertical_bias="0.547" />
 
-    <ImageView
-        android:id="@+id/imageView33"
-        android:layout_width="56dp"
-        android:layout_height="49dp"
-        android:rotation="88"
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_spierMan_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/seta_para_esquerda"
+        app:fabSize="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393"
-        app:srcCompat="@drawable/seta_para_direita" />
-
-    <ImageView
-        android:id="@+id/imageView34"
-        android:layout_width="56dp"
-        android:layout_height="49dp"
-        android:rotation="-92"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.078"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.247"
-        app:srcCompat="@drawable/seta_para_direita" />
+        app:layout_constraintVertical_bias="0.981" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

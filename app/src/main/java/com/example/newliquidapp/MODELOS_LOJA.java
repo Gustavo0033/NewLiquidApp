@@ -21,12 +21,21 @@ import java.util.List;
 public class MODELOS_LOJA extends AppCompatActivity {
 
     private RecyclerView store_models;
+    private View btn_back_loja;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_modelos_loja);
+
+        btn_back_loja = findViewById(R.id.btn_back_loja);
+        btn_back_loja.setOnClickListener(view -> {
+            Intent intent = new Intent(MODELOS_LOJA.this, Loja_TeamLiquid.class);
+            startActivity(intent);
+        });
+
+
 
         store_models = findViewById(R.id.modelo_store);
         store_models.setLayoutManager(new LinearLayoutManager(this));
@@ -57,7 +66,7 @@ public class MODELOS_LOJA extends AppCompatActivity {
                     break;
                 case 5: startActivity(new Intent(MODELOS_LOJA.this,PRODUTOS_ESPORTIVOS.class));
                     break;
-                case 6: startActivity(new Intent(MODELOS_LOJA.this,PRODUTOS_ESPORTIVOS.class));
+                case 6: startActivity(new Intent(MODELOS_LOJA.this,Loja_TeamLiquid.class));
                     break;
                 case 7: startActivity(new Intent(MODELOS_LOJA.this,PRODUTOS_ESPORTIVOS.class));
                     break;
