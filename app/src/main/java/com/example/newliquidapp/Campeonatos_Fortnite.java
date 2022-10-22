@@ -34,10 +34,6 @@ public class Campeonatos_Fortnite extends AppCompatActivity {
         });
 
 
-
-
-
-
         CampeonatosFornite = findViewById(R.id.CampFortnite);
         CampeonatosFornite.setLayoutManager(new LinearLayoutManager(this));
 
@@ -97,7 +93,6 @@ public class Campeonatos_Fortnite extends AppCompatActivity {
         public ViewHolderFort onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
             return new ViewHolderFort(getLayoutInflater().inflate(R.layout.fornite_campeonatos, parent, false));
         }
-
         @Override
         public void onBindViewHolder(@NonNull ViewHolderFort holder, int position) {
 

@@ -95,18 +95,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/botao_NaxyBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Back"
-        android:backgroundTint="@color/Azul_Liquid"
+        android:layout_gravity="end"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/seta_para_esquerda"
+        app:fabSize="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.981" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
