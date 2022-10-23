@@ -40,7 +40,7 @@ public class Campeonatos extends AppCompatActivity {
 
 
        List<InfoCampeonato> InfoCamps = new ArrayList<>();
-       InfoCamps.add(new InfoCampeonato(1,R.drawable.fortnite_fundo, Color.TRANSPARENT));
+       InfoCamps.add(new InfoCampeonato(1,R.drawable.fortnite_logo_preto, Color.TRANSPARENT));
        InfoCamps.add(new InfoCampeonato(2,R.drawable.b4d710c6bc6c9009e8b88d9e2326ddec, Color.BLACK));
        InfoCamps.add(new InfoCampeonato(3, R.drawable.freefire_teste, Color.WHITE));
        InfoCamps.add(new InfoCampeonato(4, R.drawable.csgo_liquid_branca, Color.GRAY));
