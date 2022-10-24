@@ -1,6 +1,7 @@
 <resources>
 
     <!-- Store -->
+    <string name="app_name">NewLiquidApp</string>
     <string name="Ask" translatable="false">Ask</string>
     <string name="Lagonis" translatable="false">Lagonis</string>
     <string name="Hugzord" translatable="false">Hugzord</string>
@@ -34,7 +35,6 @@
     <string name="HoodieSpiderMan">LIQUID X MARVEL | HOMEM ARANHA ARTWORK HOODIE</string>
     <string name="shirtSpiderMan">LIQUID X MARVEL | HOMEM ARANHA ARTWORK SHORT SLEEVE TEE</string>
     <string name="ReinoQuantico">LIQUID X MARVEL VINGADORES | ULTIMATO JERSEY TRAJE REINO QUÂNTICO</string>
-    <string name="jersey2021">TEAM LIQUID OFFICIAL 2021 JERSEY</string>
     <string name="JerseyAzul">TEAM LIQUID BRAZIL EXCLUSIVE JERSEY</string>
     <string name="MoletomLiquid"> TEAM LIQUID OFFICIAL 2021 JERSEY HOODIE SPONSORS</string>
     <string name="JerseyBrancaPatrocinio">TEAM LIQUID CHAMPIONSHIP JERSEY SPONSORED</string>
@@ -78,6 +78,10 @@
     <string name="liquid_x_fortnite_buffed_beanie">LIQUID X FORTNITE BUFFED BEANIE</string>
     <string name="liquid_x_fortnite_reboot_5_panel_hat">LIQUID X FORTNITE REBOOT 5 PANEL HAT</string>
     <string name="basics_snapback_hat___preto">BASICS SNAPBACK HAT BLACK</string>
+    <string name="Jersey2021">Jersey2021</string>
+    <string name="Nesk" translatable="false">Nesk</string>
+    <string name="Paluh" translatable="false">Paluh</string>
+    <string name="Resetz" translatable="false">Resetz</string>
 </resources>
 
 

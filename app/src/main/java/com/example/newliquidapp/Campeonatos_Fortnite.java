@@ -98,10 +98,6 @@ public class Campeonatos_Fortnite extends AppCompatActivity {
 
             ListCampsFortnite mainItemCurrentFort = ListFortnite.get(position);
             holder.bind(mainItemCurrentFort);
-<<<<<<< HEAD
-
-=======
->>>>>>> b82e9b27293b2b955aef32a25fcb976d932fab96
 
         }
 
