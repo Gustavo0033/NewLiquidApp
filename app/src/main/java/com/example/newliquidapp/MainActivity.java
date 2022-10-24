@@ -11,7 +11,6 @@ public class MainActivity extends AppCompatActivity {
     private View Campeonato;
     private View Loja;
     private View Jogadores;
-    private View EntrarConta;
     private View EntrarContaLiquid;
     private View NovaContaLiquid;
 
@@ -50,11 +49,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-            EntrarConta = findViewById(R.id.btn_Entrar_Conta);
-            EntrarConta.setOnClickListener(view -> {
-                Intent intent = new Intent(MainActivity.this, EntrarConta.class);
-                startActivity(intent);
-            });
 
 
             NovaContaLiquid = findViewById(R.id.btn_nova_conta);

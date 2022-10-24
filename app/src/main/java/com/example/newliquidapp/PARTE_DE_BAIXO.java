@@ -44,15 +44,19 @@ public class PARTE_DE_BAIXO extends AppCompatActivity {
 
         List<ParteDeBaixo_Lista> ListaParteBaixo = new ArrayList<>();
         ListaParteBaixo.add(new ParteDeBaixo_Lista(1, R.drawable.joggerliquid, R.string.JoggerLiquid));
-        ListaParteBaixo.add(new ParteDeBaixo_Lista(1, R.drawable.shortpulga, R.string.PulgaShorts));
-        ListaParteBaixo.add(new ParteDeBaixo_Lista(1, R.drawable.fortnite_cal_a, R.string.FortniteCalça));
+        ListaParteBaixo.add(new ParteDeBaixo_Lista(2, R.drawable.shortpulga, R.string.PulgaShorts));
+        ListaParteBaixo.add(new ParteDeBaixo_Lista(3, R.drawable.fortnite_cal_a, R.string.FortniteCalça));
 
         BaixoAdapter adapter = new BaixoAdapter(ListaParteBaixo);
 
         adapter.setListener(id -> {
             switch (id){
-                case 1:startActivity(new Intent(PARTE_DE_BAIXO.this, MARVEL_HOMEM_ARANHA.class));
+                case 1:startActivity(new Intent(PARTE_DE_BAIXO.this, JoggerLiquid.class));
                 break;
+                case 2:startActivity(new Intent(PARTE_DE_BAIXO.this, shortsFortnitePulga.class));
+                    break;
+                case 3:startActivity(new Intent(PARTE_DE_BAIXO.this, FortniteCalca.class));
+                    break;
             }
         });
         parteDeBaixo.setAdapter(adapter);

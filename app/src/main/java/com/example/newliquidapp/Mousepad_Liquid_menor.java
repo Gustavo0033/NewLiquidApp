@@ -6,11 +6,13 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,15 +20,26 @@ import java.util.List;
 public class Mousepad_Liquid_menor extends AppCompatActivity {
 
     private RecyclerView mousepad_menor;
+    private View back_acessoriosTL;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mousepad_liquid_menor);
 
+        back_acessoriosTL = findViewById(R.id.back_acessorios);
+        back_acessoriosTL.setOnClickListener(view ->{
+            Intent intent = new Intent(Mousepad_Liquid_menor.this, ACESSORIOS_TL.class);
+            startActivity(intent);
+        });
+
+
+
+
+
 
         mousepad_menor = findViewById(R.id.mousepad_menor);
-        mousepad_menor.setLayoutManager(new GridLayoutManager(this, 2));
+        mousepad_menor.setLayoutManager(new LinearLayoutManager(this));
 
         List<Mousepad_menor_list> Lista_mousepadMenor = new ArrayList<>();
         Lista_mousepadMenor.add(new Mousepad_menor_list(1, R.drawable.mousepad_liquid));

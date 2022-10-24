@@ -58,6 +58,14 @@
     <string name="liquid_x_fortnite_buffed_beanie">LIQUID X FORTNITE GORRA</string>
     <string name="liquid_x_fortnite_reboot_5_panel_hat">BONÉ LIQUID X FORTNITE</string>
     <string name="basics_snapback_hat___preto">BONÉ ABA RETA - PRETA</string>
+<<<<<<< HEAD
     <string name="app_name">Nuevo Aplicativo Liquid</string>
     <string name="Jersey2021">Camiseta 2021 Liquid</string>
+=======
+    <string name="app_name">Nueva Aplicacion Liquid</string>
+    <string name="Age" translatable="false">años</string>
+    <string name="Social_Midias">Redes Sociales</string>
+    <string name="Nickname">Apelido</string>
+    <string name="enter_in_your_account">¿Ya tienes una cuneta?</string>
+>>>>>>> c5bd88aeb5fe48a6d71bbf148b1ced7588c27a4d
 </resources>

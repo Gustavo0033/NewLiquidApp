@@ -21,6 +21,10 @@ public class Jogadores_Liquid extends AppCompatActivity {
 
    private RecyclerView PlayersLiquid;
    private View btn_back_main;
+   private View icon_houseBack;
+   private View icon_profiles;
+   private View tournaments_icon;
+   private View icon_bag;
 
 
     @Override
@@ -28,6 +32,30 @@ public class Jogadores_Liquid extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_jogadores_liquid);
+
+        icon_bag = findViewById(R.id.icon_bag);
+        icon_bag.setOnClickListener(view -> {
+            Intent intent = new Intent(Jogadores_Liquid.this, Loja_TeamLiquid.class);
+            startActivity(intent);
+        });
+
+        tournaments_icon = findViewById(R.id.tournaments_icon);
+        tournaments_icon.setOnClickListener(view -> {
+            Intent intent = new Intent(Jogadores_Liquid.this, Campeonatos.class);
+            startActivity(intent);
+        });
+
+        icon_profiles = findViewById(R.id.icon_profiles);
+        icon_profiles.setOnClickListener(view -> {
+            Intent intent = new Intent(Jogadores_Liquid.this,Nova_Conta_Liquid.class);
+            startActivity(intent);
+        });
+
+        icon_houseBack = findViewById(R.id.icon_houseBack);
+        icon_houseBack.setOnClickListener(view -> {
+            Intent intent = new Intent(Jogadores_Liquid.this, MainActivity.class);
+            startActivity(intent);
+        });
 
         btn_back_main = findViewById(R.id.btnBack_main);
         btn_back_main.setOnClickListener(view -> {

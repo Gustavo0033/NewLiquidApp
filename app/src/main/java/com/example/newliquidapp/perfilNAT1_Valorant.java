@@ -16,7 +16,7 @@ public class perfilNAT1_Valorant extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.activity_perfil_nat1_valorant);
 
-        btn_Nat1Voltar = findViewById(R.id.fabNat1);
+        btn_Nat1Voltar = findViewById(R.id.botao_NaxyBack);
         btn_Nat1Voltar.setOnClickListener(view -> {
             Intent intent = new Intent(perfilNAT1_Valorant. this, Jogadoras_Valorant.class);
             startActivity(intent);

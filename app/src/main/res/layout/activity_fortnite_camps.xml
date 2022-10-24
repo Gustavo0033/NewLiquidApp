@@ -31,17 +31,21 @@
         app:layout_constraintVertical_bias="0.458"
         tools:listitem="@layout/player_fortnite" />
 
-    <Button
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btn_back_camps_fornite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"
         android:backgroundTint="@color/white"
-        android:text="@string/Back"
-        android:textColor="@color/Azul_Liquid"
+        android:src="@drawable/seta_para_esquerda"
+        app:fabSize="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
+        app:layout_constraintVertical_bias="0.981" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

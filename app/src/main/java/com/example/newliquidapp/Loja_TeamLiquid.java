@@ -27,12 +27,47 @@ public class Loja_TeamLiquid extends AppCompatActivity {
     private RecyclerView LojaTL;
     private View btn_back_Loja;
     FloatingActionButton btnModels;
+    private View icon_house;
+    private View icon_trofeu;
+    private View icon_player;
+    private View icon_profile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_loja_team_liquid);
+
+        icon_profile = findViewById(R.id.icon_profiles);
+        icon_profile.setOnClickListener(view -> {
+            Intent intent = new Intent(Loja_TeamLiquid.this, Nova_Conta_Liquid.class);
+            startActivity(intent);
+        });
+
+
+
+        icon_player = findViewById(R.id.icon_players);
+        icon_player.setOnClickListener(view -> {
+            Intent intent = new Intent(Loja_TeamLiquid.this, Jogadores_Liquid.class);
+            startActivity(intent);
+        });
+
+
+        icon_trofeu = findViewById(R.id.tournaments_icon);
+        icon_trofeu.setOnClickListener(view -> {
+            Intent intent = new Intent(Loja_TeamLiquid.this, Campeonatos.class);
+            startActivity(intent);
+        });
+
+
+
+        icon_house = findViewById(R.id.icon_houseBack);
+        icon_house.setOnClickListener(view -> {
+            Intent intent = new Intent(Loja_TeamLiquid.this, MainActivity.class);
+            startActivity(intent);
+        });
+
+
 
         btn_back_Loja = findViewById(R.id.loja_back_to_main);
         btn_back_Loja.setOnClickListener(view -> {

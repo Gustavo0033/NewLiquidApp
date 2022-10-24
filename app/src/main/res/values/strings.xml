@@ -78,10 +78,22 @@
     <string name="liquid_x_fortnite_buffed_beanie">LIQUID X FORTNITE BUFFED BEANIE</string>
     <string name="liquid_x_fortnite_reboot_5_panel_hat">LIQUID X FORTNITE REBOOT 5 PANEL HAT</string>
     <string name="basics_snapback_hat___preto">BASICS SNAPBACK HAT BLACK</string>
+<<<<<<< HEAD
     <string name="Jersey2021">Jersey2021</string>
     <string name="Nesk" translatable="false">Nesk</string>
     <string name="Paluh" translatable="false">Paluh</string>
     <string name="Resetz" translatable="false">Resetz</string>
+=======
+    <string name="app_name">NewLiquidApp</string>
+    <string name="Nesk" translatable="false">Nesk</string>
+    <string name="Paluh" translatable="false">Paluh</string>
+    <string name="Resetz" translatable="false">Resetz</string>
+    <string name="Age">Age</string>
+    <string name="Social_Midias">Social Midias</string>
+    <string name="Nickname">Nickname:</string>
+    <string name="enter_in_your_account">Do you have an account?</string>
+>>>>>>> c5bd88aeb5fe48a6d71bbf148b1ced7588c27a4d
 </resources>
+
 
 

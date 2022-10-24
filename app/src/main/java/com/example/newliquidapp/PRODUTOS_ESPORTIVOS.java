@@ -41,10 +41,16 @@ public class PRODUTOS_ESPORTIVOS extends AppCompatActivity {
         esportivoTL.setLayoutManager(new LinearLayoutManager(this));
 
         List<List_EsportivoTL> Lista_Jersey_esportiva = new ArrayList<>();
+<<<<<<< HEAD
 
         Lista_Jersey_esportiva.add(new List_EsportivoTL(1, R.drawable.jerseyazul_patrocinio, Color.WHITE, R.string.Jersey2021));
         Lista_Jersey_esportiva.add(new List_EsportivoTL(1, R.drawable._32520_tl20915_451x677, Color.WHITE, R.string.Jersey2021));
 
+=======
+        Lista_Jersey_esportiva.add(new List_EsportivoTL(1, R.drawable.jerseyazul_patrocinio, Color.WHITE, R.string.jersey2021));
+
+        Lista_Jersey_esportiva.add(new List_EsportivoTL(1, R.drawable._32520_tl20915_451x677, Color.WHITE, R.string.jersey2021));
+>>>>>>> c5bd88aeb5fe48a6d71bbf148b1ced7588c27a4d
         Lista_Jersey_esportiva.add(new List_EsportivoTL(2, R.drawable.lvth_njersey_brazil_sponsored__tl0515_0000_layer29_564x846, Color.WHITE, R.string.JerseyAzul));
         Lista_Jersey_esportiva.add(new List_EsportivoTL(3, R.drawable.lvth_nchampionshipjersey_tl0393_0004_layer2copy_b7c12443_7aac_4029_b1b9_4053476566bb_564x846, Color.WHITE, R.string.JerseyBranca));
         Lista_Jersey_esportiva.add(new List_EsportivoTL(4, R.drawable.teamliquid_official2021_hoodie_sponsors_04_564x846, Color.WHITE, R.string.MoletomLiquid));
