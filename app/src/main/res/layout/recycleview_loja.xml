@@ -17,7 +17,7 @@
     <ImageView
         android:id="@+id/imageStore"
         android:layout_width="match_parent"
-        android:layout_height="532dp"
+        android:layout_height="487dp"
         app:srcCompat="@drawable/lvth_njersey_brazil_tl0515_0000_layer8copy_458x687" />
 
 </LinearLayout>
