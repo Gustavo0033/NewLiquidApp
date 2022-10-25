@@ -20,6 +20,7 @@ public class ViuvaNegra_jersey extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_viuva_negra_jersey);
 
         viuvaNegraJersey = findViewById(R.id.viuvaNegra_Jersey);

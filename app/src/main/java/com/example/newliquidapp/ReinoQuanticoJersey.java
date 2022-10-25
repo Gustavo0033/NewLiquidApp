@@ -20,6 +20,7 @@ public class ReinoQuanticoJersey extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_reino_quantico_jersey);
 
         ReinoQuanticoJersey = findViewById(R.id.reinoQuanticoJersey);
