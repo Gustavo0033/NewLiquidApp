@@ -111,13 +111,13 @@ public class Loja_TeamLiquid extends AppCompatActivity {
                     startActivity(new Intent(Loja_TeamLiquid.this, MARVEL_HOMEM_ARANHA.class));
                     break;
                 case 3:
-                    startActivity(new Intent(Loja_TeamLiquid.this, CsGo_Liquid.class));
+                    startActivity(new Intent(Loja_TeamLiquid.this, ReinoQuanticoJersey.class));
                     break;
                 case 4:
-                    startActivity(new Intent(Loja_TeamLiquid.this, CsGo_Liquid.class));
+                    startActivity(new Intent(Loja_TeamLiquid.this, ViuvaNegra_jersey.class));
                     break;
                 case 5:
-                    startActivity(new Intent(Loja_TeamLiquid.this, CsGo_Liquid.class));
+                    startActivity(new Intent(Loja_TeamLiquid.this, HomemAranha_ARTWORK.class));
                     break;
                 case 6:
                     startActivity(new Intent(Loja_TeamLiquid.this, CsGo_Liquid.class));

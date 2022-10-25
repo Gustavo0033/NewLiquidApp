@@ -4,43 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TEAM_LIQUID_2021_JERSEY">
+    tools:context=".ViuvaNegra_jersey">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/jersey2021"
+    <ImageView
+        android:id="@+id/imageView39"
         android:layout_width="411dp"
-        android:layout_height="441dp"
+        android:layout_height="85dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.211"
-        tools:listitem="@layout/team_liquid_2021_jersey" />
-
-    <ImageView
-        android:id="@+id/imageView32"
-        android:layout_width="416dp"
-        android:layout_height="82dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/tlsemfundo"
         android:background="@color/Azul_Liquid"/>
 
-    <TextView
-        android:id="@+id/textView23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Jersey2021"
-        android:textColor="@color/black"
-        android:textSize="23dp"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/viuvaNegra_Jersey"
+        android:layout_width="414dp"
+        android:layout_height="426dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.687" />
+        app:layout_constraintVertical_bias="0.282"
+        tools:listitem="@layout/liquid_jogger" />
 </androidx.constraintlayout.widget.ConstraintLayout>

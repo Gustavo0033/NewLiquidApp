@@ -141,7 +141,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/icon_trofeu" />
+        app:srcCompat="@drawable/aaaaaaaaaaaaa" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
