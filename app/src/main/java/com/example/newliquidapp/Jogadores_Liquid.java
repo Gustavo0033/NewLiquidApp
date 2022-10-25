@@ -83,7 +83,7 @@ public class Jogadores_Liquid extends AppCompatActivity {
             switch (id){
                 case 1: startActivity(new Intent(Jogadores_Liquid.this, Fortnite_Camps.class));
                 break;
-                case 2: startActivity(new Intent(Jogadores_Liquid.this, FreeFire_Liquid.class));
+                case 2: startActivity(new Intent(Jogadores_Liquid.this, players_FreeFire.class));
                     break;
                 case 3: startActivity(new Intent(Jogadores_Liquid.this, Jogadores_Rainbow6.class));
                     break;

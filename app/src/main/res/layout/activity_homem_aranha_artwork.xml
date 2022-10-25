@@ -6,18 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".HomemAranha_ARTWORK">
 
-    <ImageView
-        android:id="@+id/imageView41"
-        android:layout_width="410dp"
-        android:layout_height="75dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/tlsemfundo"
-        android:background="@color/Azul_Liquid"/>
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/artWorkSpider"
         android:layout_width="407dp"
@@ -29,4 +17,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.33"
         tools:listitem="@layout/liquid_jogger" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="410dp"
+        android:layout_height="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/marvel_logo_inverted_copy_2022" />
 </androidx.constraintlayout.widget.ConstraintLayout>

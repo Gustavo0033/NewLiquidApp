@@ -6,19 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".ReinoQuanticoJersey">
 
-    <ImageView
-        android:id="@+id/imageView40"
-        android:layout_width="411dp"
-        android:layout_height="73dp"
-        android:background="@color/Azul_Liquid"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/tlsemfundo" />
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/reinoQuanticoJersey"
         android:layout_width="413dp"
@@ -30,4 +17,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.304"
         tools:listitem="@layout/liquid_jogger"/>
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="411dp"
+        android:layout_height="78dp"
+        android:background="@color/Azul_Liquid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/avengers_logo_branca" />
 </androidx.constraintlayout.widget.ConstraintLayout>
