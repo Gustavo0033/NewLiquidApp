@@ -20,14 +20,14 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/campeonatosLiquid"
-        android:layout_width="407dp"
-        android:layout_height="513dp"
+        android:layout_width="410dp"
+        android:layout_height="614dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.582"
+        app:layout_constraintVertical_bias="0.784"
         tools:listitem="@layout/recycleview_campeonatos" />
 
     <TextView
@@ -47,21 +47,82 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.091" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/btn_back_mainActivity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end"
-        android:layout_marginEnd="10dp"
-        android:backgroundTint="@color/white"
-        android:src="@drawable/seta_para_esquerda"
-        app:fabSize="normal"
+    <ImageView
+        android:id="@+id/icon_houseBack"
+        android:layout_width="83dp"
+        android:layout_height="42dp"
+        android:background="@color/Azul_Liquid"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.981" />
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_baseline_house_24" />
+
+    <ImageView
+        android:id="@+id/icon_profiles"
+        android:layout_width="83dp"
+        android:layout_height="42dp"
+        android:background="@color/Azul_Liquid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_baseline_person_24" />
+
+    <ImageView
+        android:id="@+id/icon_players"
+        android:layout_width="83dp"
+        android:layout_height="42dp"
+        android:background="@color/Azul_Liquid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/grupo_white" />
+
+    <ImageView
+        android:id="@+id/icon_bag"
+        android:layout_width="83dp"
+        android:layout_height="42dp"
+        android:background="@color/Azul_Liquid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.746"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/bag_white" />
+
+    <ImageView
+        android:id="@+id/tournaments_icon"
+        android:layout_width="76dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/icon_trofeu" />
+
+    <ImageView
+        android:id="@+id/btn_back_mainActivity"
+        android:layout_width="99dp"
+        android:layout_height="61dp"
+        android:rotationY="-180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135"
+        app:srcCompat="@drawable/seta_para_direita_png" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -65,20 +65,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.927" />
 
-    <TextView
-        android:id="@+id/loja_back_to_main"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Back"
-        android:textColor="@color/black"
-        android:textSize="17dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.042"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.13" />
-
     <ImageView
         android:id="@+id/icon_houseBack"
         android:layout_width="83dp"
@@ -142,6 +128,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/aaaaaaaaaaaaa" />
+
+    <ImageView
+        android:id="@+id/loja_back_to_main"
+        android:layout_width="76dp"
+        android:layout_height="55dp"
+        android:rotationY="-180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.017"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108"
+        app:srcCompat="@drawable/seta_para_direita_png" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

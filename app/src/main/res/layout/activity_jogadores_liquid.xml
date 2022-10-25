@@ -114,15 +114,15 @@
 
     <ImageView
         android:id="@+id/btnBack_main"
-        android:layout_width="36dp"
-        android:layout_height="32dp"
+        android:layout_width="85dp"
+        android:layout_height="50dp"
+        android:rotationY="-180"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.131"
-        app:srcCompat="@drawable/seta_para_esquerda" />
-
+        app:layout_constraintVertical_bias="0.126"
+        app:srcCompat="@drawable/seta_para_direita_png"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

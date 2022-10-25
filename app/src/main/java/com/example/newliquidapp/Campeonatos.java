@@ -21,6 +21,10 @@ public class Campeonatos extends AppCompatActivity {
 
     private RecyclerView CampeonatosTL;
     private View btn_back_main;
+    private View icon_profiles;
+    private View icon_players;
+    private View icon_bag;
+    private View icon_houseBack;
 
 
     @Override
@@ -28,6 +32,34 @@ public class Campeonatos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_campeonatos);
+
+        icon_players = findViewById(R.id.icon_players);
+        icon_players.setOnClickListener(view -> {
+            Intent intent = new Intent(Campeonatos.this, Jogadores_Liquid.class);
+            startActivity(intent);
+        });
+
+        icon_profiles = findViewById(R.id.icon_profiles);
+        icon_profiles.setOnClickListener(view -> {
+            Intent intent = new Intent(Campeonatos.this, Nova_Conta_Liquid.class);
+            startActivity(intent);
+        });
+
+        icon_bag = findViewById(R.id.icon_bag);
+        icon_bag.setOnClickListener(view -> {
+            Intent intent = new Intent(Campeonatos.this, Loja_TeamLiquid.class);
+            startActivity(intent);
+        });
+
+        icon_houseBack = findViewById(R.id.icon_houseBack);
+        icon_houseBack.setOnClickListener(view -> {
+            Intent intent = new Intent(Campeonatos.this, MainActivity.class);
+            startActivity(intent);
+        });
+
+
+
+
 
         btn_back_main = findViewById(R.id.btn_back_mainActivity);
         btn_back_main.setOnClickListener(view -> {
