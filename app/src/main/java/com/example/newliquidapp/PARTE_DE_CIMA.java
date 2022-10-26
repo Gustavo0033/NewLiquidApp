@@ -98,6 +98,9 @@ public class PARTE_DE_CIMA extends AppCompatActivity {
 
         adapter.setListener(id -> {
             switch (id){
+                case 1:
+                    startActivity(new Intent(PARTE_DE_CIMA.this, LIQUID_TAPING_SHORT_SLEEVE_TEE.class));
+                    break;
                 case 2:
                     startActivity(new Intent(PARTE_DE_CIMA.this, BRAZIL_EXCLUSIVE_SHIRT.class));
                     break;

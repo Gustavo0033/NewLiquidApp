@@ -4,29 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomemAranha_ARTWORK">
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/artWorkSpider"
-        android:layout_width="412dp"
-        android:layout_height="387dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.29"
-        tools:listitem="@layout/liquid_jogger" />
+    tools:context=".BRASIL_EXCLUSIVE_BRANCA">
 
     <ImageView
-        android:id="@+id/imageView40"
+        android:id="@+id/imageView41"
         android:layout_width="410dp"
-        android:layout_height="84dp"
+        android:layout_height="91dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/marvel_logo_inverted_copy_2022" />
+        app:srcCompat="@drawable/tlsemfundo"
+        android:background="@color/Azul_Liquid"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/brasil_exclusive_branca"
+        android:layout_width="413dp"
+        android:layout_height="425dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
+        tools:listitem="@layout/liquid_jogger" />
 </androidx.constraintlayout.widget.ConstraintLayout>

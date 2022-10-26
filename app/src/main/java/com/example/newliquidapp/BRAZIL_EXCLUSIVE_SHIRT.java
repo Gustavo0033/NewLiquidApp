@@ -6,11 +6,14 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -23,12 +26,26 @@ public class BRAZIL_EXCLUSIVE_SHIRT extends AppCompatActivity {
     FloatingActionButton BR_exclusive;
     FloatingActionButton BR_exclusive02;
     boolean isAllFabsVisible;
+    private View exclusiveBrazil;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_brazil_exclusive_shirt);
+
+        exclusiveBrazil = findViewById(R.id.btn_exclusiveBR);
+        exclusiveBrazil.setOnClickListener(view -> {
+            Intent intent = new Intent(BRAZIL_EXCLUSIVE_SHIRT.this, PARTE_DE_CIMA.class);
+            startActivity(intent);
+        });
+
+
+        TextView LinkExclusive = findViewById(R.id.BrazilExclusiveLink);
+        LinkExclusive.setMovementMethod(LinkMovementMethod.getInstance());
+        LinkExclusive.setLinkTextColor(Color.WHITE);
+
+
 
         BR_exclusive = findViewById(R.id.btn_exclusive);
         BR_exclusive02 = findViewById(R.id.btn_exclusive02);
@@ -60,12 +77,6 @@ public class BRAZIL_EXCLUSIVE_SHIRT extends AppCompatActivity {
 
 
 
-
-
-
-
-
-
         Brazil_exclusive = findViewById(R.id.shirt_exlusiveBR);
         Brazil_exclusive.setLayoutManager(new LinearLayoutManager(this));
 
@@ -73,12 +84,11 @@ public class BRAZIL_EXCLUSIVE_SHIRT extends AppCompatActivity {
         ListaExclusiveBrazil.add(new list_brExclusive(1, R.drawable.teamliquidgeostee_brazilgeos_black_tl0259_0005_layer2copy2_564x846,R.string.CamisetaLiquidPreta));
         ListaExclusiveBrazil.add(new list_brExclusive(2, R.drawable.camiseta_exclusive01,R.string.CamisetaLiquidPreta));
         ListaExclusiveBrazil.add(new list_brExclusive(3, R.drawable.camiseta_exclusive02,R.string.CamisetaLiquidPreta));
-
-
+        ListaExclusiveBrazil.add(new list_brExclusive(3, R.drawable.brasill_exclusive01,R.string.CamisetaLiquidPreta));
+        ListaExclusiveBrazil.add(new list_brExclusive(3, R.drawable.brasill_exclusive02,R.string.CamisetaLiquidPreta));
+        ListaExclusiveBrazil.add(new list_brExclusive(3, R.drawable.brasill_exclusive03,R.string.CamisetaLiquidPreta));
 
         adapterExclusiveBR adapter = new adapterExclusiveBR(ListaExclusiveBrazil);
-
-
         Brazil_exclusive.setAdapter(adapter);
 
     }

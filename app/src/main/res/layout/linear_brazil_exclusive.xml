@@ -9,7 +9,8 @@
     <ImageView
         android:id="@+id/linear_imageExclusive"
         android:layout_width="match_parent"
-        android:layout_height="434dp"
+        android:layout_height="527dp"
         app:srcCompat="@drawable/teamliquidgeostee_brazilgeos_black_tl0259_0005_layer2copy2_564x846" />
+
 
 </LinearLayout>

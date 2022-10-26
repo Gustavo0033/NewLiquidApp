@@ -41,7 +41,7 @@ public class MODELOS_EXLUSIVE_BR extends AppCompatActivity {
         adapter.setListener(id -> {
             switch (id){
                 case 1:
-                    startActivity(new Intent(MODELOS_EXLUSIVE_BR.this, MARVEL_HOMEM_ARANHA.class));
+                    startActivity(new Intent(MODELOS_EXLUSIVE_BR.this, BRASIL_EXCLUSIVE_BRANCA.class));
                     break;
                 case 2:
                     startActivity(new Intent(MODELOS_EXLUSIVE_BR.this, MARVEL_HOMEM_ARANHA.class));

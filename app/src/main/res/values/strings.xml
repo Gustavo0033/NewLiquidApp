@@ -91,12 +91,15 @@
     <string name="DescricaoLink">Click on the link to go to the website of TeamLiquid</string>
 
 
-    <string name="testeLink" translatable="false">Hyperlink_textview</string>
-    <!-- href tag is used to add link-->
-    <!-- link for home text view-->
+    <!-- String para colocar os links do sites -->
+
+
     <string name="LinkCapitaoAmericano"><a href="https://loja.teamliquid.com.br/collections/team-liquid-x-marvel/products/lxm0116-blu-blue-liquid-x-marvel-captain-america-jersey/">Store Team Liquid</a></string>
     <string name="LinkHomemAranha"><a href="https://loja.teamliquid.com.br/collections/team-liquid-x-marvel/products/lxm0119-red-red-liquid-x-marvel-spider-man-jersey/">Store Team Liquid</a></string>
     <string name="LinkJogger"><a href="https://loja.teamliquid.com.br/collections/joggers/products/tl0535-blk-black-liquid-logo-joggers/">Store Team Liquid</a></string>
+    <string name="LinkLiquidTaping"><a href="https://loja.teamliquid.com.br/collections/shirts/products/tl0104-blk-black-liquid-taping-short-sleeve-tee/">Store Team Liquid</a></string>
+    <string name="LinkExclusiveBlack"><a href="https://loja.teamliquid.com.br/collections/shirts/products/tl0259-blk-black-brazil-exclusive-geos-short-sleeve-tee-black/">Store Team Liquid</a></string>
+    <string name="testeLink" translatable="false">Hyperlink_textview</string>
 
 </resources>
 
