@@ -19,12 +19,20 @@ import java.util.List;
 public class MODELOS_EXLUSIVE_BR extends AppCompatActivity {
 
     private RecyclerView models_exclusive;
+    private View btn_backExclusive;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_modelos_exlusive_br);
+
+        btn_backExclusive = findViewById(R.id.btn_back_Exclusive);
+        btn_backExclusive.setOnClickListener(view -> {
+            Intent intent = new Intent(MODELOS_EXLUSIVE_BR.this, MODELOS_LOJA.class);
+            startActivity(intent);
+        });
+
 
         models_exclusive = findViewById(R.id.exclusiveBR);
         models_exclusive.setLayoutManager(new LinearLayoutManager(this));
@@ -44,7 +52,7 @@ public class MODELOS_EXLUSIVE_BR extends AppCompatActivity {
                     startActivity(new Intent(MODELOS_EXLUSIVE_BR.this, BRASIL_EXCLUSIVE_BRANCA.class));
                     break;
                 case 2:
-                    startActivity(new Intent(MODELOS_EXLUSIVE_BR.this, MARVEL_HOMEM_ARANHA.class));
+                    startActivity(new Intent(MODELOS_EXLUSIVE_BR.this, BRASIL_EXCLUSIVE_BLUE.class));
                     break;
             }
         });

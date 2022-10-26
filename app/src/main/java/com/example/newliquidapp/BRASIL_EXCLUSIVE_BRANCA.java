@@ -5,11 +5,15 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
+import android.graphics.Color;
 import android.media.Image;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,11 +21,24 @@ import java.util.List;
 public class BRASIL_EXCLUSIVE_BRANCA extends AppCompatActivity {
 
     private RecyclerView BRexclusiveWhite;
+    private View btnExclusiveModels;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_brasil_exclusive_branca);
+
+        btnExclusiveModels = findViewById(R.id.btn_back_modelsExclusive);
+        btnExclusiveModels.setOnClickListener(view -> {
+            Intent intent = new Intent(BRASIL_EXCLUSIVE_BRANCA.this, MODELOS_EXLUSIVE_BR.class);
+            startActivity(intent);
+        });
+
+        TextView txtView = findViewById(R.id.link_exclusiveWhite);
+        txtView.setMovementMethod(LinkMovementMethod.getInstance());
+        txtView.setLinkTextColor(Color.WHITE);
+
 
         BRexclusiveWhite = findViewById(R.id.brasil_exclusive_branca);
         BRexclusiveWhite.setLayoutManager(new LinearLayoutManager(this));
