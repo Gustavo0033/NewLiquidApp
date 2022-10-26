@@ -101,8 +101,17 @@ public class PARTE_DE_CIMA extends AppCompatActivity {
                 case 2:
                     startActivity(new Intent(PARTE_DE_CIMA.this, BRAZIL_EXCLUSIVE_SHIRT.class));
                     break;
-                case 7:
+                case 5:
                     startActivity(new Intent(PARTE_DE_CIMA.this, MARVEL_HOMEM_ARANHA.class));
+                    break;
+                case 6:
+                    startActivity(new Intent(PARTE_DE_CIMA.this, ViuvaNegra_jersey.class));
+                    break;
+                case 7:
+                    startActivity(new Intent(PARTE_DE_CIMA.this, ReinoQuanticoJersey.class));
+                    break;
+                case 8:
+                    startActivity(new Intent(PARTE_DE_CIMA.this, HomemAranha_ARTWORK.class));
                     break;
                 case 11:
                     startActivity(new Intent(PARTE_DE_CIMA.this, CAPITAO_AMERICCA_MARVEL.class));

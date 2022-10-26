@@ -66,11 +66,11 @@ public class Jogadores_Liquid extends AppCompatActivity {
 
 
         List<PlayersTL> PlayersList = new ArrayList<>();
-        PlayersList.add(new PlayersTL(1, R.drawable.fortnite_png_branco, Color.CYAN));
-        PlayersList.add(new PlayersTL(2, R.drawable.freefire_liquid_branca, Color.BLACK));
+        PlayersList.add(new PlayersTL(1, R.drawable.fortnite_logo_2, Color.BLACK));
+        PlayersList.add(new PlayersTL(2, R.drawable.freefire_teste, Color.TRANSPARENT));
         PlayersList.add(new PlayersTL(3, R.drawable.r6_logo,Color.GRAY));
         PlayersList.add(new PlayersTL(4, R.drawable.csgo_liquid_preto,Color.WHITE));
-        PlayersList.add(new PlayersTL(5, R.drawable.valorant_logo,Color.WHITE));
+        PlayersList.add(new PlayersTL(5, R.drawable.valorant_logo,Color.BLACK));
 
 
 

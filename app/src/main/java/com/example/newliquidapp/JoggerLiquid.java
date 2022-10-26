@@ -7,10 +7,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,6 +29,11 @@ public class JoggerLiquid extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_jogger_liquid);
+
+        TextView LinkTextView = findViewById(R.id.linkJogger);
+        LinkTextView.setMovementMethod(LinkMovementMethod.getInstance());
+        LinkTextView.setLinkTextColor(Color.WHITE);
+
 
         logo_jogger_liquid = findViewById(R.id.logoJoggerLiquid);
         logo_jogger_liquid.setOnClickListener(view -> {

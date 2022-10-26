@@ -88,6 +88,16 @@
     <string name="Resetz" translatable="false">Resetz</string>
     <string name="JerseyViuvaNegra">Jersey Black Widow</string>
     <string name="Phoenix" translatable="false">Phoenix</string>
+    <string name="DescricaoLink">Click on the link to go to the website of TeamLiquid</string>
+
+
+    <string name="testeLink" translatable="false">Hyperlink_textview</string>
+    <!-- href tag is used to add link-->
+    <!-- link for home text view-->
+    <string name="LinkCapitaoAmericano"><a href="https://loja.teamliquid.com.br/collections/team-liquid-x-marvel/products/lxm0116-blu-blue-liquid-x-marvel-captain-america-jersey/">Store Team Liquid</a></string>
+    <string name="LinkHomemAranha"><a href="https://loja.teamliquid.com.br/collections/team-liquid-x-marvel/products/lxm0119-red-red-liquid-x-marvel-spider-man-jersey/">Store Team Liquid</a></string>
+    <string name="LinkJogger"><a href="https://loja.teamliquid.com.br/collections/joggers/products/tl0535-blk-black-liquid-logo-joggers/">Store Team Liquid</a></string>
+
 </resources>
 
 

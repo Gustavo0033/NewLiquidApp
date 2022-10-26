@@ -65,4 +65,8 @@
     <string name="Nickname">Apelido</string>
     <string name="enter_in_your_account">¿Ya tienes una cuneta?</string>
     <string name="JerseyViuvaNegra">Camiseta Viúva Negra</string>
+    <string name="DescricaoLink">Clique no link para ir para o site da TeamLiquid</string>
+    <string name="LinkCapitaoAmericano">Loja Team Liquid</string>
+    <string name="LinkHomemAranha">Loja Team Liquid</string>
+    <string name="LinkJogger">Loja Team Liquid</string>
 </resources>

@@ -8,6 +8,6 @@
     <ImageView
         android:id="@+id/PlayersTLRecycle"
         android:layout_width="match_parent"
-        android:layout_height="490dp"
+        android:layout_height="629dp"
         app:srcCompat="@drawable/_2br_delay_social_news_header_02_1920x1080_119208936" />
 </LinearLayout>
