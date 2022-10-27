@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private View Jogadores;
     private View EntrarContaLiquid;
     private View NovaContaLiquid;
+    private View btn_liquidPlus;
 
 
     @Override
@@ -20,6 +21,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
+
+        btn_liquidPlus = findViewById(R.id.btn_liquidPlus);
+        btn_liquidPlus.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, LiquidPlus_Principal.class);
+            startActivity(intent);
+        });
+
 
         Campeonato = findViewById(R.id.btn_campeonato);
         Campeonato.setOnClickListener(new View.OnClickListener() {

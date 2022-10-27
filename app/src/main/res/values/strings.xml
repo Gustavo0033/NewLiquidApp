@@ -106,6 +106,14 @@
     <string name="Jersey2021Oficial_withoutSponsored"><a href="https://loja.teamliquid.com.br/products/tl0230-bwh-blue-white-team-liquid-official-2021-jersey-sponsors/">Store Team Liquid</a></string>
     <string name="JerseyBrazilEclusiveBlue"><a href="https://loja.teamliquid.com.br/collections/athletics/products/tl0515-blu-blue-lvth_n-jersey-brazil-sponsored/">Store Team Liquid</a></string>
 
+
+    <!-- Liquid + -->
+    <string name="Liquid_Plus" translatable="false">Liquid +</string>
+    <string name="Name_Torcedor" translatable="false">Gustavo</string>
+    <string name="MemberStatus">MEMBER STATUS</string>
+    <string name="ELITE">ELITE</string>
+    <string name="FanSince">FanSince</string>
+    <string name="Year" translatable="false">2019</string>
 </resources>
 
 
