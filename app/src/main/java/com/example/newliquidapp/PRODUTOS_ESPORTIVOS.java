@@ -31,6 +31,8 @@ public class PRODUTOS_ESPORTIVOS extends AppCompatActivity {
 
 
 
+
+
         btn_back = findViewById(R.id.btn_modelos);
         btn_back.setOnClickListener(view -> {
             Intent intent = new Intent(PRODUTOS_ESPORTIVOS.this, MODELOS_LOJA.class);
@@ -41,10 +43,7 @@ public class PRODUTOS_ESPORTIVOS extends AppCompatActivity {
         esportivoTL.setLayoutManager(new LinearLayoutManager(this));
 
         List<List_EsportivoTL> Lista_Jersey_esportiva = new ArrayList<>();
-        Lista_Jersey_esportiva.add(new List_EsportivoTL(1, R.drawable.jerseyazul_patrocinio, Color.WHITE, R.string.Jersey2021));
-        Lista_Jersey_esportiva.add(new List_EsportivoTL(1, R.drawable._32520_tl20915_451x677, Color.WHITE, R.string.Jersey2021));
-        Lista_Jersey_esportiva.add(new List_EsportivoTL(1, R.drawable.jerseyazul_patrocinio, Color.WHITE, R.string.Jersey2021));
-        Lista_Jersey_esportiva.add(new List_EsportivoTL(1, R.drawable._32520_tl20915_451x677, Color.WHITE, R.string.Jersey2021));
+        Lista_Jersey_esportiva.add(new List_EsportivoTL(1, R.drawable._32520_tl20915_451x677, Color.WHITE, R.string.Jersey2021_withoutSponsored));
         Lista_Jersey_esportiva.add(new List_EsportivoTL(2, R.drawable.lvth_njersey_brazil_sponsored__tl0515_0000_layer29_564x846, Color.WHITE, R.string.JerseyAzul));
         Lista_Jersey_esportiva.add(new List_EsportivoTL(3, R.drawable.lvth_nchampionshipjersey_tl0393_0004_layer2copy_b7c12443_7aac_4029_b1b9_4053476566bb_564x846, Color.WHITE, R.string.JerseyBranca));
         Lista_Jersey_esportiva.add(new List_EsportivoTL(4, R.drawable.teamliquid_official2021_hoodie_sponsors_04_564x846, Color.WHITE, R.string.MoletomLiquid));
@@ -58,7 +57,7 @@ public class PRODUTOS_ESPORTIVOS extends AppCompatActivity {
             switch (id){
                 case 1: startActivity(new Intent(PRODUTOS_ESPORTIVOS.this,TEAM_LIQUID_2021_JERSEY.class ));
                 break;
-                case 2: startActivity(new Intent(PRODUTOS_ESPORTIVOS.this,MARVEL_HOMEM_ARANHA.class ));
+                case 2: startActivity(new Intent(PRODUTOS_ESPORTIVOS.this,JERSEY_EXCLUSIVE_BR_BLUE.class ));
                     break;
                 case 3: startActivity(new Intent(PRODUTOS_ESPORTIVOS.this,MARVEL_HOMEM_ARANHA.class ));
                     break;
@@ -67,6 +66,8 @@ public class PRODUTOS_ESPORTIVOS extends AppCompatActivity {
                 case 5: startActivity(new Intent(PRODUTOS_ESPORTIVOS.this,MARVEL_HOMEM_ARANHA.class ));
                     break;
                 case 6: startActivity(new Intent(PRODUTOS_ESPORTIVOS.this,MARVEL_HOMEM_ARANHA.class ));
+                    break;
+                case 7: startActivity(new Intent(PRODUTOS_ESPORTIVOS.this,JERSEY_2021_OFFICIAL.class ));
                     break;
             }
         });

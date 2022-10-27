@@ -117,7 +117,7 @@ public class PARTE_DE_CIMA extends AppCompatActivity {
                     startActivity(new Intent(PARTE_DE_CIMA.this, HomemAranha_ARTWORK.class));
                     break;
                 case 11:
-                    startActivity(new Intent(PARTE_DE_CIMA.this, CAPITAO_AMERICCA_MARVEL.class));
+                    startActivity(new Intent(PARTE_DE_CIMA.this, MOLETOM_HOMEM_ARANHA.class));
             }
         });
 

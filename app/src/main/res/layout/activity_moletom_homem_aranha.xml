@@ -4,27 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BRASIL_EXCLUSIVE_PRETO">
+    tools:context=".MOLETOM_HOMEM_ARANHA">
 
     <ImageView
-        android:id="@+id/imageView45"
+        android:id="@+id/imageView46"
         android:layout_width="412dp"
-        android:layout_height="84dp"
+        android:layout_height="90dp"
         android:background="@color/Azul_Liquid"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/tlsemfundo" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/ExclusiveBlack"
-        android:layout_width="407dp"
-        android:layout_height="624dp"
+        android:id="@+id/moletom_artwork"
+        android:layout_width="412dp"
+        android:layout_height="428dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3"
         tools:listitem="@layout/liquid_jogger"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

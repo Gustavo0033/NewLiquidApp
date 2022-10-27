@@ -90,6 +90,7 @@
     <string name="Phoenix" translatable="false">Phoenix</string>
     <string name="DescricaoLink">Click on the link to go to the website of TeamLiquid</string>
     <string name="ModelsBrazilExclusive">Models Brazil Exclusive</string>
+    <string name="Jersey2021_withoutSponsored">TEAM LIQUID OFFICIAL 2021 JERSEY</string>
 
 
     <!-- String para colocar os links do sites -->
@@ -102,7 +103,8 @@
     <string name="LinkExclusiveBlack"><a href="https://loja.teamliquid.com.br/collections/shirts/products/tl0259-blk-black-brazil-exclusive-geos-short-sleeve-tee-black/">Store Team Liquid</a></string>
     <string name="testeLink" translatable="false">Hyperlink_textview</string>
     <string name="ExclusiveWhite"><a href="https://loja.teamliquid.com.br/collections/shirts/products/tl0259-wht-white-brazil-exclusive-geos-short-sleeve-tee-white/">Store Team Liquid</a></string>
-
+    <string name="Jersey2021Oficial_withoutSponsored"><a href="https://loja.teamliquid.com.br/products/tl0230-bwh-blue-white-team-liquid-official-2021-jersey-sponsors/">Store Team Liquid</a></string>
+    <string name="JerseyBrazilEclusiveBlue"><a href="https://loja.teamliquid.com.br/collections/athletics/products/tl0515-blu-blue-lvth_n-jersey-brazil-sponsored/">Store Team Liquid</a></string>
 
 </resources>
 
