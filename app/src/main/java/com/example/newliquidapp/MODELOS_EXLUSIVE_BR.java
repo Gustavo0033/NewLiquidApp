@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -20,6 +21,7 @@ public class MODELOS_EXLUSIVE_BR extends AppCompatActivity {
 
     private RecyclerView models_exclusive;
     private View btn_backExclusive;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
