@@ -52,7 +52,7 @@ public class MODELOS_EXLUSIVE_BR extends AppCompatActivity {
                     startActivity(new Intent(MODELOS_EXLUSIVE_BR.this, BRASIL_EXCLUSIVE_BRANCA.class));
                     break;
                 case 2:
-                    startActivity(new Intent(MODELOS_EXLUSIVE_BR.this, BRASIL_EXCLUSIVE_BLUE.class));
+                    startActivity(new Intent(MODELOS_EXLUSIVE_BR.this, BRASIL_EXCLUSIVE_BLUE_.class));
                     break;
             }
         });
