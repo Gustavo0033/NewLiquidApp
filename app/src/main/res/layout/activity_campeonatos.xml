@@ -49,66 +49,66 @@
 
     <ImageView
         android:id="@+id/icon_houseBack"
-        android:layout_width="83dp"
-        android:layout_height="42dp"
+        android:layout_width="81dp"
+        android:layout_height="27dp"
         android:background="@color/Azul_Liquid"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.983"
         app:srcCompat="@drawable/ic_baseline_house_24" />
 
     <ImageView
         android:id="@+id/icon_profiles"
-        android:layout_width="83dp"
-        android:layout_height="42dp"
+        android:layout_width="88dp"
+        android:layout_height="27dp"
         android:background="@color/Azul_Liquid"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.983"
         app:srcCompat="@drawable/ic_baseline_person_24" />
 
     <ImageView
         android:id="@+id/icon_players"
         android:layout_width="83dp"
-        android:layout_height="42dp"
+        android:layout_height="27dp"
         android:background="@color/Azul_Liquid"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.983"
         app:srcCompat="@drawable/grupo_white" />
 
     <ImageView
         android:id="@+id/icon_bag"
-        android:layout_width="83dp"
-        android:layout_height="42dp"
+        android:layout_width="81dp"
+        android:layout_height="27dp"
         android:background="@color/Azul_Liquid"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.746"
+        app:layout_constraintHorizontal_bias="0.736"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.983"
         app:srcCompat="@drawable/bag_white" />
 
     <ImageView
         android:id="@+id/tournaments_icon"
-        android:layout_width="76dp"
-        android:layout_height="40dp"
+        android:layout_width="81dp"
+        android:layout_height="27dp"
+        android:background="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintHorizontal_bias="0.245"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintVertical_bias="0.983"
         app:srcCompat="@drawable/icon_trofeu" />
 
     <ImageView
@@ -123,6 +123,87 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.135"
         app:srcCompat="@drawable/seta_para_direita_png" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="81dp"
+        android:layout_height="16dp"
+        android:text="@string/Home"
+        android:textSize="10dp"
+        android:textColor="@color/white"
+        android:background="@color/Azul_Liquid"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="81dp"
+        android:layout_height="16dp"
+        android:background="@color/white"
+        android:text="@string/Tournaments"
+        android:textAlignment="center"
+        android:textColor="@color/Azul_Liquid"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.245"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="82dp"
+        android:layout_height="17dp"
+        android:background="@color/Azul_Liquid"
+        android:text="@string/Players"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="88dp"
+        android:layout_height="17dp"
+        android:background="@color/Azul_Liquid"
+        android:text="@string/NewAccount"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="81dp"
+        android:layout_height="16dp"
+        android:background="@color/Azul_Liquid"
+        android:text="@string/Store"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.736"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

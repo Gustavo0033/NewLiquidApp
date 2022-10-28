@@ -125,6 +125,8 @@
     <string name="Status">STATUS</string>
     <string name="Shop">SHOP</string>
     <string name="Schedule">SCHEDULE</string>
+    <string name="More">MORE</string>
+    <string name="Home">HOME</string>
 </resources>
 
 

@@ -16,6 +16,7 @@ import java.util.List;
 public class LiquidPlus_Principal extends AppCompatActivity {
 
         private View experiencePlus;
+    private View PlusBackMain;
 
 
     @Override
@@ -27,6 +28,12 @@ public class LiquidPlus_Principal extends AppCompatActivity {
         experiencePlus = findViewById(R.id.Experience);
         experiencePlus.setOnClickListener(view -> {
             Intent intent = new Intent(LiquidPlus_Principal.this, Experience_LiquidPlus.class);
+            startActivity(intent);
+        });
+
+        PlusBackMain = findViewById(R.id.PlusBackMain);
+        PlusBackMain.setOnClickListener(view -> {
+            Intent intent = new Intent(LiquidPlus_Principal.this, MainActivity.class);
             startActivity(intent);
         });
 
