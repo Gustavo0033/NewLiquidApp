@@ -76,8 +76,15 @@
     <string name="Jersey2021_withoutSponsored">CAMISETA TEAM LIQUID OFICIAL 2021 - SEM PATROCINIO</string>
     <string name="Jersey2021Oficial_withoutSponsored">Loja Team Liquid</string>
     <string name="JerseyBrazilEclusiveBlue">Loja Team Liquid</string>
-    <string name="StatusDeMembro">STATUS DE MEMBRO</string>
+    <string name="StatusDeMembro">ESTATUS DE MIEMBRO</string>
     <string name="ELITE">ELITE</string>
     <string name="FanSince">FÃ DESDE</string>
     <string name="MemberStatus">STATUS DE MEMBRO</string>
+    <string name="PointsPlus">PONTOS PLUS</string>
+    <string name="PointsToSpend">PONTOS PARA GASTAR</string>
+    <string name="LifePoints">PUNTOS DE VIDA</string>
+    <string name="Status">ESTATUS</string>
+    <string name="Experience">EXPERIÊNCIA</string>
+    <string name="Shop">Loja</string>
+    <string name="Schedule">Agenda</string>
 </resources>
