@@ -114,6 +114,17 @@
     <string name="ELITE">ELITE</string>
     <string name="FanSince">FanSince</string>
     <string name="Year" translatable="false">2019</string>
+    <string name="Number" translatable="false">70.265</string>
+    <string name="Number02" translatable="false">65.135</string>
+    <string name="Number03" translatable="false">146.120</string>
+    <string name="PointsPlus">Points Plus</string>
+    <string name="PointsToSpend">Points To Send</string>
+    <string name="StatusDeMembro">MEMBER STATUS</string>
+    <string name="LifePoints">LIFE POINTS</string>
+    <string name="Experience">EXPERIENCE</string>
+    <string name="Status">STATUS</string>
+    <string name="Shop">SHOP</string>
+    <string name="Schedule">SCHEDULE</string>
 </resources>
 
 

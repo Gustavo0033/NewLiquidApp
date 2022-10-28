@@ -97,5 +97,12 @@
     <string name="ELITE">ELITE</string>
     <string name="FanSince">FÃ DESDE</string>
     <string name="MemberStatus">STATUS DE MEMBRO</string>
+    <string name="PointsPlus">PONTOS PLUS</string>
+    <string name="PointsToSpend">PONTOS PARA GASTAR</string>
+    <string name="LifePoints">PONTOS VITALÍCIOS</string>
+    <string name="Experience">EXPERIÊNCIA</string>
+    <string name="Status">STATUS</string>
+    <string name="Shop">Loja</string>
+    <string name="Schedule">Agenda</string>
 
 </resources>
